@@ -1,0 +1,20 @@
+2026-04-17T00:05:59Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"מוצרי עור\" ישראל עסק", "names_found": 9, "direct_domains": 0}
+2026-04-17T00:06:07Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"תיקי עור\" ישראל \"חנות\" OR \"מפעל\"", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:06:14Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"ארנקי עור\" ישראל עסק", "names_found": 8, "direct_domains": 0}
+2026-04-17T00:06:21Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"יבואן\" \"מוצרי עור\" ישראל", "names_found": 8, "direct_domains": 0}
+2026-04-17T00:06:27Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"אביזרי עור\" ישראל עסק", "names_found": 8, "direct_domains": 1}
+2026-04-17T00:06:38Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"עור ישראל\" קולקציה OR מותג", "names_found": 2, "direct_domains": 0}
+2026-04-17T00:06:44Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"כפפות עור\" ישראל עסק OR מפיץ", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:06:50Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"חגורות עור\" ישראל יצרן OR יבואן", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:06:57Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:instagram.com \"מוצרי עור\" ישראל מותג", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:07:03Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:instagram.com \"leather\" ישראל brand OR מותג", "names_found": 7, "direct_domains": 0}
+2026-04-17T00:18:22Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"מוצרי עור\" ישראל עסק", "names_found": 9, "direct_domains": 0}
+2026-04-17T00:18:29Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"תיקי עור\" ישראל \"חנות\" OR \"מפעל\"", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:18:36Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"ארנקי עור\" ישראל עסק", "names_found": 8, "direct_domains": 0}
+2026-04-17T00:18:41Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"יבואן\" \"מוצרי עור\" ישראל", "names_found": 8, "direct_domains": 0}
+2026-04-17T00:18:48Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"אביזרי עור\" ישראל עסק", "names_found": 8, "direct_domains": 1}
+2026-04-17T00:18:59Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"עור ישראל\" קולקציה OR מותג", "names_found": 2, "direct_domains": 0}
+2026-04-17T00:19:08Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"כפפות עור\" ישראל עסק OR מפיץ", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:19:14Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:facebook.com \"חגורות עור\" ישראל יצרן OR יבואן", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:19:19Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:instagram.com \"מוצרי עור\" ישראל מותג", "names_found": 10, "direct_domains": 0}
+2026-04-17T00:19:27Z | SocialOnlyAgent | INFO | {"event": "SOCIAL_PAGE_SCAN", "agent": "SocialOnlyAgent", "query": "site:instagram.com \"leather\" ישראל brand OR מותג", "names_found": 8, "direct_domains": 0}

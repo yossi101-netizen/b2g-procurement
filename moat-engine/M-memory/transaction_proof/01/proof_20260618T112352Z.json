@@ -1,0 +1,70 @@
+{
+  "seed_id": "01",
+  "probe_run_at": "20260618T112352Z",
+  "targets_probed": 3,
+  "targets_ok": 3,
+  "targets_with_velocity_data": 0,
+  "aggregate": {
+    "price_band": "MID",
+    "units_per_week_est": 0.0,
+    "revenue_per_week_est_usd": 0.0,
+    "evidence_methods": [
+      "NONE"
+    ],
+    "best_store_velocity_band": "INSUFFICIENT_DATA"
+  },
+  "verdict": "INSUFFICIENT_DATA",
+  "per_store": [
+    {
+      "brand": "KNKG",
+      "domain": "knkg.com",
+      "status": "OK",
+      "snapshots_collected": 1,
+      "variants_observed": 94,
+      "avg_list_price_usd": 155.86,
+      "price_band": "MID",
+      "units_sold_est": 0,
+      "elapsed_days": 0.0,
+      "units_per_week_est": 0.0,
+      "revenue_per_week_est_usd": 0.0,
+      "restock_events": 0,
+      "stockout_events": 0,
+      "evidence_method": "NONE",
+      "velocity_band": "INSUFFICIENT_DATA"
+    },
+    {
+      "brand": "Von Baer",
+      "domain": "vonbaer.com",
+      "status": "OK",
+      "snapshots_collected": 1,
+      "variants_observed": 239,
+      "avg_list_price_usd": 794.31,
+      "price_band": "MID",
+      "units_sold_est": 0,
+      "elapsed_days": 0.0,
+      "units_per_week_est": 0.0,
+      "revenue_per_week_est_usd": 0.0,
+      "restock_events": 0,
+      "stockout_events": 0,
+      "evidence_method": "NONE",
+      "velocity_band": "INSUFFICIENT_DATA"
+    },
+    {
+      "brand": "Hard Graft",
+      "domain": "hardgraft.com",
+      "status": "OK",
+      "snapshots_collected": 1,
+      "variants_observed": 248,
+      "avg_list_price_usd": 362.56,
+      "price_band": "HIGH_TICKET",
+      "units_sold_est": 0,
+      "elapsed_days": 0.0,
+      "units_per_week_est": 0.0,
+      "revenue_per_week_est_usd": 0.0,
+      "restock_events": 0,
+      "stockout_events": 0,
+      "evidence_method": "NONE",
+      "velocity_band": "INSUFFICIENT_DATA"
+    }
+  ]
+}

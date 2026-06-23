@@ -1,0 +1,28 @@
+[project]
+name = "ytinsights"
+version = "0.2.0"
+description = "Relevance-first YouTube channel insight extractor with HITL approval."
+requires-python = ">=3.10"
+dependencies = [
+    "anthropic>=0.40.0",
+    "yt-dlp>=2024.10.0",
+    "youtube-transcript-api>=0.6.2",
+    "typer>=0.12.0",
+    "rich>=13.7.0",
+    "python-dotenv>=1.0.0",
+    "tenacity>=8.2.0",
+    "google-api-python-client>=2.100.0",
+]
+
+[project.optional-dependencies]
+whisper = ["openai>=1.0.0"]
+
+[project.scripts]
+ytinsights = "ytinsights.cli:app"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools.packages.find]
+include = ["ytinsights*"]

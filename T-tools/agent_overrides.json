@@ -1,0 +1,94 @@
+{
+  "_comment": "KritiKaal Leads Hunter — Operator-controlled agent tuning (Sprint 7.5).",
+  "_comment2": "This file is OPTIONAL. Delete it or leave it absent to run all defaults.",
+  "_comment3": "All keys are optional — omit any key to keep its default value.",
+
+  "global": {
+    "_comment": "Applies to every agent unless a per-agent override takes precedence.",
+
+    "max_iterations_per_run": 5,
+    "_comment_max_iter": "Default circuit-breaker. Reduce to 2-3 for quick smoke-test runs.",
+
+    "exhaustion_threshold": 0.10,
+    "_comment_exhaustion": "Stop an agent when < 10% of results are new domains. Raise to 0.20 for stricter pruning.",
+
+    "max_new_leads_per_run": 0,
+    "_comment_max_new_leads": "Hard cap on new domains classified this run (across ALL agents). 0 = unlimited. Example: set to 50 for a fast focused run or to cap API spend. Domains beyond this cap are skipped (not lost — they will be found again next run)."
+  },
+
+  "agents": {
+    "_comment": "Keys must exactly match the 'name' field in AGENT_REGISTRY (live_run.py).",
+
+    "Core Leather": {
+      "enabled": true,
+      "max_iterations": 5,
+      "_comment": "Primary vertical — keep at full iterations."
+    },
+
+    "Lateral Industries": {
+      "enabled": true,
+      "max_iterations": 5,
+      "_comment": "Highest query volume (~39 queries). Safe to reduce to 3 after market matures."
+    },
+
+    "Shopify Footprint": {
+      "enabled": true,
+      "max_iterations": 5
+    },
+
+    "Competitor Lookalike": {
+      "enabled": true,
+      "max_iterations": 3,
+      "_comment": "Two-phase agent. 3 iterations is usually enough once competitor pages are mined."
+    },
+
+    "Gov Procurement": {
+      "enabled": true,
+      "max_iterations": 3,
+      "_comment_disable_example": "Set enabled:false to skip entirely for a quick run (saves ~3 Serper batches).",
+      "extra_queries": []
+    },
+
+    "Social-Only": {
+      "enabled": true,
+      "max_iterations": 2,
+      "_comment": "Facebook resolver — market exhausts quickly. 2 iterations is usually sufficient.",
+      "extra_queries": []
+    },
+
+    "Purchase Intent": {
+      "enabled": true,
+      "max_iterations": 5,
+      "_comment": "Active RFQ signals. Add custom Hebrew RFQ queries below to probe new categories.",
+      "extra_queries": [
+        "\"מחפש ספק\" עור site:.co.il",
+        "\"בקשה להצעת מחיר\" עור site:.co.il"
+      ]
+    }
+  },
+
+  "_usage_examples": {
+    "quick_smoke_test": {
+      "_description": "Disable two slow agents, cap iterations at 2 globally for a fast run.",
+      "global": { "max_iterations_per_run": 2 },
+      "agents": {
+        "Gov Procurement": { "enabled": false },
+        "Social-Only":     { "enabled": false }
+      }
+    },
+    "cost_capped_run": {
+      "_description": "Classify at most 30 new domains this run to keep API spend under ~$0.05.",
+      "global": { "max_new_leads_per_run": 30 }
+    },
+    "purchase_intent_focus": {
+      "_description": "Disable all agents except Purchase Intent + Core Leather.",
+      "agents": {
+        "Lateral Industries":   { "enabled": false },
+        "Shopify Footprint":    { "enabled": false },
+        "Competitor Lookalike": { "enabled": false },
+        "Gov Procurement":      { "enabled": false },
+        "Social-Only":          { "enabled": false }
+      }
+    }
+  }
+}

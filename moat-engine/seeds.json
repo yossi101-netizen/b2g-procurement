@@ -1,0 +1,47 @@
+[
+  {
+    "id": "01",
+    "name": "Premium leather gym duffel — men's everyday carry",
+    "main_keyword": "leather gym bag",
+    "trend_keyword": "leather gym bag",
+    "hts_chapter": "4202",
+    "material_angle": "veg-tan leather, Kanpur",
+    "source": "A (KNKG archetype)"
+  },
+  {
+    "id": "02",
+    "name": "Handloom cube pillow — side sleeper",
+    "main_keyword": "cube pillow for side sleepers",
+    "trend_keyword": "cube pillow",
+    "hts_chapter": "9404",
+    "material_angle": "block-print cotton shell + kapok fill, Jaipur",
+    "source": "A (PillowCube archetype)"
+  },
+  {
+    "id": "03",
+    "name": "Premium leather dog leash + collar set",
+    "main_keyword": "leather dog leash",
+    "trend_keyword": "leather dog leash",
+    "hts_chapter": "4205",
+    "material_angle": "full-grain leather + cast brass hardware, Kanpur",
+    "source": "A (BikeTowLeash archetype)"
+  },
+  {
+    "id": "04",
+    "name": "Block-printed linen journal — gift-boxed",
+    "main_keyword": "mens leather journal",
+    "trend_keyword": "mens leather journal",
+    "hts_chapter": "4820",
+    "material_angle": "hand-block-print linen cover + handmade paper, Jaipur",
+    "source": "A (MindJournals archetype)"
+  },
+  {
+    "id": "05",
+    "name": "Artisan wood-framed large-dog orthopedic bed",
+    "main_keyword": "large dog bed",
+    "trend_keyword": "orthopedic dog bed",
+    "hts_chapter": "9404",
+    "material_angle": "sheesham wood frame + handloom cotton ticking, Jodhpur",
+    "source": "A (BigBarker archetype)"
+  }
+]

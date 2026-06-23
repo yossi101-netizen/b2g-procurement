@@ -1,0 +1,12 @@
+# Credentials — NEVER commit
+.env
+
+# Python bytecode
+__pycache__/
+*.py[cod]
+
+# Runtime state (budget ledger, cache, killswitch)
+M-memory/runtime/
+
+# Batch demand files (large, regeneratable, contain API cost data)
+M-memory/batches/

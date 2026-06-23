@@ -1,0 +1,152 @@
+# KK-CG-CFS — Custom From Sketch — Bespoke Corporate Gift
+# Product specification file for KritiKaal Quote Engine
+# Highest-margin product. MOQ: 100 units.
+# 4-week production from sample approval.
+# No competitor in Israel can offer true custom manufacturing at this speed.
+# ─────────────────────────────────────────────────────────────────
+# IMPORTANT: cbm_per_unit is a PLACEHOLDER.
+# YOU MUST UPDATE packed.cbm_per_unit before running through calculator.
+# CBM is product-specific — derive from technical pack dimensions.
+# ─────────────────────────────────────────────────────────────────
+
+reference: "KK-CG-CFS"
+name: "Custom From Sketch — Bespoke Corporate Leather Gift"
+category: "Corporate Gift — Custom Bespoke"
+market_segment: "CORPORATE_GIFTS"
+kit: false
+bespoke: true
+
+description: >
+  Full custom manufacturing from client design brief. Client provides concept,
+  reference images, or sketch. KritiKaal designs, samples, and manufactures
+  from scratch. Any leather good: journals, organisers, tech cases, portfolio
+  covers, branded sets. Full-grain leather, in-house engraving infrastructure,
+  4-week production lead time at 100-unit MOQ. MM Studio cannot do this —
+  they work from fixed SKU catalogs. We manufacture from sketch.
+
+target_buyer: "CFO | CMO | Head of Brand | EA to CEO | Head of Procurement"
+target_company: "Israeli tech Series C+, 150+ employees; conference exhibitors"
+use_cases:
+  - "CEO/founder custom gift for key investors, clients, or partners"
+  - "Conference VIP swag — fully bespoke branded item"
+  - "Company 5/10/15 year anniversary gift"
+  - "New headquarters or office opening gift"
+  - "Series C+ funding celebration gifts to team and investors"
+  - "Award ceremony or milestone recognition gift"
+
+# ─────────────────────────────────────────────────────────────────
+# 5-STAGE PROCESS: DESIGN BRIEF → DELIVERY
+# ─────────────────────────────────────────────────────────────────
+process:
+  stage_1_brief:
+    name: "Design Brief"
+    duration: "1–2 days"
+    deliverable: >
+      Client submits: product concept + reference images + logo files (AI/EPS/PDF).
+      KritiKaal confirms: feasibility, materials, hardware, customisation options.
+      Written brief agreed before moving to Stage 2.
+
+  stage_2_technical_pack:
+    name: "Technical Pack"
+    duration: "3–5 business days"
+    deliverable: >
+      Technical drawing (2D pattern + 3D render), materials specification,
+      hardware callout, AQL criteria, packed dimensions, and CBM calculation.
+      Client reviews and approves in writing. CBM from this document → update
+      packed.cbm_per_unit in this YAML before running calculator.
+
+  stage_3_sample:
+    name: "Sample Production"
+    duration: "7–14 days from tech pack approval"
+    deliverable: >
+      1× physical sample shipped air freight to client for approval.
+      Sample cost: included in sample_costs_usd (QuoteInputs).
+      Typical sample cost range: ₪600–₪1,500 depending on complexity.
+      Never proceed to bulk production without signed sample approval.
+
+  stage_4_production:
+    name: "Bulk Production"
+    duration: "4 weeks from written sample approval"
+    deliverable: >
+      Full batch manufactured to Golden Sample standard.
+      AQL 2.5 inspection at factory before shipment.
+      Full documentation: inspection report, packing list, CoO, compliance certs.
+
+  stage_5_delivery:
+    name: "Delivery"
+    duration: "Per transit times in rates_config.yaml (India → Israel)"
+    deliverable: "Sea or air freight to Israel per client urgency and budget."
+
+# ─────────────────────────────────────────────────────────────────
+# PACKED DIMENSIONS — PLACEHOLDER
+# CRITICAL: Update cbm_per_unit before running through calculator.
+# calculator.py reads packed.cbm_per_unit directly.
+# ─────────────────────────────────────────────────────────────────
+packed:
+  length_cm:    35.0        # PLACEHOLDER — replace with technical pack value
+  width_cm:     28.0        # PLACEHOLDER
+  height_cm:    10.0        # PLACEHOLDER
+  cbm_per_unit: 0.098       # PLACEHOLDER — 0.35 × 0.28 × 0.10
+  MUST_UPDATE: >
+    This is a placeholder. Update packed.cbm_per_unit BEFORE running calculator.
+    Use the technical pack (Stage 2) to derive actual packed dimensions.
+    Running with placeholder will produce incorrect freight and duty calculations.
+
+# Leather specification (template — update per product brief)
+leather:
+  hide: "Full-grain cow leather — grade and colour per client brief"
+  thickness_mm: "0.8–1.5 — determined by product requirements"
+  finish: "Per brief: aniline, vegetable-tanned, pull-up, or suede"
+  surface: "Per brief"
+  prohibited: "PU leatherette, bonded leather, split leather — NOT acceptable under any circumstances"
+  net_area_sqft: null        # Determined by technical pack
+  waste_factor_override: null
+
+# AQL criteria — template; customise per technical pack
+aql_criteria:
+  - "Leather thickness (per spec) — physically measured with caliper"
+  - "Stitching density (per spec — minimum 8 SPI)"
+  - "Edge finishing — per spec (burnished or painted)"
+  - "Customisation quality — deboss/engrave/print vs Golden Sample approval"
+  - "Hardware security — pull-test per spec"
+  - "Dimensional accuracy — ±3mm vs technical pack"
+  - "Colour consistency — vs Golden Sample across full batch"
+  - "Overall construction — vs Golden Sample"
+
+# ─────────────────────────────────────────────────────────────────
+# PRICING GUIDANCE FOR QUOTE ENGINE
+# ─────────────────────────────────────────────────────────────────
+pricing_guidance:
+  moq_units: 100
+  target_price_range_ils_per_unit: "₪500–1,200"
+
+  # Factory FOB must be obtained via factory tender AFTER technical pack.
+  # Never estimate FOB before factory quote on bespoke items.
+  # Use these ranges as a sanity check only — not for quoting.
+  factory_fob_sanity_ranges_usd:
+    simple_item_100_units:  "$18–35"    # Cardholder-tier complexity
+    medium_item_100_units:  "$35–70"    # Notebook cover or multi-pocket organiser
+    complex_item_100_units: "$70–150"   # Multi-compartment case, portfolio, or set
+
+  sample_cost_guidance_ils:
+    simple:  "₪600–800"
+    medium:  "₪800–1,200"
+    complex: "₪1,200–1,800"
+
+  recommended_currency: "ILS"
+
+  competitor_moat: >
+    MM Studio cannot manufacture bespoke — they work from fixed European SKU catalogs.
+    PROZIE and Sella: custom manufacturing requires 10–16 weeks via Chinese intermediary.
+    KritiKaal: 4-week production from sample approval, factory-direct control.
+    This is the product no competitor can match on speed + quality + price.
+
+  closing_note: >
+    CFS orders typically come from warm leads who have already bought a smaller kit.
+    Position KK-CG-P50 or KK-CG-ONB as the door-opener, then upsell to CFS.
+
+# Product-level lead time overrides
+lead_times_override:
+  production_min_weeks:   4    # First bespoke item — buffer for complexity
+  production_max_weeks:   6
+  sample_turnaround_days: 14

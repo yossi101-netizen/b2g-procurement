@@ -1,0 +1,18 @@
+{
+  "catalogueForm": {
+    "badge": "Design Catalogue",
+    "title": "Get Our",
+    "titleHighlight": "Design Catalogue",
+    "description": "Discover our exquisite range of leather designs. Fill out the form below and receive our comprehensive catalogue directly in your inbox.",
+    "formTitle": "KRITIKAAL Design Catalogue Request",
+    "name": "Name",
+    "phone": "Phone",
+    "company": "Company",
+    "email": "Email",
+    "message": "Message",
+    "submit": "Get Catalogue",
+    "reset": "Reset",
+    "afterSubmit": "After submitting, you'll receive the catalogue via email within minutes"
+  }
+}
+

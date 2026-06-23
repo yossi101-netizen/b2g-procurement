@@ -1,0 +1,196 @@
+# KK-CG-ONB — Onboarding Forever Kit
+# Product specification file for KritiKaal Quote Engine
+# Recurring subscription offer — 1 kit per new hire.
+# Drives MRR. Anchors on leather notebook + cable roll from India.
+# Owala FreeSip 24oz bottle sourced locally in Israel via Lunitech/Nicklas.
+# CRITICAL: Owala is NOT in factory_fob_usd. See local_sourced section.
+# Source: 2026 Israeli Tech Gifting Market Intelligence Report
+
+reference: "KK-CG-ONB"
+name: "Onboarding Forever Kit — Notebook, Cable Roll & Hydration"
+category: "Corporate Gift Kit — Subscription"
+market_segment: "CORPORATE_GIFTS"
+kit: true
+subscription_model: true
+
+description: >
+  Premium 3-component onboarding kit. Full-grain leather A5 notebook cover
+  (deep debossed logo, optional per-name personalisation) + leather cable roll
+  tech organiser + Owala FreeSip 24oz insulated bottle sourced in Israel.
+  Leather items manufactured in Bangalore and shipped to Israel.
+  Owala procured locally from Lunitech/Nicklas. Kit assembled in Israel.
+  Rigid magnetic gift box with custom tissue and Hebrew welcome letter.
+
+target_buyer: "Head of People & Culture | VP HR"
+target_company: "Israeli tech, Series B/C+, 100–500 employees, growing headcount"
+use_cases:
+  - "New hire welcome kit — recurring monthly order program"
+  - "Employee retention gift — Year 1 work anniversary"
+  - "Remote/hybrid onboarding — shipped directly to employee home"
+
+# ─────────────────────────────────────────────────────────────────
+# COMPONENTS — Two tracks: India-manufactured + Israel-local
+# ─────────────────────────────────────────────────────────────────
+components:
+  # TRACK A: India-manufactured — include in factory_fob_usd
+  manufactured:
+    notebook_cover:
+      ref: "KK-CG-003"
+      spec_file: "KK-CG-003.yaml"
+      customization: "Debossed logo front; optional per-name inside front cover"
+    cable_roll:
+      ref: "KK-CG-002"
+      spec_file: "KK-CG-002.yaml"
+      customization: "Debossed logo on outer face"
+    gift_box:
+      description: "Premium rigid magnetic-closure gift box — sized for all 3 items"
+      dimensions_cm: "30.0 × 25.0 × 8.0"
+      construction: "1200gsm grey board, matte soft-touch lamination"
+      finish: "Debossed or gold foil-stamp client logo on lid"
+      insert: "3-zone custom cardboard dividers: notebook / cable roll / bottle"
+      flat_packed: true    # Ships flat from factory — assembled in Israel
+    tissue_paper:
+      description: "17gsm acid-free tissue paper — custom printed logo"
+
+  # TRACK B: Israel-local — DO NOT include in factory_fob_usd
+  # Add these costs manually when constructing total quote to client.
+  local_sourced:
+    owala_bottle:
+      description: "Owala FreeSip 24oz / 710ml insulated stainless steel bottle"
+      colour_options: "Confirm current season colours with Lunitech/Nicklas before ordering"
+      customisation: "Laser-engraved company logo on bottle body — done by distributor"
+      branding_note: >
+        Owala co-branding permitted per distributor agreement — confirm before order.
+        Logo placement: left face, approx. 5×3cm, line engraving.
+      distributors:
+        primary:
+          name: "Nicklas"
+          url: "nicklas.co.il"
+          sku: "בקבוקים ממותגים Owala"
+        secondary:
+          name: "Lunitech"
+          url: "lunitech.co.il"
+          sku: "בקבוקים עם לוגו"
+      wholesale_benchmark_ils:
+        "50_units":  140    # ₪135–145 per unit at ~100-unit volume (market data: Nicklas)
+        "100_units": 135
+        "200_units": 128
+      retail_ils:    189.90    # Owala FreeSip RRP in Israel (Nicklas, May 2026)
+      engraving_cost_ils_per_unit: 18    # Estimate — confirm with distributor
+      not_in_india_fob: true   # CRITICAL: Do NOT add to factory_fob_usd
+
+    hebrew_welcome_letter:
+      description: "A5 Hebrew welcome letter — 350gsm linen cardstock, printed"
+      content: "Standard onboarding text or client-supplied message"
+      supplier: "Local Israeli print shop"
+      cost_ils_per_unit: 6
+      not_in_india_fob: true
+
+# ─────────────────────────────────────────────────────────────────
+# ASSEMBLY (Israel)
+# Leather items + flat gift box ship from India.
+# Owala + tissue + Hebrew card assembled in Israel by Yossi.
+# ─────────────────────────────────────────────────────────────────
+assembly:
+  location: "Israel — Yossi's operations hub or local fulfillment partner"
+  local_work_required: true
+  steps:
+    1: "Receive India shipment: flat gift boxes + leather notebook + cable roll"
+    2: "Receive Owala bottles from Lunitech/Nicklas (pre-engraved)"
+    3: "Assemble box: erect box, add foam/cardboard dividers"
+    4: "Line with custom tissue paper"
+    5: "Place leather notebook in Zone 1, cable roll in Zone 2, Owala in Zone 3"
+    6: "Insert Hebrew welcome letter in envelope slot"
+    7: "Seal magnetic lid"
+  estimated_assembly_cost_ils_per_unit: 20    # Manual labor at 50-unit batch
+
+# ─────────────────────────────────────────────────────────────────
+# PACKED DIMENSIONS — India-shipped items only (no Owala bottle)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+# Owala sourced locally — excluded from India shipment CBM
+# ─────────────────────────────────────────────────────────────────
+packed:
+  description: "India-shipped: leather notebook + leather cable roll + flat gift box"
+  length_cm:    32.0
+  width_cm:     27.0
+  height_cm:     5.0      # Flat-packed: items and box shipped flat/nested
+  cbm_per_unit: 0.00432    # 0.320 × 0.270 × 0.050
+  # At 50 units: 0.216 CBM → auto-select: LCL (sea freight)
+  # Air freight at 50 units: 0.216 × 167 × 8.5 = $306 — expensive; use sea LCL
+  # Sea transit Israel: 28–42 days (Red Sea active — adds 35% freight surcharge)
+  freight_recommendation: "SEA LCL — at this CBM air is cost-prohibitive. Plan 6-week lead."
+
+# Leather specification (combined — notebook + cable roll)
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "1.0–1.2"
+  finish: "Drum-dyed / aniline or vegetable-tanned"
+  surface: "Smooth"
+  prohibited: "PU leatherette, bonded leather — NOT acceptable"
+  combined_net_area_sqft: 1.41    # Notebook (0.91) + Cable Roll (0.50)
+  waste_factor_override: null
+
+# AQL 2.5 — Kit level
+aql_criteria:
+  - "Notebook cover: all KK-CG-003 AQL criteria pass"
+  - "Cable roll: all KK-CG-002 AQL criteria pass"
+  - "Gift box structural test: no collapse under 2kg stacking weight"
+  - "Magnetic closure: holds shut when box inverted for 30 seconds"
+  - "All 3 divider zones intact — no tearing or deformation after transit"
+  - "Assembly check (Israel): Owala fits Zone 3 with no force required"
+  - "Tissue coverage: leather items not visible before unwrapping"
+  - "Hebrew letter: correctly printed, no smear"
+
+# ─────────────────────────────────────────────────────────────────
+# PRICING GUIDANCE FOR QUOTE ENGINE
+# ─────────────────────────────────────────────────────────────────
+pricing_guidance:
+  # STEP 1: Run India-manufactured items only through calculator
+  # Notebook ($19) + Cable Roll ($14) = $33 at 50 units
+  # Box and tissue included in calculator branded packaging tier
+  calculator_fob_reference_usd:
+    "50-99_units":   33.00
+    "100-199_units": 26.50
+    "200-499_units": 21.50
+  recommended_packaging_type: "branded"    # Use branded packaging in calculator
+
+  # STEP 2: Add local-sourced costs manually (on top of calculator result)
+  local_sourced_ils_per_unit:
+    owala_wholesale:   140    # At 50-unit order from Nicklas/Lunitech
+    engraving:          18
+    hebrew_card:         6
+    assembly_labor:     20
+    total_at_50_units: 184
+  local_sourced_note: >
+    Convert ₪184 to USD at live rate and add to calculator total before
+    presenting final quote to client. Do not run Owala cost through
+    India pipeline — it distorts duty and freight calculations.
+
+  # STEP 3: Target retail
+  recommended_currency: "ILS"
+  target_retail_ils_per_unit: 280
+  total_cost_note: >
+    Calculator result (in ILS) + ₪184 local = total cost.
+    Set target retail at ₪280 to maintain healthy GP after all costs.
+
+  competitor_benchmarks:
+    gogift_welcome_hydration:  "₪555 (Yeti + notebook + pen — no real leather, no artisan story)"
+    matana_ishit_3item:        "₪115–135 (tech backpack + wireless charger + honey — no leather)"
+    swagup_leather_equivalent: "~₪370 landed (canvas/neoprene + mid-tier bottle — no factory-direct leather)"
+  positioning_note: >
+    At ₪280, KritiKaal outperforms Matana quality 3× and undercuts GoGift by 49%.
+    The leather notebook alone is worth more than Matana's entire kit in perceived value.
+
+  subscription_pitch: >
+    Recurring monthly program: 5–30 kits/month minimum.
+    Billed per kit monthly. No large upfront PO.
+    Lock client before competitor awareness. Each month = deeper account.
+    Target: 3 active subscriptions by Day 60 = ₪4,200–₪8,400/month recurring.
+
+# Product-level lead time overrides
+lead_times_override:
+  production_min_weeks:   3    # Leather items only (India)
+  production_max_weeks:   4
+  sample_turnaround_days: 12
+  local_procurement_note: "Owala from Lunitech/Nicklas: 3–5 days local delivery"
+  assembly_note: "50-unit Israel assembly: 1–2 days"

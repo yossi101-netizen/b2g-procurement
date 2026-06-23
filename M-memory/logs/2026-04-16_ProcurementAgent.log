@@ -1,0 +1,32 @@
+2026-04-16T22:40:47Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-04-16T22:40:53Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-04-16T22:40:59Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-04-16T22:41:05Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-04-16T22:41:12Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-04-16T22:41:18Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-04-16T22:41:25Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-04-16T22:41:30Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}
+2026-04-16T23:03:55Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-04-16T23:04:03Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-04-16T23:04:11Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-04-16T23:04:18Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-04-16T23:04:26Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-04-16T23:04:33Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-04-16T23:04:37Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-04-16T23:04:43Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}
+2026-04-17T00:01:13Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-04-17T00:01:20Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-04-17T00:01:28Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-04-17T00:01:36Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-04-17T00:01:44Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-04-17T00:01:49Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-04-17T00:01:57Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-04-17T00:02:03Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}
+2026-04-17T00:04:08Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-04-17T00:04:14Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-04-17T00:04:20Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-04-17T00:04:25Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-04-17T00:04:33Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-04-17T00:04:38Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-04-17T00:04:45Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-04-17T00:04:51Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}

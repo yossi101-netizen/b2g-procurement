@@ -1,0 +1,20 @@
+# KritiKaal Intel Pipeline — Python dependencies
+# Install all:  pip install -r requirements.txt
+# Install core: pip install feedparser anthropic python-dotenv
+
+# ── Core pipeline ────────────────────────────────────────────────────────────
+praw>=7.7          # Reddit API wrapper          (reddit_intel.py)
+feedparser>=6.0    # RSS/Atom feed parser         (rss_poller.py)
+anthropic>=0.25    # Haiku/Sonnet LLM filter      (llm_filter.py, generate_script.py)
+python-dotenv>=1.0 # .env file loading            (all scripts)
+
+# ── Phase 1: Document Ingestor ───────────────────────────────────────────────
+pdfplumber>=0.10   # PDF text extraction          (doc_ingestor.py --file *.pdf)
+                   # Fallback if pdfplumber fails: pip install pypdf
+
+# ── Phase 1: URL Ingestion (optional) ────────────────────────────────────────
+# Needed only for:  python doc_ingestor.py --url "https://..."
+# Install with:     pip install requests beautifulsoup4 lxml
+requests>=2.31     # HTTP client for URL fetching
+beautifulsoup4>=4.12 # HTML parser
+lxml>=5.0          # Fast HTML parsing backend for BeautifulSoup

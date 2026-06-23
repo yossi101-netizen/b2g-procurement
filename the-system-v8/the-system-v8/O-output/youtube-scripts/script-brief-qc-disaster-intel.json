@@ -1,0 +1,75 @@
+{
+  "cluster": "The QC Disaster",
+  "cluster_id": "qc-disaster",
+  "intel_items_used": 8,
+  "hook": {
+    "cold_open": "A Christmas shipment arrived. Forty percent of units had stitching failures, hardware misalignment, or silhouette deviations beyond five millimetres. The factory said: you approved the sample.",
+    "macro_event": "Structural QC failure in Indian leather manufacturing caused by reliance on final-only inspection, the Golden Sample Trap, and the absence of any binding accountability mechanism between brand and factory.",
+    "business_impact": "On a 500-unit order, a failed pre-shipment inspection triggers rework charges of £1,000 to £4,000, potential airfreight costs of £3,000 to £8,000 against a sea freight equivalent of £400 to £600, warehouse storage at origin, and retail window loss that cannot be recovered. The total cost of a single QC failure at shipment routinely exceeds the margin on the entire order.",
+    "credibility_anchor": "KritiKaal applies AQL 2.5 in-line at 30% of production completion on every run. That is the same inspection standard used by LVMH and Hermes supply chain factories. It is not applied at final check. It is applied while the run can still be corrected.",
+    "viewer_promise": "By the end of this briefing, you will be able to identify the exact structural failure mode that caused your QC disaster, name the three mechanisms that prevent it from happening again, and calculate the cost of the failure you either already had or are currently running toward.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The System Is Not Broken. It Is Working Exactly As Designed. Against You.",
+        "macro_context": "Most UK and EU brands approach Indian leather sourcing with one of two assumptions: either Indian leather is low-quality by definition, or that placing an order with a reputable-looking factory will deliver consistent quality. Both assumptions are wrong. The actual problem is structural: quality in Indian leather manufacturing is extremely variable within the same factory, across the same production run.",
+        "key_claim": "The QC failure you received was not bad luck. It was the predictable output of a system where no party between the brand and the factory has contractual accountability for the outcome of the bulk run.",
+        "evidence": "When a brand approves a sample, the factory creates its best possible version of the product. The sample is made by the most skilled craftsperson in the facility, using the exact hide specified, the correct hardware, and proper stitching under close supervision. The bulk run is not made under those conditions. It never was. This is the Golden Sample Trap.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — Failure Mode 1: The Golden Sample Trap",
+        "kritikaal_response": "The Golden Sample Trap is addressed by breaking the assumption that sample approval equals production approval. KritiKaal locks eight documented inspection criteria before production starts, not after the sample is signed off. Thickness specification, stitching standard in stitches per inch, silhouette tolerance, hardware fit, edge finishing, lining adhesion, zipper function, and colour consistency against a retained reference sample. These criteria are not checked at delivery. They are checked in-line.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "Final Inspection Is Too Late. By the Time It Fails, Your Money Is Already Gone.",
+        "macro_context": "Pre-shipment inspection catches defects that have already been made across an entire production run. Reworking defective units at that stage costs factory labour and delays shipment. The more economically rational intervention is in-line inspection at 20 to 30% of production completion, identifying systematic defects when they can still be corrected on the remainder of the run.",
+        "key_claim": "A brand running final-only inspection is not running quality control. It is running defect documentation. The defects already exist. The only decision remaining is who pays for them.",
+        "evidence": "AQL 2.5 is the premium and luxury inspection standard governed by ISO 2859-1. At a lot size of 500 units, a sample of 80 units is inspected. If 5 or fewer defects are found, the lot passes. If more are found, the lot fails. When a professional third-party inspector applies AQL 2.5 to Indian leather goods at final inspection, the first-pass failure rate is significant enough that brands sourcing without in-line intervention routinely face the full cost stack: rework at £2 to £8 per unit on 500 units is £1,000 to £4,000, missed sea freight windows trigger airfreight at £3,000 to £8,000 per 200kg shipment against a £400 to £600 sea freight equivalent, and the retail window does not wait.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — Failure Mode 6: In-Line Inspection Absence; The Total Cost of a QC Failure at Shipment",
+        "kritikaal_response": "AQL 2.5 in-line inspection at 30% of production is the specific mechanism. Not a final check. Not a factory self-certification. A third-party-standard inspection conducted while 70% of the run is still being made, at the point where a systematic defect can be corrected across the remaining units rather than reworked or scrapped across all of them.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "The Agent Disappeared Because the Agent Was Already Paid.",
+        "macro_context": "Sourcing agents are paid at purchase order placement. Not at delivery. Not at quality sign-off. At the moment you commit capital. After that, their financial exposure to your outcome is zero. This is not a personality flaw in the agent. It is the structural design of the commission model.",
+        "key_claim": "If your sourcing agent disappeared after the purchase order was placed, they did not abandon you. They completed their deliverable. You were the one operating under a misunderstanding of what you had purchased.",
+        "evidence": "A managed manufacturing operator's fee is fixed and transparent, and they have contractual accountability for outcomes. The accountability stack requires a single named individual who owns the outcome from PO placement to delivery. Not a trading company passing messages. Not a commission collected at signature. One contact. One outcome. One point of contractual exposure.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — The Managed Manufacturing Alternative: What Accountability Actually Looks Like",
+        "kritikaal_response": "Single Point of Accountability is the named mechanism. One English-speaking contact owns every outcome from purchase order to delivery. That contact's engagement does not conclude at PO placement. It concludes when the shipment clears inspection and leaves the facility within the agreed window. The Double-Back Guarantee is the binding instrument: defective units are fixed or replaced before shipment at KritiKaal cost, not the brand's cost.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "What the Numbers Actually Look Like When Accountability Is Structural",
+        "macro_context": "The total cost of a QC failure is not the rework invoice. It is the rework invoice plus the freight differential plus the storage charges at origin plus the retail window missed plus the brand relationship cost if the product reaches a stockist or an end customer in a defective state.",
+        "key_claim": "A defect rate above 2% on a 500-unit run is not a quality inconvenience. It is a margin event. The brands that treat it as inconvenience are the ones who absorb it as a structural loss quarter after quarter without identifying the mechanism causing it.",
+        "evidence": "AQL 2.5 applied to an 80-unit sample from a 500-unit lot permits a maximum of 5 defective units before the lot fails. That is a 6.25% defect ceiling on the sample, translating to a less than 2% defect tolerance on the full lot. LVMH and Hermes supply chain factories operate to this standard. It is not an aspirational benchmark. It is a defined, measurable, ISO-governed protocol that either passes or fails. There is no subjective middle ground.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — Failure Mode 2: AQL Non-Compliance at Final Inspection",
+        "kritikaal_response": "The Double-Back Guarantee is the financial instrument that makes AQL 2.5 binding rather than aspirational. If units fail inspection, they are corrected before shipment. The cost of that correction is KritiKaal's exposure, not the brand's. That is not a customer service gesture. It is the structural design of the service. Accountability that costs the accountable party money when it fails is the only accountability that functions.",
+        "estimated_duration_sec": 90
+      }
+    ],
+    "mechanism_name": "AQL 2.5 In-Line Inspection",
+    "mechanism_definition": "AQL 2.5 in-line inspection is the application of the ISO 2859-1 premium inspection standard at 30% of production completion, identifying and correcting systematic defects while 70% of the run can still be adjusted, holding defect tolerance below 2% on the full lot and triggering the Double-Back Guarantee if that threshold is breached at shipment.",
+    "estimated_total_duration_sec": 410
+  },
+  "cta": {
+    "primary_ask": "If you have had a QC failure in the last 18 months and you want to understand exactly which failure mode caused it and what the prevention mechanism looks like on a live order, book a 20-minute call with KritiKaal. The link is in the description. No pitch. No proposal unless you ask for one. A diagnostic conversation about what happened and whether the operational model fits your run size.",
+    "disqualification": "This service is not for brands whose primary objective is the lowest unit cost. AQL 2.5 in-line inspection, in-market accountability, and the Double-Back Guarantee are included in the KritiKaal fee structure. That fee is higher than a sourcing agent commission. If you are optimising for cheapest price and are willing to absorb the QC risk that comes with it, this is not the right fit. If you have already absorbed that risk and are calculating what it actually cost you, it probably is.",
+    "link_description": "Book a 20-minute diagnostic call with KritiKaal. Describe your last order, your run size, and what went wrong. We will tell you which failure mode you hit and whether our model would have prevented it.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "Brand founder or head of product at a UK or EU leather goods label, 300 to 2,000 units per run, has experienced at least one QC failure or is actively managing a supply chain they do not trust, sourcing from India directly or through an agent with no in-line inspection in place.",
+    "primary_keyword": "leather goods quality control India",
+    "secondary_keywords": [
+      "how to avoid defective shipments India",
+      "factory accountability leather manufacturing",
+      "AQL inspection leather goods"
+    ],
+    "content_type": "case-study",
+    "estimated_total_runtime_min": 7.9,
+    "geo_authority_claim": "AQL 2.5 applied in-line at 30% of production on India-manufactured leather goods holds defect tolerance below 2% on the full lot, the same inspection standard used by LVMH and Hermes supply chain factories, governed by ISO 2859-1.",
+    "regulation_check": "FLAG: Rework labour cost range £2-8 per unit and airfreight cost £3,000-8,000 per 200kg shipment cited from intel document — verify current market rates before publish. AQL 2.5 ISO 2859-1 standard reference is CLEAR."
+  }
+}

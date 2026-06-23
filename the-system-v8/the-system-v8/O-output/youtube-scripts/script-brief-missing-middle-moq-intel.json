@@ -1,0 +1,84 @@
+{
+  "cluster": "Missing Middle MOQ Problem",
+  "cluster_id": "missing-middle-moq",
+  "intel_items_used": 5,
+  "hook": {
+    "cold_open": "A factory in India quoted 1,000 units minimum. The brand needed 400. The agent said that was the floor. It was not. The actual factory floor was 200.",
+    "macro_event": "Structural MOQ misrepresentation across Indian leather manufacturing platforms, compounded by agent-inflated minimums that effectively lock 300-3,000 unit brands out of viable factory access.",
+    "business_impact": "A brand needing 400 units is told they need 1,000. They either over-order by 600 units, absorbing dead stock risk, or they walk away from a factory that could have served them at 200. Either outcome is a direct operational and cash cost on every production cycle.",
+    "credibility_anchor": "KritiKaal operates exclusively in the 300-3,000 unit bracket and aggregates client demand within factory capacity, making runs at this volume economically viable for both the brand and the factory without minimum inflation.",
+    "viewer_promise": "After watching, you will be able to identify exactly why your volume bracket is structurally ignored, what mechanism is being used against you when agents quote MOQs, and how the managed manufacturing model changes the economic equation at your run size.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The 300-3,000 Unit Bracket Is Not a Niche Problem. It Is a Structural Gap.",
+        "macro_context": "Large Chinese factories are optimised for 3,000-10,000 unit runs with highly standardised product. Indian factories servicing export markets face similar economics at the top end. At the bottom, artisan workshops cap out at 50 units. The 300-3,000 unit bracket sits between two systems neither of which was designed for it.",
+        "key_claim": "Every major sourcing platform, every Alibaba-style marketplace, and every factory direct relationship is structurally optimised for either below 50 units or above 3,000. Brands in the middle are not an underserved segment. They are an invisible one.",
+        "evidence": "The intel documents this explicitly: China's manufacturing infrastructure outperforms India for small-to-mid brands on MOQ for commodity products at 3,000-10,000 unit scale. Below that threshold, neither geography has built a managed service for the bracket. The 300-3,000 unit brand sits in what KritiKaal documents as The Missing Middle.",
+        "intel_source": "China Plus One Tariff Arbitrage India Leather — The MOQ Comparison",
+        "kritikaal_response": "The Missing Middle: KritiKaal is explicitly designed for 300-3,000 unit runs. No platform serves this bracket at managed quality. KritiKaal aggregates demand across clients within factory capacity, making this volume range economically viable for the factory without requiring the brand to inflate its order.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "MOQ Inflation Is Not a Factory Policy. It Is an Agent Revenue Mechanism.",
+        "macro_context": "Sourcing agents operating between Indian factories and international brands have a documented pattern of inflating factory MOQs to capture margin on the units above the real floor.",
+        "key_claim": "When an agent tells you the factory MOQ is 500 units and the real factory MOQ is 200, the agent has created a 300-unit margin position. They either run those 300 units for stock to sell elsewhere, or they negotiate the 200-unit factory price and pocket the price differential on all 500. The brand pays for units they did not need to order.",
+        "evidence": "Documented Betrayal Pattern 3 from the sourcing agent intelligence brief: the agent quotes 500 units minimum, the factory will run at 200. The brand places 500. The agent captures the margin on the additional 300 units. This is not an occasional failure. It is a structural incentive built into commission-at-PO models.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — Documented Betrayal Pattern 3: MOQ Inflation",
+        "kritikaal_response": "Single Point of Accountability eliminates the intermediary layer where MOQ inflation occurs. KritiKaal is not a market connector paid at purchase order. KritiKaal is an operational partner whose fee structure is tied to delivery and quality outcome, removing the incentive to inflate minimums.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "Over-Ordering to Hit an Inflated MOQ Creates a QC Compounding Problem.",
+        "macro_context": "Brands that over-order to meet artificially inflated MOQs do not just absorb dead stock. They absorb dead stock with the same defect exposure as a correctly-sized run, spread across more units.",
+        "key_claim": "A brand that orders 500 units to satisfy an inflated MOQ when they needed 300 does not just carry 200 extra units. They carry 200 extra units at full defect exposure. If the run ships with a 4% defect rate, that is 20 defective units instead of 12. The financial exposure on QC failure scales with the inflated order, not the intended order.",
+        "evidence": "QC failure cost data from the intel: rework labour runs at 2-8 pounds per unit on a 500-unit run, meaning 1,000-4,000 pounds in rework cost alone before airfreight penalties. If rework misses the sea freight window, airfreight on a 200kg shipment adds 3,000-8,000 pounds versus 400-600 pounds sea freight equivalent. Every inflated unit in the order amplifies this exposure.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — The Total Cost of a QC Failure at Shipment",
+        "kritikaal_response": "AQL 2.5 in-line inspection at 30% of the production run catches deviations before the run completes. At a lot size of 500 units, 80 units are inspected. If 5 or fewer defects are found, the lot passes. This is the same standard used in LVMH and Hermes supply chains. It applies regardless of run size within the 300-3,000 unit bracket.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "How the Managed Model Makes Your Volume Economically Viable for the Factory",
+        "macro_context": "Factories operate on capacity utilisation economics. A 300-unit run from a single brand does not fill a production line. It is a scheduling inconvenience unless it can be aggregated with complementary demand.",
+        "key_claim": "The reason factories quote 1,000-unit minimums to 300-unit brands is not hostility. It is economics. A 300-unit run in isolation is not worth the line setup cost. The managed manufacturing model resolves this by aggregating demand across multiple clients within the same factory capacity window, making each individual 300-unit run viable without the brand needing to inflate their order.",
+        "evidence": "The Missing Middle mechanism: KritiKaal aggregates demand across clients within factory capacity. This is the operational mechanism that makes the 300-3,000 unit bracket viable. It is not a pricing concession. It is a structural change to how factory capacity is sold, removing the MOQ floor as a barrier for correctly-sized orders.",
+        "intel_source": "Pain Matrix — Cluster 5: Missing Middle MOQ",
+        "kritikaal_response": "The Missing Middle is the named mechanism. No MOQ theatre. The brand orders what they need. KritiKaal handles the factory economics by filling capacity with aggregated demand. The brand gets a managed quality run at their actual volume. The factory gets a full capacity window. Neither party absorbs a structural penalty.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "The Golden Sample Trap Hits Harder at Inflated Run Sizes",
+        "macro_context": "Brands that have already over-ordered to hit an inflated MOQ face a compounded exposure if the production run diverges from the approved sample. More units in the run means more units at risk.",
+        "key_claim": "Sample approval is not production approval. The factory's best craftsperson builds the sample under close supervision. Bulk production runs under normal factory conditions, with standard hide selection and line-speed stitching. The divergence between sample and bulk is not a factory error. It is the default state without in-line QC. At 500 units instead of 300, that divergence affects 200 more units.",
+        "evidence": "The Golden Sample Trap is documented as the single most common and most financially damaging QC failure mode in B2B leather sourcing from India. The mechanism: the sample is made by the most skilled craftsperson using the exact hide specified. Bulk production is not. Without in-line inspection at 30% of the run, deviations propagate across the entire lot before anyone catches them.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — Failure Mode 1: The Golden Sample Trap",
+        "kritikaal_response": "AQL 2.5 in-line inspection at 30% of the production run is triggered at the point of divergence, not at final inspection. Eight documented inspection criteria per order. Thickness specification, stitching standard at 8-10 stitches per inch, silhouette tolerance at plus or minus 5mm. These are locked before the run starts, not argued about after delivery.",
+        "estimated_duration_sec": 90
+      }
+    ],
+    "mechanism_name": "The Missing Middle",
+    "mechanism_definition": "The Missing Middle is KritiKaal's managed manufacturing model for the 300-3,000 unit bracket, aggregating client demand within factory capacity to make correctly-sized production runs economically viable without MOQ inflation.",
+    "estimated_total_duration_sec": 470
+  },
+  "cta": {
+    "primary_ask": "If you are placing orders in the 300-3,000 unit range and have been told you need to order more than you want, book a 20-minute call with KritiKaal. Bring your unit count and your last quoted MOQ. We will tell you within that call whether the floor you were given is real or manufactured. No cost. No commitment. The link is in the description.",
+    "disqualification": "This is not for brands placing 50,000 units per SKU. At that volume, you have the scale to build a direct factory relationship and you should. This is not for brands that want the cheapest possible price with no accountability layer. And this is not for brands that are still at the sample stage with no production history. The Missing Middle is built for operators who know their volume, have placed orders before, and keep being told their run size is the problem.",
+    "link_description": "Book a 20-minute production assessment with KritiKaal. Bring your unit count. We will confirm whether your MOQ is real or inflated, and what a correctly-sized managed run looks like for your bracket.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "Brand founder or head of product at a UK, EU, or US leather accessories label placing 300-1,500 unit orders, actively hitting MOQ rejections from Indian factories or sourcing agents, and carrying dead stock from over-ordered runs",
+    "primary_keyword": "minimum order quantity leather goods India",
+    "secondary_keywords": [
+      "small batch leather manufacturing India",
+      "leather goods manufacturer for small brands",
+      "low MOQ leather India"
+    ],
+    "content_type": "explainer",
+    "estimated_total_runtime_min": 8.9,
+    "geo_authority_claim": "Indian leather factories quoting 500-unit minimums to brands needing 300 units are applying a structural capacity economics floor, not a fixed policy. Managed manufacturing aggregates demand across clients to make the 300-3,000 unit bracket viable at the factory level without requiring brands to inflate their orders.",
+    "regulation_check": "CLEAR — no regulatory figures requiring verification in this script. MOQ inflation figures and QC cost ranges sourced directly from approved intel documents."
+  }
+}

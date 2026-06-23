@@ -1,0 +1,2397 @@
+{
+  "domain": "vonbaer.com",
+  "snapped_at": "20260618T112352Z",
+  "variant_count": 239,
+  "variants": [
+    {
+      "product_id": 15726735393102,
+      "variant_id": 59235856777550,
+      "product_title": "Grand Hanger",
+      "variant_title": "Hanger",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10905443664206,
+      "variant_id": 55452681535822,
+      "product_title": "No.3",
+      "variant_title": "Solid Brown",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10905443664206,
+      "variant_id": 55452681568590,
+      "product_title": "No.3",
+      "variant_title": "Classic Tan",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10905443664206,
+      "variant_id": 55452681601358,
+      "product_title": "No.3",
+      "variant_title": "Elegant Black",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386529235278,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Cognac Tan",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386529268046,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Navy Blue",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386529300814,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Cream White",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386457080142,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Elegant Black",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386529333582,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Burgundy",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10893100187982,
+      "variant_id": 55386529366350,
+      "product_title": "Decorative Leather Clip",
+      "variant_title": "Deep Red",
+      "price_usd": 120.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10865643749710,
+      "variant_id": 55257956811086,
+      "product_title": "W2",
+      "variant_title": "Elegant Black",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10865643749710,
+      "variant_id": 55257956843854,
+      "product_title": "W2",
+      "variant_title": "Navy Blue",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10865643749710,
+      "variant_id": 55257956876622,
+      "product_title": "W2",
+      "variant_title": "Cognac Tan",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010540366,
+      "product_title": "W5",
+      "variant_title": "Cognac Tan",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010704206,
+      "product_title": "W5",
+      "variant_title": "Deep Red",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010573134,
+      "product_title": "W5",
+      "variant_title": "Navy Blue",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010605902,
+      "product_title": "W5",
+      "variant_title": "Cream White",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010638670,
+      "product_title": "W5",
+      "variant_title": "Elegant Black",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10832874635598,
+      "variant_id": 55134010671438,
+      "product_title": "W5",
+      "variant_title": "Burgundy",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1686666575915,
+      "variant_id": 55132874768718,
+      "product_title": "W3",
+      "variant_title": "Cognac Tan",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686666575915,
+      "variant_id": 55132875784526,
+      "product_title": "W3",
+      "variant_title": "Deep Red",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686666575915,
+      "variant_id": 55132874801486,
+      "product_title": "W3",
+      "variant_title": "Navy Blue",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686666575915,
+      "variant_id": 55132874834254,
+      "product_title": "W3",
+      "variant_title": "Elegant Black",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686666575915,
+      "variant_id": 55132874867022,
+      "product_title": "W3",
+      "variant_title": "Burgundy",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122423546190,
+      "product_title": "W2",
+      "variant_title": "Cognac Tan",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122434326862,
+      "product_title": "W2",
+      "variant_title": "Deep Red",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122434195790,
+      "product_title": "W2",
+      "variant_title": "Navy Blue",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122434228558,
+      "product_title": "W2",
+      "variant_title": "Cream White",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122434261326,
+      "product_title": "W2",
+      "variant_title": "Elegant Black",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686639673387,
+      "variant_id": 55122434294094,
+      "product_title": "W2",
+      "variant_title": "Burgundy",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915226446,
+      "product_title": "W1",
+      "variant_title": "Cognac Tan",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915390286,
+      "product_title": "W1",
+      "variant_title": "Deep Red",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915259214,
+      "product_title": "W1",
+      "variant_title": "Navy Blue",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915291982,
+      "product_title": "W1",
+      "variant_title": "Cream White",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915324750,
+      "product_title": "W1",
+      "variant_title": "Elegant Black",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1686651273259,
+      "variant_id": 55117915357518,
+      "product_title": "W1",
+      "variant_title": "Burgundy",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102565220686,
+      "product_title": "Avia",
+      "variant_title": "Cognac Tan",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102578458958,
+      "product_title": "Avia",
+      "variant_title": "Deep Red",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102571086158,
+      "product_title": "Avia",
+      "variant_title": "Navy Blue",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102571118926,
+      "product_title": "Avia",
+      "variant_title": "Cream White",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102571151694,
+      "product_title": "Avia",
+      "variant_title": "Elegant Black",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825200075086,
+      "variant_id": 55102578426190,
+      "product_title": "Avia",
+      "variant_title": "Burgundy",
+      "price_usd": 175.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10825190113614,
+      "variant_id": 55102529372494,
+      "product_title": "Atlas",
+      "variant_title": "Solid Brown",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825190113614,
+      "variant_id": 55102529405262,
+      "product_title": "Atlas",
+      "variant_title": "Classic Tan",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10825190113614,
+      "variant_id": 55102529438030,
+      "product_title": "Atlas",
+      "variant_title": "Elegant Black",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10791570309454,
+      "variant_id": 54894137377102,
+      "product_title": "Price Difference",
+      "variant_title": "Default Title",
+      "price_usd": 71.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4513928904776,
+      "variant_id": 31824014770248,
+      "product_title": "Premier",
+      "variant_title": "Polished Anthracite",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4513928904776,
+      "variant_id": 48910532837710,
+      "product_title": "Premier",
+      "variant_title": "Brushed Graphite",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 40518930923685,
+      "product_title": "Elegance",
+      "variant_title": "Cognac Tan",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 54776920179022,
+      "product_title": "Elegance",
+      "variant_title": "Navy Blue",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 54776920211790,
+      "product_title": "Elegance",
+      "variant_title": "Cream White",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 31671151788104,
+      "product_title": "Elegance",
+      "variant_title": "Elegant Black",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 54776920244558,
+      "product_title": "Elegance",
+      "variant_title": "Burgundy",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4463327576136,
+      "variant_id": 31671152181320,
+      "product_title": "Elegance",
+      "variant_title": "Deep Red",
+      "price_usd": 1195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7797855289572,
+      "variant_id": 43395344629988,
+      "product_title": "Voyager",
+      "variant_title": "Solid Brown",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7797855289572,
+      "variant_id": 43395344662756,
+      "product_title": "Voyager",
+      "variant_title": "Classic Tan",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7797855289572,
+      "variant_id": 43395344695524,
+      "product_title": "Voyager",
+      "variant_title": "Elegant Black",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7797855289572,
+      "variant_id": 54756527636814,
+      "product_title": "Voyager",
+      "variant_title": "Deep Red",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021798723749,
+      "variant_id": 37489230315685,
+      "product_title": "Voyager",
+      "variant_title": "Solid Brown",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021798723749,
+      "variant_id": 37489230348453,
+      "product_title": "Voyager",
+      "variant_title": "Classic Tan",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 6021798723749,
+      "variant_id": 41477236883684,
+      "product_title": "Voyager",
+      "variant_title": "Elegant Black",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021798723749,
+      "variant_id": 54753439777102,
+      "product_title": "Voyager",
+      "variant_title": "Deep Red",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10744109597006,
+      "variant_id": 54700396052814,
+      "product_title": "Briefcase Lock Key",
+      "variant_title": "Solid Brown",
+      "price_usd": 55.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10744109597006,
+      "variant_id": 54700396085582,
+      "product_title": "Briefcase Lock Key",
+      "variant_title": "Elegant Black",
+      "price_usd": 55.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10744109597006,
+      "variant_id": 54700396118350,
+      "product_title": "Briefcase Lock Key",
+      "variant_title": "Classic Tan",
+      "price_usd": 55.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 37489207967909,
+      "product_title": "Signature",
+      "variant_title": "Solid Brown / Large",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 55394691645774,
+      "product_title": "Signature",
+      "variant_title": "Solid Brown / Compact",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 37489208000677,
+      "product_title": "Signature",
+      "variant_title": "Elegant Black / Large",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 55394691678542,
+      "product_title": "Signature",
+      "variant_title": "Elegant Black / Compact",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 37489208066213,
+      "product_title": "Signature",
+      "variant_title": "Classic Tan / Large",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 55394691711310,
+      "product_title": "Signature",
+      "variant_title": "Classic Tan / Compact",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 47711712444750,
+      "product_title": "Signature",
+      "variant_title": "Deep Red / Large",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6021783388325,
+      "variant_id": 55394691744078,
+      "product_title": "Signature",
+      "variant_title": "Deep Red / Compact",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026581414222,
+      "product_title": "Executive",
+      "variant_title": "Solid Dark Brown / Large",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026802630990,
+      "product_title": "Executive",
+      "variant_title": "Solid Dark Brown / Original",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026581446990,
+      "product_title": "Executive",
+      "variant_title": "Classic Tan / Large",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026802663758,
+      "product_title": "Executive",
+      "variant_title": "Classic Tan / Original",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026581479758,
+      "product_title": "Executive",
+      "variant_title": "Elegant Black / Large",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026802696526,
+      "product_title": "Executive",
+      "variant_title": "Elegant Black / Original",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026581512526,
+      "product_title": "Executive",
+      "variant_title": "Deep Red / Large",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10488874336590,
+      "variant_id": 53026802729294,
+      "product_title": "Executive",
+      "variant_title": "Deep Red / Original",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10446101872974,
+      "variant_id": 52861523624270,
+      "product_title": "Calibre",
+      "variant_title": "Solid Brown",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10446101872974,
+      "variant_id": 52861523689806,
+      "product_title": "Calibre",
+      "variant_title": "Elegant Black",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10446101872974,
+      "variant_id": 52861523657038,
+      "product_title": "Calibre",
+      "variant_title": "Classic Tan",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10430127767886,
+      "variant_id": 52805790630222,
+      "product_title": "Shoulder Strap",
+      "variant_title": "Solid Brown",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10430127767886,
+      "variant_id": 52805790662990,
+      "product_title": "Shoulder Strap",
+      "variant_title": "Elegant Black",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10430127767886,
+      "variant_id": 52805790695758,
+      "product_title": "Shoulder Strap",
+      "variant_title": "Classic Tan",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10430127767886,
+      "variant_id": 52805790728526,
+      "product_title": "Shoulder Strap",
+      "variant_title": "Deep Red",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7711506170084,
+      "variant_id": 43113866330340,
+      "product_title": "Iconic",
+      "variant_title": "Elegant Black",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7711506170084,
+      "variant_id": 43113866363108,
+      "product_title": "Iconic",
+      "variant_title": "Elegant Black (croc print)",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7711506170084,
+      "variant_id": 43113866264804,
+      "product_title": "Iconic",
+      "variant_title": "Chocolate Brown",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7711506170084,
+      "variant_id": 43113866297572,
+      "product_title": "Iconic",
+      "variant_title": "Solid Brown (croc print)",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7711506170084,
+      "variant_id": 43276455641316,
+      "product_title": "Iconic",
+      "variant_title": "Deep Red",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1027009216555,
+      "variant_id": 10631877066795,
+      "product_title": "Minerva",
+      "variant_title": "Classic Tan",
+      "price_usd": 235.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1027009216555,
+      "variant_id": 10631877099563,
+      "product_title": "Minerva",
+      "variant_title": "Elegant Black",
+      "price_usd": 235.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 754398036011,
+      "variant_id": 8593338073131,
+      "product_title": "Bella",
+      "variant_title": "Elegant Black",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 754398036011,
+      "variant_id": 47413344960846,
+      "product_title": "Bella",
+      "variant_title": "Dark Brown",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7934764220644,
+      "variant_id": 43790419919076,
+      "product_title": "Classic Keyring",
+      "variant_title": "Chocolate Brown",
+      "price_usd": 65.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7934764220644,
+      "variant_id": 43790419853540,
+      "product_title": "Classic Keyring",
+      "variant_title": "Elegant Black",
+      "price_usd": 65.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7934764220644,
+      "variant_id": 43790419951844,
+      "product_title": "Classic Keyring",
+      "variant_title": "Deep Red",
+      "price_usd": 65.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7934764220644,
+      "variant_id": 43790429323492,
+      "product_title": "Classic Keyring",
+      "variant_title": "Dark Brown (croc print)",
+      "price_usd": 65.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7934764220644,
+      "variant_id": 43790429520100,
+      "product_title": "Classic Keyring",
+      "variant_title": "Elegant Black (croc print)",
+      "price_usd": 65.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7952584736996,
+      "variant_id": 43847377649892,
+      "product_title": "Clutch",
+      "variant_title": "Elegant Black (croc print)",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7952584736996,
+      "variant_id": 43847377715428,
+      "product_title": "Clutch",
+      "variant_title": "Solid Brown (croc print)",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7952584736996,
+      "variant_id": 43847377617124,
+      "product_title": "Clutch",
+      "variant_title": "Elegant Black",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7952584736996,
+      "variant_id": 43847377682660,
+      "product_title": "Clutch",
+      "variant_title": "Chocolate Brown",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7952584736996,
+      "variant_id": 43847377748196,
+      "product_title": "Clutch",
+      "variant_title": "Deep Red",
+      "price_usd": 395.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7691740414180,
+      "variant_id": 43051732041956,
+      "product_title": "Prime",
+      "variant_title": "Solid Brown",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7691740414180,
+      "variant_id": 43051732074724,
+      "product_title": "Prime",
+      "variant_title": "Classic Tan",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7691740414180,
+      "variant_id": 43051732107492,
+      "product_title": "Prime",
+      "variant_title": "Deep Red",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1026972778539,
+      "variant_id": 10631641661483,
+      "product_title": "Prime",
+      "variant_title": "Classic Tan",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1026972778539,
+      "variant_id": 40670454448293,
+      "product_title": "Prime",
+      "variant_title": "Deep Red",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1026972778539,
+      "variant_id": 40670452285605,
+      "product_title": "Prime",
+      "variant_title": "Solid Brown",
+      "price_usd": 795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1092840423467,
+      "variant_id": 31718427197512,
+      "product_title": "Well-Organized",
+      "variant_title": "Dark Brown",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1092840423467,
+      "variant_id": 43776888144100,
+      "product_title": "Well-Organized",
+      "variant_title": "Elegant Black",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677248504036,
+      "variant_id": 50736757309774,
+      "product_title": "Exquisite",
+      "variant_title": "Solid Brown",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677248504036,
+      "variant_id": 42997190623460,
+      "product_title": "Exquisite",
+      "variant_title": "Classic Tan",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677248504036,
+      "variant_id": 42997190590692,
+      "product_title": "Exquisite",
+      "variant_title": "Elegant Black",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677248504036,
+      "variant_id": 42997190656228,
+      "product_title": "Exquisite",
+      "variant_title": "Deep Red",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677379281124,
+      "variant_id": 42997505523940,
+      "product_title": "Elegant",
+      "variant_title": "Solid Brown",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677379281124,
+      "variant_id": 42997505491172,
+      "product_title": "Elegant",
+      "variant_title": "Elegant Black",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677379281124,
+      "variant_id": 42997505589476,
+      "product_title": "Elegant",
+      "variant_title": "Deep Red",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677379281124,
+      "variant_id": 50736704749902,
+      "product_title": "Elegant",
+      "variant_title": "Classic Tan",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4465344643144,
+      "variant_id": 50736319332686,
+      "product_title": "Exquisite",
+      "variant_title": "Solid Brown",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4465344643144,
+      "variant_id": 31675499970632,
+      "product_title": "Exquisite",
+      "variant_title": "Classic Tan",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4465344643144,
+      "variant_id": 31675499905096,
+      "product_title": "Exquisite",
+      "variant_title": "Elegant Black",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4465344643144,
+      "variant_id": 40607660572837,
+      "product_title": "Exquisite",
+      "variant_title": "Deep Red",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545677160613,
+      "variant_id": 35731019923621,
+      "product_title": "Elegant",
+      "variant_title": "Solid Brown",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545677160613,
+      "variant_id": 50736164143438,
+      "product_title": "Elegant",
+      "variant_title": "Classic Tan",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545677160613,
+      "variant_id": 35731019890853,
+      "product_title": "Elegant",
+      "variant_title": "Elegant Black",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545677160613,
+      "variant_id": 40606675206309,
+      "product_title": "Elegant",
+      "variant_title": "Deep Red",
+      "price_usd": 1495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7794733973732,
+      "variant_id": 43383976165604,
+      "product_title": "Majestic",
+      "variant_title": "Solid Dark Brown",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7794733973732,
+      "variant_id": 50723997188430,
+      "product_title": "Majestic",
+      "variant_title": "Classic Tan",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7794733973732,
+      "variant_id": 43383976198372,
+      "product_title": "Majestic",
+      "variant_title": "Elegant Black",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7794733973732,
+      "variant_id": 50724003414350,
+      "product_title": "Majestic",
+      "variant_title": "Deep Red",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677667803364,
+      "variant_id": 42998728458468,
+      "product_title": "Liberty",
+      "variant_title": "Solid Brown",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677667803364,
+      "variant_id": 50594747908430,
+      "product_title": "Liberty",
+      "variant_title": "Classic Tan",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677667803364,
+      "variant_id": 50594754167118,
+      "product_title": "Liberty",
+      "variant_title": "Elegant Black",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677667803364,
+      "variant_id": 50594757411150,
+      "product_title": "Liberty",
+      "variant_title": "Deep Red",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754390466603,
+      "variant_id": 8593308090411,
+      "product_title": "Liberty",
+      "variant_title": "Solid Brown",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754390466603,
+      "variant_id": 50594247049550,
+      "product_title": "Liberty",
+      "variant_title": "Classic Tan",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754390466603,
+      "variant_id": 50594289484110,
+      "product_title": "Liberty",
+      "variant_title": "Elegant Black",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754390466603,
+      "variant_id": 50594312290638,
+      "product_title": "Liberty",
+      "variant_title": "Deep Red",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7939444408548,
+      "variant_id": 43802620264676,
+      "product_title": "Model 1",
+      "variant_title": "Dark Brown (croc print)",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7939444408548,
+      "variant_id": 43802562855140,
+      "product_title": "Model 1",
+      "variant_title": "Elegant Black",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7939444408548,
+      "variant_id": 43802562887908,
+      "product_title": "Model 1",
+      "variant_title": "Deep Red",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7939444408548,
+      "variant_id": 43802562789604,
+      "product_title": "Model 1",
+      "variant_title": "Chocolate Brown",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7939444408548,
+      "variant_id": 43802562822372,
+      "product_title": "Model 1",
+      "variant_title": "Elegant Black (croc print)",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677372530916,
+      "variant_id": 42997478785252,
+      "product_title": "City",
+      "variant_title": "Solid Brown",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677372530916,
+      "variant_id": 49780452327758,
+      "product_title": "City",
+      "variant_title": "Classic Tan",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677372530916,
+      "variant_id": 42997478818020,
+      "product_title": "City",
+      "variant_title": "Elegant Black",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677372530916,
+      "variant_id": 49780453933390,
+      "product_title": "City",
+      "variant_title": "Deep Red",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7687040762084,
+      "variant_id": 43038302666980,
+      "product_title": "10X",
+      "variant_title": "Solid Brown",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7687040762084,
+      "variant_id": 43038302699748,
+      "product_title": "10X",
+      "variant_title": "Classic Tan",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7687040762084,
+      "variant_id": 43038302732516,
+      "product_title": "10X",
+      "variant_title": "Elegant Black",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7687040762084,
+      "variant_id": 49738058662222,
+      "product_title": "10X",
+      "variant_title": "Deep Red",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545240035493,
+      "variant_id": 40930034319525,
+      "product_title": "Isabella",
+      "variant_title": "Solid Brown",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545240035493,
+      "variant_id": 35728773382309,
+      "product_title": "Isabella",
+      "variant_title": "Classic Tan",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545240035493,
+      "variant_id": 40930034778277,
+      "product_title": "Isabella",
+      "variant_title": "Elegant Black",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545240035493,
+      "variant_id": 35728766402725,
+      "product_title": "Isabella",
+      "variant_title": "Deep Red",
+      "price_usd": 495.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509437112363,
+      "variant_id": 37458241978533,
+      "product_title": "10X",
+      "variant_title": "Solid Brown",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509437112363,
+      "variant_id": 13980037742635,
+      "product_title": "10X",
+      "variant_title": "Classic Tan",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509437112363,
+      "variant_id": 15542707814443,
+      "product_title": "10X",
+      "variant_title": "Elegant Black",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509437112363,
+      "variant_id": 49661741138254,
+      "product_title": "10X",
+      "variant_title": "Deep Red",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7691790614756,
+      "variant_id": 43051807867108,
+      "product_title": "Superior",
+      "variant_title": "Solid Brown",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7691790614756,
+      "variant_id": 43051807899876,
+      "product_title": "Superior",
+      "variant_title": "Classic Tan",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7691790614756,
+      "variant_id": 43051807932644,
+      "product_title": "Superior",
+      "variant_title": "Elegant Black",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7691790614756,
+      "variant_id": 43051807965412,
+      "product_title": "Superior",
+      "variant_title": "Deep Red",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545488122021,
+      "variant_id": 35729975935141,
+      "product_title": "Superior",
+      "variant_title": "Solid Brown",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545488122021,
+      "variant_id": 35730139742373,
+      "product_title": "Superior",
+      "variant_title": "Classic Tan",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545488122021,
+      "variant_id": 35729975967909,
+      "product_title": "Superior",
+      "variant_title": "Elegant Black",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545488122021,
+      "variant_id": 40575130730661,
+      "product_title": "Superior",
+      "variant_title": "Deep Red",
+      "price_usd": 595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754397184043,
+      "variant_id": 37458172018853,
+      "product_title": "City",
+      "variant_title": "Solid Brown",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754397184043,
+      "variant_id": 49542558810446,
+      "product_title": "City",
+      "variant_title": "Classic Tan",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754397184043,
+      "variant_id": 15629262618667,
+      "product_title": "City",
+      "variant_title": "Elegant Black",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754397184043,
+      "variant_id": 49542565790030,
+      "product_title": "City",
+      "variant_title": "Deep Red",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 10476275892267,
+      "product_title": "Classic",
+      "variant_title": "Solid Brown / Stainless Steel",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 49338571620686,
+      "product_title": "Classic",
+      "variant_title": "Solid Brown / Solid Brass",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 10476275859499,
+      "product_title": "Classic",
+      "variant_title": "Classic Tan / Stainless Steel",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 49338571686222,
+      "product_title": "Classic",
+      "variant_title": "Classic Tan / Solid Brass",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 49338536526158,
+      "product_title": "Classic",
+      "variant_title": "Elegant Black / Stainless Steel",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 49338571751758,
+      "product_title": "Classic",
+      "variant_title": "Elegant Black / Solid Brass",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 975755640875,
+      "variant_id": 49338571784526,
+      "product_title": "Classic",
+      "variant_title": "Elegant Black / Stainless Steel - Black",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871713476836,
+      "variant_id": 43595296211172,
+      "product_title": "Minimalist (croc print)",
+      "variant_title": "Dark Brown (croc print)",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871713476836,
+      "variant_id": 43595296243940,
+      "product_title": "Minimalist (croc print)",
+      "variant_title": "Elegant Black (croc print)",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8770004517198,
+      "variant_id": 47751180910926,
+      "product_title": "Money Clip",
+      "variant_title": "Solid Brown",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8770004517198,
+      "variant_id": 47751180943694,
+      "product_title": "Money Clip",
+      "variant_title": "Classic Tan",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8770004517198,
+      "variant_id": 47751180976462,
+      "product_title": "Money Clip",
+      "variant_title": "Elegant Black",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8518937182542,
+      "variant_id": 47026175312206,
+      "product_title": "Harrington",
+      "variant_title": "Solid Brown",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8518937182542,
+      "variant_id": 47751045120334,
+      "product_title": "Harrington",
+      "variant_title": "Classic Tan",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8518937182542,
+      "variant_id": 47026175344974,
+      "product_title": "Harrington",
+      "variant_title": "Elegant Black",
+      "price_usd": 325.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871714525412,
+      "variant_id": 43595297489124,
+      "product_title": "Minimalist",
+      "variant_title": "Solid Brown",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871714525412,
+      "variant_id": 48101875188046,
+      "product_title": "Minimalist",
+      "variant_title": "Classic Tan",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871714525412,
+      "variant_id": 43595297521892,
+      "product_title": "Minimalist",
+      "variant_title": "Elegant Black",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871714525412,
+      "variant_id": 43595297554660,
+      "product_title": "Minimalist",
+      "variant_title": "Deep Red",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871751291108,
+      "variant_id": 43595362402532,
+      "product_title": "Deluxe",
+      "variant_title": "Solid Brown",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871751291108,
+      "variant_id": 43595362435300,
+      "product_title": "Deluxe",
+      "variant_title": "Elegant Black",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7871751291108,
+      "variant_id": 52862098374990,
+      "product_title": "Deluxe",
+      "variant_title": "Classic Tan",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7690087989476,
+      "variant_id": 43047283687652,
+      "product_title": "Grand",
+      "variant_title": "Solid Brown",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7690087989476,
+      "variant_id": 43047283720420,
+      "product_title": "Grand",
+      "variant_title": "Classic Tan",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7690087989476,
+      "variant_id": 43047283753188,
+      "product_title": "Grand",
+      "variant_title": "Elegant Black",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7690087989476,
+      "variant_id": 55187479167310,
+      "product_title": "Grand",
+      "variant_title": "Deep Red",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7689755984100,
+      "variant_id": 43046435651812,
+      "product_title": "Deluxe",
+      "variant_title": "Solid Brown",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7689755984100,
+      "variant_id": 43046435684580,
+      "product_title": "Deluxe",
+      "variant_title": "Elegant Black",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7689755984100,
+      "variant_id": 52862030709070,
+      "product_title": "Deluxe",
+      "variant_title": "Classic Tan",
+      "price_usd": 245.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677513924836,
+      "variant_id": 42998110388452,
+      "product_title": "Weekender",
+      "variant_title": "Solid Brown",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677513924836,
+      "variant_id": 42998110421220,
+      "product_title": "Weekender",
+      "variant_title": "Classic Tan",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677513924836,
+      "variant_id": 42998110453988,
+      "product_title": "Weekender",
+      "variant_title": "Elegant Black",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7677513924836,
+      "variant_id": 47405269942606,
+      "product_title": "Weekender",
+      "variant_title": "Deep Red",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6944768655525,
+      "variant_id": 40470346039461,
+      "product_title": "City Large",
+      "variant_title": "Solid Brown",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6944768655525,
+      "variant_id": 40470346006693,
+      "product_title": "City Large",
+      "variant_title": "Elegant Black",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6944768655525,
+      "variant_id": 40470346072229,
+      "product_title": "City Large",
+      "variant_title": "Classic Tan",
+      "price_usd": 1795.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754394005547,
+      "variant_id": 36052725170341,
+      "product_title": "No.1",
+      "variant_title": "Solid Brown",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754394005547,
+      "variant_id": 36064925384869,
+      "product_title": "No.1",
+      "variant_title": "Classic Tan",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754394005547,
+      "variant_id": 36064928006309,
+      "product_title": "No.1",
+      "variant_title": "Elegant Black",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545452404901,
+      "variant_id": 35729773494437,
+      "product_title": "Grand",
+      "variant_title": "Solid Brown",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545452404901,
+      "variant_id": 35729773592741,
+      "product_title": "Grand",
+      "variant_title": "Classic Tan",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5545452404901,
+      "variant_id": 35729773559973,
+      "product_title": "Grand",
+      "variant_title": "Elegant Black",
+      "price_usd": 1995.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1144637882411,
+      "variant_id": 11438939242539,
+      "product_title": "Element",
+      "variant_title": "Solid Brown",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1144637882411,
+      "variant_id": 11438939275307,
+      "product_title": "Element",
+      "variant_title": "Elegant Black",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1144637882411,
+      "variant_id": 47750764855630,
+      "product_title": "Element",
+      "variant_title": "Classic Tan",
+      "price_usd": 225.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772325408811,
+      "variant_id": 13188065001515,
+      "product_title": "Classic Bifold",
+      "variant_title": "Solid Brown",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772325408811,
+      "variant_id": 47750912016718,
+      "product_title": "Classic Bifold",
+      "variant_title": "Classic Tan",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772325408811,
+      "variant_id": 42587585347812,
+      "product_title": "Classic Bifold",
+      "variant_title": "Elegant Black",
+      "price_usd": 275.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772131094571,
+      "variant_id": 8707793190955,
+      "product_title": "Minimalist",
+      "variant_title": "Solid Brown",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772131094571,
+      "variant_id": 47751252705614,
+      "product_title": "Minimalist",
+      "variant_title": "Classic Tan",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 772131094571,
+      "variant_id": 8707793223723,
+      "product_title": "Minimalist",
+      "variant_title": "Elegant Black",
+      "price_usd": 195.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 768088408107,
+      "variant_id": 43777658814692,
+      "product_title": "Heritage",
+      "variant_title": "Solid Brown",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 768088408107,
+      "variant_id": 47567420358990,
+      "product_title": "Heritage",
+      "variant_title": "Classic Tan",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 768088408107,
+      "variant_id": 8677210554411,
+      "product_title": "Heritage",
+      "variant_title": "Elegant Black",
+      "price_usd": 295.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754394431531,
+      "variant_id": 36101438046373,
+      "product_title": "No.2",
+      "variant_title": "Solid Brown",
+      "price_usd": 1695.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754391875627,
+      "variant_id": 47099440103758,
+      "product_title": "Premium Leather Wax",
+      "variant_title": "Leather Wax Kit",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509460541483,
+      "variant_id": 37477350047909,
+      "product_title": "Weekender",
+      "variant_title": "Solid Brown",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509460541483,
+      "variant_id": 31718172328008,
+      "product_title": "Weekender",
+      "variant_title": "Classic Tan",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509460541483,
+      "variant_id": 40575275073701,
+      "product_title": "Weekender",
+      "variant_title": "Elegant Black",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1509460541483,
+      "variant_id": 47427968827726,
+      "product_title": "Weekender",
+      "variant_title": "Deep Red",
+      "price_usd": 1895.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754387845163,
+      "variant_id": 8593296982059,
+      "product_title": "Essential",
+      "variant_title": "Solid Brown",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754387845163,
+      "variant_id": 8593296949291,
+      "product_title": "Essential",
+      "variant_title": "Elegant Black",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 754387845163,
+      "variant_id": 47152214016334,
+      "product_title": "Essential",
+      "variant_title": "Classic Tan",
+      "price_usd": 1595.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    }
+  ]
+}

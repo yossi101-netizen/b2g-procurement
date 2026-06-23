@@ -1,0 +1,71 @@
+[
+  {
+    "seed_id": "01",
+    "seed_name": "Premium leather gym duffel — men's everyday carry",
+    "main_keyword": "leather gym bag",
+    "targets": [
+      {
+        "brand": "KNKG",
+        "domain": "knkg.com",
+        "price_band": "MID",
+        "notes": "archetype; premium leather duffels ~$195-395; one-product DTC"
+      },
+      {
+        "brand": "Von Baer",
+        "domain": "vonbaer.com",
+        "price_band": "MID",
+        "notes": "full-grain leather bags; US-targeted DTC; verify Shopify format"
+      },
+      {
+        "brand": "Hard Graft",
+        "domain": "hardgraft.com",
+        "price_band": "HIGH_TICKET",
+        "notes": "premium leather goods; higher price point; verify Shopify format"
+      }
+    ]
+  },
+  {
+    "seed_id": "03",
+    "seed_name": "Premium leather dog leash + collar set",
+    "main_keyword": "leather dog leash",
+    "targets": [
+      {
+        "brand": "Found My Animal",
+        "domain": "foundmyanimal.com",
+        "price_band": "MID",
+        "notes": "premium leather + rope dog goods; rescue-mission brand story; Shopify"
+      },
+      {
+        "brand": "BikeTowLeash",
+        "domain": "biketowleash.com",
+        "price_band": "MID",
+        "notes": "archetype; specialty bike leash + accessories; one-product DTC"
+      },
+      {
+        "brand": "Auburn Leathercrafters",
+        "domain": "auburnleather.com",
+        "price_band": "MID",
+        "notes": "US leather dog goods; verify Shopify /products.json accessible"
+      }
+    ]
+  },
+  {
+    "seed_id": "05",
+    "seed_name": "Artisan wood-framed large-dog orthopedic bed",
+    "main_keyword": "large dog bed",
+    "targets": [
+      {
+        "brand": "Big Barker",
+        "domain": "bigbarker.com",
+        "price_band": "HIGH_TICKET",
+        "notes": "archetype; orthopedic dog beds $200-500; Shopify confirmed"
+      },
+      {
+        "brand": "Molly Mutt",
+        "domain": "mollymutt.com",
+        "price_band": "MID",
+        "notes": "sustainable dog beds + covers; verify Shopify format"
+      }
+    ]
+  }
+]

@@ -1,0 +1,24 @@
+2026-05-13T22:17:38Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-05-13T22:17:45Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-05-13T22:17:51Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-05-13T22:17:57Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-05-13T22:18:04Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-05-13T22:18:11Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-05-13T22:18:20Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-05-13T22:18:27Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}
+2026-05-13T22:19:46Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-05-13T22:19:54Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-05-13T22:20:02Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-05-13T22:20:09Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-05-13T22:20:13Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-05-13T22:20:19Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-05-13T22:20:25Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-05-13T22:20:30Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}
+2026-05-13T22:21:49Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"מוצרי עור\" ספק", "names_found": 0}
+2026-05-13T22:21:56Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"תיקים\" OR \"ארנקים\" ספק זוכה", "names_found": 0}
+2026-05-13T22:22:03Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"אביזרי עור\" OR \"ציוד מגן\"", "names_found": 0}
+2026-05-13T22:22:11Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"כפפות עור\" OR \"סינרי עור\" ספק", "names_found": 0}
+2026-05-13T22:22:19Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:mr.gov.il \"ייצור תיקים\" OR \"ייצור ארנקים\"", "names_found": 0}
+2026-05-13T22:22:27Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:idf.il \"ספק מאושר\" \"עור\" OR \"תיקים\"", "names_found": 0}
+2026-05-13T22:22:35Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"מכרז\" \"מוצרי עור\" זוכה", "names_found": 0}
+2026-05-13T22:22:44Z | ProcurementAgent | INFO | {"event": "PROCUREMENT_PORTAL_SCAN", "agent": "ProcurementAgent", "query": "site:gov.il \"ספק מאושר\" \"תיקים\" OR \"ארנקים\" OR \"כפפות\"", "names_found": 0}

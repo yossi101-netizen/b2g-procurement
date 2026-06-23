@@ -1,0 +1,2487 @@
+{
+  "domain": "hardgraft.com",
+  "snapped_at": "20260618T112352Z",
+  "variant_count": 248,
+  "variants": [
+    {
+      "product_id": 8313039356202,
+      "variant_id": 45157159010602,
+      "product_title": "Berg Rucksack . Black Charcoal",
+      "variant_title": "Default Title",
+      "price_usd": 598.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7404438651046,
+      "variant_id": 42860959432870,
+      "product_title": "Form Key Pouch . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8118929797,
+      "variant_id": 55364562485624,
+      "product_title": "One Pack . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15030451470712,
+      "variant_id": 55569329422712,
+      "product_title": "Leather House Holdall . Nut",
+      "variant_title": "Default Title",
+      "price_usd": 1498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15030450520440,
+      "variant_id": 55569325195640,
+      "product_title": "Leather Craftsman Tote Bag . Nut",
+      "variant_title": "Default Title",
+      "price_usd": 598.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15030449832312,
+      "variant_id": 55569321263480,
+      "product_title": "Leather Wander Backpack . Nut",
+      "variant_title": "Default Title",
+      "price_usd": 1498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15030448652664,
+      "variant_id": 55569311629688,
+      "product_title": "Leather Easy Duffel Bag . Nut",
+      "variant_title": "Default Title",
+      "price_usd": 898.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15008408994168,
+      "variant_id": 55467976360312,
+      "product_title": "Protect Eyewear Case . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 228.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 2247028805,
+      "variant_id": 37085779853478,
+      "product_title": "Slide Camera Wrist Strap . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001138102648,
+      "variant_id": 55431875232120,
+      "product_title": "Pack All Satchel Bag . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 15008399065464,
+      "variant_id": 55467912102264,
+      "product_title": "Apple Pears . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008397427064,
+      "variant_id": 55467904237944,
+      "product_title": "Apple Pears . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008409420152,
+      "variant_id": 55467982029176,
+      "product_title": "Take Care Passport Case . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 158.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008409551224,
+      "variant_id": 55467983733112,
+      "product_title": "Take Care Passport Case . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 158.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008404177272,
+      "variant_id": 55467946377592,
+      "product_title": "Protect Eyewear Case . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 228.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1406510202931,
+      "variant_id": 37085691871398,
+      "product_title": "Long Haul Briefcase . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1406508990515,
+      "variant_id": 37085691052198,
+      "product_title": "Long Haul Briefcase . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15013696340344,
+      "variant_id": 55503390671224,
+      "product_title": "Open Derby . Classic",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008634732920,
+      "variant_id": 55483791180152,
+      "product_title": "Offhand Shoulder Bag . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 998.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008634667384,
+      "variant_id": 55488788398456,
+      "product_title": "Offhand Shoulder Bag . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 998.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8334171275562,
+      "variant_id": 45258222403882,
+      "product_title": "Alpine Duck Boots . Black",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15012837425528,
+      "variant_id": 55499453071736,
+      "product_title": "Cash Card Wallet . Off Grey",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15012819992952,
+      "variant_id": 55499415388536,
+      "product_title": "Special One Pencil Case . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 108.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008399851896,
+      "variant_id": 55467920130424,
+      "product_title": "Palm Key Fold . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15008401588600,
+      "variant_id": 55467932254584,
+      "product_title": "Palm Key Fold . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001145966968,
+      "variant_id": 55431886078328,
+      "product_title": "Lean Card Case . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001138528632,
+      "variant_id": 55431876051320,
+      "product_title": "2 Trick Pony Card Wallet . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 188.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001146098040,
+      "variant_id": 55431886242168,
+      "product_title": "Lean Card Case . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001145803128,
+      "variant_id": 55431885914488,
+      "product_title": "2 Trick Pony Card Wallet . Deep Brown",
+      "variant_title": "Default Title",
+      "price_usd": 188.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 15001136726392,
+      "variant_id": 55431870349688,
+      "product_title": "Pack All Satchel Bag . Black Raw",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8313044468010,
+      "variant_id": 55446968467832,
+      "product_title": "Berg Rucksack . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 598.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 7085478019238,
+      "variant_id": 55364716167544,
+      "product_title": "Layover Holdall . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 898.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14985879912824,
+      "variant_id": 55361395425656,
+      "product_title": "New Heritage MacBook Sleeve",
+      "variant_title": "13\" Macbook Air",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14985879912824,
+      "variant_id": 55361395458424,
+      "product_title": "New Heritage MacBook Sleeve",
+      "variant_title": "15\" MacBook Air",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14985879912824,
+      "variant_id": 55379570131320,
+      "product_title": "New Heritage MacBook Sleeve",
+      "variant_title": "14\u201d Macbook Pro",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14985879912824,
+      "variant_id": 55379570196856,
+      "product_title": "New Heritage MacBook Sleeve",
+      "variant_title": "16\u201d Macbook Pro",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8832645103914,
+      "variant_id": 47270173016362,
+      "product_title": "Folding Laptop Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131513720,
+      "variant_id": 55291318632824,
+      "product_title": "Alpine Duck Boots . Mud",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131513720,
+      "variant_id": 55291318665592,
+      "product_title": "Alpine Duck Boots . Mud",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131513720,
+      "variant_id": 55291318796664,
+      "product_title": "Alpine Duck Boots . Mud",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291342913912,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291342946680,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291342979448,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291343012216,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291343044984,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133479800,
+      "variant_id": 55291343077752,
+      "product_title": "Runner Sneaker . Mud",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384594808,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384627576,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384660344,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384693112,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384725880,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970142065016,
+      "variant_id": 55291384758648,
+      "product_title": "Pure Suede Shoes . Rock",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387609464,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387642232,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387675000,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387707768,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387740536,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970143572344,
+      "variant_id": 55291387773304,
+      "product_title": "Pure Suede Shoes . Earth",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131906936,
+      "variant_id": 55291320402296,
+      "product_title": "Pure High Boots . Mud",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131906936,
+      "variant_id": 55291320435064,
+      "product_title": "Pure High Boots . Mud",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131906936,
+      "variant_id": 55291320467832,
+      "product_title": "Pure High Boots . Mud",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131906936,
+      "variant_id": 55291320500600,
+      "product_title": "Pure High Boots . Mud",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970131906936,
+      "variant_id": 55291320533368,
+      "product_title": "Pure High Boots . Mud",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291325841784,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291325874552,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291325907320,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291325940088,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291325972856,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970132922744,
+      "variant_id": 55291326005624,
+      "product_title": "Pure High Boots . Rock",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346682232,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346715000,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346747768,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346780536,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346813304,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970133971320,
+      "variant_id": 55291346846072,
+      "product_title": "Runner Sneaker . Rock",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396161912,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396194680,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396227448,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396260216,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396292984,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970144915832,
+      "variant_id": 55291396325752,
+      "product_title": "Pure Leather Sneakers . Mud",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 488.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970147668344,
+      "variant_id": 55291405304184,
+      "product_title": "Lazy Loafers . Earth",
+      "variant_title": "42 / US 9 / UK 8",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14970147668344,
+      "variant_id": 55291405336952,
+      "product_title": "Lazy Loafers . Earth",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970147668344,
+      "variant_id": 55291405402488,
+      "product_title": "Lazy Loafers . Earth",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970147668344,
+      "variant_id": 55291405435256,
+      "product_title": "Lazy Loafers . Earth",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8956440581,
+      "variant_id": 37085677420710,
+      "product_title": "Laidback Messenger . Off Grey",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130891128,
+      "variant_id": 55291317387640,
+      "product_title": "Big Hike Boots . Mud",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130891128,
+      "variant_id": 55291317420408,
+      "product_title": "Big Hike Boots . Mud",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970127778168,
+      "variant_id": 55291309490552,
+      "product_title": "Big Hairy Hike Boots . Rock",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970127778168,
+      "variant_id": 55291311292792,
+      "product_title": "Big Hairy Hike Boots . Rock",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970127778168,
+      "variant_id": 55291311358328,
+      "product_title": "Big Hairy Hike Boots . Rock",
+      "variant_title": "EU 44 / US 11 / UK 10",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970127778168,
+      "variant_id": 55291312177528,
+      "product_title": "Big Hairy Hike Boots . Rock",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970127778168,
+      "variant_id": 55291312570744,
+      "product_title": "Big Hairy Hike Boots . Rock",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130956664,
+      "variant_id": 55291317485944,
+      "product_title": "Big Hairy Hike Boots . Earth",
+      "variant_title": "EU 41 / US 8 / UK 7",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130956664,
+      "variant_id": 55291317518712,
+      "product_title": "Big Hairy Hike Boots . Earth",
+      "variant_title": "EU 42 / US 9 / UK 8",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130956664,
+      "variant_id": 55291317551480,
+      "product_title": "Big Hairy Hike Boots . Earth",
+      "variant_title": "EU 43 / US 10 / UK 9",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14970130956664,
+      "variant_id": 55291317617016,
+      "product_title": "Big Hairy Hike Boots . Earth",
+      "variant_title": "EU 45 / US 12 / UK 11",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14970130956664,
+      "variant_id": 55291317649784,
+      "product_title": "Big Hairy Hike Boots . Earth",
+      "variant_title": "EU 46 / US 13 / UK 12",
+      "price_usd": 558.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968173887864,
+      "variant_id": 55291751924088,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Classic",
+      "variant_title": "iPhone Air",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968173887864,
+      "variant_id": 55285487960440,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Classic",
+      "variant_title": "iPhone 17 Pro or 17",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968173887864,
+      "variant_id": 55285487927672,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Classic",
+      "variant_title": "iPhone 17 Pro Max",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968776950136,
+      "variant_id": 55291750154616,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Off Grey",
+      "variant_title": "iPhone Air",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14968776950136,
+      "variant_id": 55287029432696,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Off Grey",
+      "variant_title": "iPhone 17 Pro or 17",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968776950136,
+      "variant_id": 55287029465464,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Off Grey",
+      "variant_title": "iPhone 17 Pro Max",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968781701496,
+      "variant_id": 55291747467640,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Coal",
+      "variant_title": "iPhone Air",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14968781701496,
+      "variant_id": 55287043752312,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Coal",
+      "variant_title": "iPhone 17 Pro or 17",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14968781701496,
+      "variant_id": 55287043785080,
+      "product_title": "Masterpiece Pocket iPhone 17 Cases . Coal",
+      "variant_title": "iPhone 17 Pro Max",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14961565958520,
+      "variant_id": 55264032981368,
+      "product_title": "Fuzzy Alcantara iPhone 17 Cases",
+      "variant_title": "iPhone 17 Air",
+      "price_usd": 88.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14961565958520,
+      "variant_id": 55264033014136,
+      "product_title": "Fuzzy Alcantara iPhone 17 Cases",
+      "variant_title": "iPhone 17 Pro",
+      "price_usd": 88.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14961565958520,
+      "variant_id": 55264033046904,
+      "product_title": "Fuzzy Alcantara iPhone 17 Cases",
+      "variant_title": "iPhone 17 Pro Max",
+      "price_usd": 88.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6938483490982,
+      "variant_id": 40814509293734,
+      "product_title": "Belted Dopp Kit . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 248.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14944750535032,
+      "variant_id": 55207274348920,
+      "product_title": "H Large Messenger Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14941010035064,
+      "variant_id": 55189268496760,
+      "product_title": "Firm Grip Camera Wrist Strap . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14944752894328,
+      "variant_id": 55207278510456,
+      "product_title": "Touring Duffel Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 678.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14944752664952,
+      "variant_id": 55207278182776,
+      "product_title": "Touring Duffel Bag . Charcoal",
+      "variant_title": "Default Title",
+      "price_usd": 678.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14938010091896,
+      "variant_id": 55174328746360,
+      "product_title": "Closest Ally Belt Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 248.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14938010026360,
+      "variant_id": 55174328680824,
+      "product_title": "Closest Ally Belt Bag . Natural",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 94726530,
+      "variant_id": 19498788421,
+      "product_title": "Flat Pack . Classic",
+      "variant_title": "14 inch / 13 inch / Air / Small",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 94726530,
+      "variant_id": 32375505256584,
+      "product_title": "Flat Pack . Classic",
+      "variant_title": "16 inch / 15 inch / Air / Large",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 551113883699,
+      "variant_id": 55174320652664,
+      "product_title": "Flat Pack . Coal",
+      "variant_title": "14 inch / 13 inch / Air / Small",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 551113883699,
+      "variant_id": 7264188727347,
+      "product_title": "Flat Pack . Coal",
+      "variant_title": "16 inch / 15 inch / Air / Large",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8956432645,
+      "variant_id": 37085675258022,
+      "product_title": "Laidback Messenger . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8956422085,
+      "variant_id": 55500695798136,
+      "product_title": "Laidback Messenger . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14897121034616,
+      "variant_id": 54987173659000,
+      "product_title": "Cash Card Wallet . Dark Chocolate",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14894864433528,
+      "variant_id": 55364525425016,
+      "product_title": "Billfolder . Dark Chocolate",
+      "variant_title": "Default Title",
+      "price_usd": 178.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14902893937016,
+      "variant_id": 55011301884280,
+      "product_title": "Chef Market Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898744459640,
+      "variant_id": 54994900550008,
+      "product_title": "Signature Wool Tote Bag Wide . Cocoa",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898743935352,
+      "variant_id": 54994899009912,
+      "product_title": "Signature Wool Tote Bag Tall . Cocoa",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898743804280,
+      "variant_id": 54994898485624,
+      "product_title": "Signature Wool Tote Bag Wide . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898743345528,
+      "variant_id": 54994896519544,
+      "product_title": "Signature Wool Tote Bag Tall . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898217091448,
+      "variant_id": 54993213260152,
+      "product_title": "Fuzzy Alcantara iPhone 16 Cases",
+      "variant_title": "iPhone 16",
+      "price_usd": 48.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898217091448,
+      "variant_id": 54993213292920,
+      "product_title": "Fuzzy Alcantara iPhone 16 Cases",
+      "variant_title": "iPhone 16 Plus",
+      "price_usd": 48.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898217091448,
+      "variant_id": 54993204412792,
+      "product_title": "Fuzzy Alcantara iPhone 16 Cases",
+      "variant_title": "iPhone 16 Pro",
+      "price_usd": 48.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 14898217091448,
+      "variant_id": 54993213161848,
+      "product_title": "Fuzzy Alcantara iPhone 16 Cases",
+      "variant_title": "iPhone 16 Pro Max",
+      "price_usd": 48.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 581525930035,
+      "variant_id": 55364543381880,
+      "product_title": "Duotone Camera Strap . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8340017086762,
+      "variant_id": 45284653531434,
+      "product_title": "Hold On Valet Tray Medium Square . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8817505534250,
+      "variant_id": 47204659298602,
+      "product_title": "Brothers Dopp Kit Duo . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 178.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 14834563973496,
+      "variant_id": 53654855647608,
+      "product_title": "Poet Leather Tote Bag . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 388.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728641834,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 41 / US 8",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728674602,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728707370,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728740138,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728772906,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754835849514,
+      "variant_id": 46984728805674,
+      "product_title": "R1 Sneaker . Dusty Black Suede",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754843320618,
+      "variant_id": 46984783298858,
+      "product_title": "R1 Sneaker . Dirty White Suede",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9231280767274,
+      "variant_id": 48527932326186,
+      "product_title": "Misfit Backpack . Natural",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9231278080298,
+      "variant_id": 48527919579434,
+      "product_title": "Misfit Backpack . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9193978102058,
+      "variant_id": 48451893920042,
+      "product_title": "Keeper Tote Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754844139818,
+      "variant_id": 46984789786922,
+      "product_title": "R1 Sneaker . Sand Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754844139818,
+      "variant_id": 46984789852458,
+      "product_title": "R1 Sneaker . Sand Suede",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9183565676842,
+      "variant_id": 48423944028458,
+      "product_title": "Proper Laptop Bag . Charcoal",
+      "variant_title": "16 / 15 inch Large",
+      "price_usd": 348.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9183557910826,
+      "variant_id": 48423923679530,
+      "product_title": "Proper Laptop Bag . Brownish",
+      "variant_title": "14 / 13 inch / Air Medium",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9183557910826,
+      "variant_id": 48423923712298,
+      "product_title": "Proper Laptop Bag . Brownish",
+      "variant_title": "16 / 15 inch Large",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754844762410,
+      "variant_id": 46984793653546,
+      "product_title": "R1 Sneaker . Sage Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754845319466,
+      "variant_id": 46984798798122,
+      "product_title": "R1 Sneaker . Tan Suede",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754845319466,
+      "variant_id": 46984798830890,
+      "product_title": "R1 Sneaker . Tan Suede",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754838143274,
+      "variant_id": 46984742732074,
+      "product_title": "R1 Sneaker . Forest Green Suede",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839257386,
+      "variant_id": 46984749842730,
+      "product_title": "R1 Sneaker . Earth Brown Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839257386,
+      "variant_id": 46984749875498,
+      "product_title": "R1 Sneaker . Earth Brown Suede",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839257386,
+      "variant_id": 46984749908266,
+      "product_title": "R1 Sneaker . Earth Brown Suede",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 478.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839781674,
+      "variant_id": 46984754102570,
+      "product_title": "R1 Sneaker . Black Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839781674,
+      "variant_id": 46984754168106,
+      "product_title": "R1 Sneaker . Black Suede",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839781674,
+      "variant_id": 46984754200874,
+      "product_title": "R1 Sneaker . Black Suede",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8754839781674,
+      "variant_id": 46984754233642,
+      "product_title": "R1 Sneaker . Black Suede",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8832644448554,
+      "variant_id": 47270172131626,
+      "product_title": "Folding Laptop Bag . Black Charcoal",
+      "variant_title": "Default Title",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8782691238186,
+      "variant_id": 47060686766378,
+      "product_title": "Roll-Top Backpack  . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 548.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8790032253226,
+      "variant_id": 47097448300842,
+      "product_title": "Key Fold . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 68.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 1005674720,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a350 / $50 / \u20ac50",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 423130037,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a375 / $75 / \u20ac75",
+      "price_usd": 75.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 1011009572,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3100 / $100 / \u20ac100",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 1011009948,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3150 / $150 / \u20ac150",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 424783869,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3200 / $200 / \u20ac200",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 7303944773,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3250 / $250 / \u20ac250",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 43133303685286,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3350 / $350 / \u20ac350",
+      "price_usd": 350.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 184756081,
+      "variant_id": 24298031301,
+      "product_title": "Instant Gift Card",
+      "variant_title": "\u00a3500 / $500 / \u20ac500",
+      "price_usd": 500.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8653264191786,
+      "variant_id": 46688104349994,
+      "product_title": "House Holdall . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 698.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8339971703082,
+      "variant_id": 45284117184810,
+      "product_title": "Eyewear Wool Wrap . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 88.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333919977770,
+      "variant_id": 45256889172266,
+      "product_title": "S3 Sneaker . Dusty Black",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333919977770,
+      "variant_id": 45256889237802,
+      "product_title": "S3 Sneaker . Dusty Black",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8334025949482,
+      "variant_id": 45257446392106,
+      "product_title": "S3 Sneaker . Chestnut",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8334025949482,
+      "variant_id": 45257446424874,
+      "product_title": "S3 Sneaker . Chestnut",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8334025949482,
+      "variant_id": 45257446457642,
+      "product_title": "S3 Sneaker . Chestnut",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8340007354666,
+      "variant_id": 45284529307946,
+      "product_title": "Hold On Valet Tray Medium Wide . Cocoa",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8339997065514,
+      "variant_id": 45284393910570,
+      "product_title": "Hold On Valet Tray Small Square . Cocoa",
+      "variant_title": "Default Title",
+      "price_usd": 108.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8339979927850,
+      "variant_id": 45284192518442,
+      "product_title": "Cable Wool Wrap . Cocoa",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8339978551594,
+      "variant_id": 45284175151402,
+      "product_title": "Cable Wool Wrap . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8339975242026,
+      "variant_id": 45284149068074,
+      "product_title": "Pencil Wool Wrap . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 88.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333938557226,
+      "variant_id": 45257018048810,
+      "product_title": "Pure Chelsea Boot . Dusty Black",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333938557226,
+      "variant_id": 45257018278186,
+      "product_title": "Pure Chelsea Boot . Dusty Black",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8333942227242,
+      "variant_id": 45257030500650,
+      "product_title": "Pure Chelsea Boot . Tobacco",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8340033241386,
+      "variant_id": 45284857545002,
+      "product_title": "Fly Travel Kit . Black Brownish 3 Pack",
+      "variant_title": "2 small + 1 medium",
+      "price_usd": 168.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8340036944170,
+      "variant_id": 45284882841898,
+      "product_title": "Fly Travel Kit . Forest 3 Pack",
+      "variant_title": "2 small + 1 medium",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8362517332266,
+      "variant_id": 45420882592042,
+      "product_title": "Content Case Small . Brownish",
+      "variant_title": "Small",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8362516250922,
+      "variant_id": 45420880494890,
+      "product_title": "Content Case Small . Forest",
+      "variant_title": "Small",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8362518446378,
+      "variant_id": 45420885246250,
+      "product_title": "Content Case Medium . Forest",
+      "variant_title": "Medium",
+      "price_usd": 138.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333994295594,
+      "variant_id": 45257288810794,
+      "product_title": "Pure Derby Shoe . Tobacco",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333980827946,
+      "variant_id": 45257262596394,
+      "product_title": "Pure Derby Shoe . Chocolate",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333980827946,
+      "variant_id": 45257223438634,
+      "product_title": "Pure Derby Shoe . Chocolate",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8333980827946,
+      "variant_id": 45257284321578,
+      "product_title": "Pure Derby Shoe . Chocolate",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8269243187498,
+      "variant_id": 45193693888810,
+      "product_title": "H Small Messenger Bag . Classic Natural",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8269349552426,
+      "variant_id": 45193527689514,
+      "product_title": "H Small Messenger Bag . Forest",
+      "variant_title": "Default Title",
+      "price_usd": 378.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8269341294890,
+      "variant_id": 44990567743786,
+      "product_title": "H Small Messenger Bag . Brownish",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7370615685286,
+      "variant_id": 42674178850982,
+      "product_title": "iPad Wool Envelope",
+      "variant_title": "Small (iPad mini)",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7370615685286,
+      "variant_id": 42674178883750,
+      "product_title": "iPad Wool Envelope",
+      "variant_title": "Medium (iPad 11\u201d/iPad Pro/Air)",
+      "price_usd": 138.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7370615685286,
+      "variant_id": 42674178916518,
+      "product_title": "iPad Wool Envelope",
+      "variant_title": "Large (iPad 13\u201d / 12.9\u201d",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 42180802,
+      "variant_id": 37085331161254,
+      "product_title": "2Unfold Laptop Bag . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 798.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 4293364220040,
+      "variant_id": 37085550379174,
+      "product_title": "Frame Camera Bag . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7405715882150,
+      "variant_id": 42866513772710,
+      "product_title": "Alpine Duck Boots . Dusty Black",
+      "variant_title": "EU 40 / US 7",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7405710278822,
+      "variant_id": 42866484314278,
+      "product_title": "Alpine Derby Shoes . Chestnut",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7405710278822,
+      "variant_id": 42866484347046,
+      "product_title": "Alpine Derby Shoes . Chestnut",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7405710278822,
+      "variant_id": 42866484379814,
+      "product_title": "Alpine Derby Shoes . Chestnut",
+      "variant_title": "EU 46 / US 13",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7405716930726,
+      "variant_id": 42866518130854,
+      "product_title": "Alpine Duck Boots . Chestnut Black",
+      "variant_title": "EU 40 / US 7",
+      "price_usd": 498.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6897934074022,
+      "variant_id": 55364564124024,
+      "product_title": "Push Card Case . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7404438159526,
+      "variant_id": 55367426802040,
+      "product_title": "Future Proof Key Air Tag . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 78.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7328816267430,
+      "variant_id": 42469030363302,
+      "product_title": "Fast Track Passport Wallet . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 138.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7379231506598,
+      "variant_id": 42721636810918,
+      "product_title": "Leather Envelope 11\u201d . Coal",
+      "variant_title": "Medium (iPad Pro 11\" / iPad Air)",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7345570381990,
+      "variant_id": 46772340687146,
+      "product_title": "Skinny Fit iPad Case",
+      "variant_title": "iPad mini",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7345570381990,
+      "variant_id": 42548113014950,
+      "product_title": "Skinny Fit iPad Case",
+      "variant_title": "iPad Pro 11\u201d / Air / iPad",
+      "price_usd": 128.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7345570381990,
+      "variant_id": 42548120420518,
+      "product_title": "Skinny Fit iPad Case",
+      "variant_title": "iPad Pro 13\" / 12.9\u201d",
+      "price_usd": 148.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7328787333286,
+      "variant_id": 55364537155960,
+      "product_title": "Card Fold Wallet . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 118.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7161208453,
+      "variant_id": 6846255661107,
+      "product_title": "Deep MacBook Case . Coal",
+      "variant_title": "14 / 13 Inch / Air - Medium",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7161208453,
+      "variant_id": 31296805077128,
+      "product_title": "Deep MacBook Case . Coal",
+      "variant_title": "16 / 15 - Large",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1461492777011,
+      "variant_id": 37085434020006,
+      "product_title": "Cash Card Coin Wallet . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7100113453222,
+      "variant_id": 41485239910566,
+      "product_title": "Collectors Watch Case . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7100106211494,
+      "variant_id": 41485211107494,
+      "product_title": "Collectors Watch Case . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7085483032742,
+      "variant_id": 41433974374566,
+      "product_title": "Layover Holdall . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 898.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6938477035686,
+      "variant_id": 40814496481446,
+      "product_title": "Frame Camera Bag . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6938480541862,
+      "variant_id": 40814503952550,
+      "product_title": "Belted Dopp Kit . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 248.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6861765542054,
+      "variant_id": 40453151457446,
+      "product_title": "Fat Stick Pencil Case . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 108.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 6742357475494,
+      "variant_id": 39972494147750,
+      "product_title": "Pure Sneakers . Hairy Brown",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4633967001736,
+      "variant_id": 32634615857288,
+      "product_title": "Chukka Boots . Black Woven",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4633967001736,
+      "variant_id": 32634615922824,
+      "product_title": "Chukka Boots . Black Woven",
+      "variant_title": "EU 44 / US 11",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4633967001736,
+      "variant_id": 32634615988360,
+      "product_title": "Chukka Boots . Black Woven",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4656249897096,
+      "variant_id": 32701466312840,
+      "product_title": "Straight Side Mid Top . Black",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 448.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 5677354287270,
+      "variant_id": 37085751640230,
+      "product_title": "Essentials Pack . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7532566533,
+      "variant_id": 37085720608934,
+      "product_title": "One Pack . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4633967231112,
+      "variant_id": 32634618970248,
+      "product_title": "Pure Sneakers . Dirty White",
+      "variant_title": "EU 45 / US 12",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4633967231112,
+      "variant_id": 55503402500472,
+      "product_title": "Pure Sneakers . Dirty White",
+      "variant_title": "EU 43 / US 10",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 4259767287944,
+      "variant_id": 39972652089510,
+      "product_title": "Chelsea Sneaker Boots . Off Black Suede",
+      "variant_title": "EU 42 / US 9",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4259767287944,
+      "variant_id": 55503366652280,
+      "product_title": "Chelsea Sneaker Boots . Off Black Suede",
+      "variant_title": "EU 41 / US 8",
+      "price_usd": 398.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4355895459976,
+      "variant_id": 31226353877128,
+      "product_title": "Slim Eyewear Case . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 108.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 2123005460531,
+      "variant_id": 18338036154419,
+      "product_title": "Slim Eyewear Case . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 108.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7213833669,
+      "variant_id": 6846250254387,
+      "product_title": "Deep MacBook Case . Classic",
+      "variant_title": "14 / 13 inch / Air - Medium",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 7213833669,
+      "variant_id": 31296804028552,
+      "product_title": "Deep MacBook Case . Classic",
+      "variant_title": "16 / 15 - Large",
+      "price_usd": 298.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 1461461712947,
+      "variant_id": 55368356004216,
+      "product_title": "Push Card Case . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 78.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1461497659443,
+      "variant_id": 37085445259430,
+      "product_title": "Cash Card Wallet . Classic",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1461497004083,
+      "variant_id": 37085452206246,
+      "product_title": "Cash Card Wallet . Coal",
+      "variant_title": "Default Title",
+      "price_usd": 198.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8956610053,
+      "variant_id": 37085426122918,
+      "product_title": "Capable Card Case. Classic",
+      "variant_title": "Default Title",
+      "price_usd": 98.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    }
+  ]
+}

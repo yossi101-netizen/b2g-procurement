@@ -1,0 +1,27 @@
+{
+  "interest_profile": "I am an entrepreneur managing operations in both physical manufacturing and digital AI tools. I want deep, operator-level content on: B2B manufacturing and global sourcing strategies (e.g., India/China-Plus-One), supply chain optimization and quality control for physical goods (leather, retail), AI-driven business automation architectures, and behavioral/psychometric data models for venture capital risk assessment. I am NOT interested in: generic motivational content, dropshipping/get-rich-quick schemes, lifestyle vlogs, or surface-level marketing trends.",
+  
+  "max_summary_tokens": 1500,
+  
+  "discovery": {
+    "cache_ttl_hours": 24,
+    "limit": 300,
+    "hydration_pool_size": 40,
+    "hydration_workers": 3
+  },
+  
+  "scoring": {
+    "stage_a_batch_size": 50,
+    "diversity_enabled": true
+  },
+  
+  "duration_filter": {
+    "min_sec": 90,
+    "max_sec": 3599
+  },
+  
+  "transcript": {
+    "languages": ["en", "en-US", "en-GB"],
+    "use_whisper_fallback": false
+  }
+}

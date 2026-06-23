@@ -1,0 +1,93 @@
+{
+  "LeatherDiscoveryAgent": {
+    "agent_id": "LeatherDiscoveryAgent",
+    "run_timestamp": "2026-05-13T19:03:29.821016+00:00",
+    "status": "OK",
+    "queries_attempted": 4,
+    "results_collected": 30,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 27.64,
+    "domains_new": 0,
+    "domains_already_known": 30
+  },
+  "LateralIndustryAgent": {
+    "agent_id": "LateralIndustryAgent",
+    "run_timestamp": "2026-05-13T19:03:57.505275+00:00",
+    "status": "OK",
+    "queries_attempted": 39,
+    "results_collected": 199,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 237.42,
+    "domains_new": 49,
+    "domains_already_known": 361
+  },
+  "ShopifyFootprintAgent": {
+    "agent_id": "ShopifyFootprintAgent",
+    "run_timestamp": "2026-05-13T19:13:29.433452+00:00",
+    "status": "OK",
+    "queries_attempted": 12,
+    "results_collected": 91,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 90.78,
+    "domains_new": 14,
+    "domains_already_known": 168
+  },
+  "CompetitorLookalikeAgent": {
+    "agent_id": "CompetitorLookalikeAgent",
+    "run_timestamp": "2026-05-13T19:16:56.045454+00:00",
+    "status": "OK",
+    "queries_attempted": 1,
+    "results_collected": 0,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 35.55,
+    "domains_new": 0,
+    "domains_already_known": 0
+  },
+  "ProcurementAgent": {
+    "agent_id": "ProcurementAgent",
+    "run_timestamp": "2026-05-13T19:17:31.636621+00:00",
+    "status": "OK",
+    "queries_attempted": 48,
+    "results_collected": 57,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 123.02,
+    "domains_new": 20,
+    "domains_already_known": 153
+  },
+  "SocialOnlyAgent": {
+    "agent_id": "SocialOnlyAgent",
+    "run_timestamp": "2026-05-13T19:23:45.531387+00:00",
+    "status": "OK",
+    "queries_attempted": 234,
+    "results_collected": 126,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 609.99,
+    "domains_new": 74,
+    "domains_already_known": 207
+  },
+  "PurchaseIntentAgent": {
+    "agent_id": "PurchaseIntentAgent",
+    "run_timestamp": "2026-05-13T19:46:12.089357+00:00",
+    "status": "OK",
+    "queries_attempted": 21,
+    "results_collected": 109,
+    "leads_upserted": 0,
+    "antibot_triggers": 0,
+    "error_message": null,
+    "duration_seconds": 133.41,
+    "domains_new": 42,
+    "domains_already_known": 183
+  }
+}

@@ -1,0 +1,255 @@
+<!--
+================================================================================
+🔧 DEVELOPER PREFACE — READ BEFORE DEPLOYING
+================================================================================
+
+FILE PURPOSE:
+  This file contains three JSON-LD Schema blocks for Agentic SEO (GEO).
+  They tell Google, ChatGPT (GPTBot), and Gemini the verified facts about
+  KritiKaal as a company, its managed manufacturing service, and its founder.
+  Schema JSON-LD is one of the strongest signals for AI citation accuracy —
+  it gives AI models machine-verified data they can ground responses in.
+
+EXACT PLACEMENT:
+  Paste ALL THREE <script> blocks inside the <head>...</head> section
+  of EVERY page on kritikaal.com (homepage, about, why-kritikal, why-india,
+  how-it-works, products, bookacall, and all future blog articles).
+
+  If the site uses a CMS or framework (Framer, Next.js, etc.), paste into
+  the global <head> component so it applies site-wide automatically.
+
+  Do NOT paste in the <body>. Head only.
+
+ACTION REQUIRED:
+  DELETE THIS PREFACE COMMENT before deploying.
+  SAFE IF FORGOTTEN: HTML comments are invisible to browsers and crawlers
+  and will not break any functionality — but removing keeps the code clean.
+
+PLACEHOLDERS STATUS — ALL FILLED (2026-04-26):
+  LinkedIn URL  → https://www.linkedin.com/in/yossi-daniel-5145676a/
+  Founding Year → 2026
+  Logo URL      → https://kritikaal.com/KRITIKAAL%20Logo.png
+
+================================================================================
+-->
+
+
+<!-- ============================================================
+     SCHEMA BLOCK 1 OF 3: Organization
+     What this does: Declares KritiKaal as a verified business entity
+     with its services, certifications, location, and founder.
+     AI models use this to answer: "What is KritiKaal?" and
+     "What does KritiKaal do?"
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "@id": "https://kritikaal.com/#organization",
+  "name": "KritiKaal",
+  "alternateName": "KritiKaal Managed Leather Manufacturing",
+  "url": "https://kritikaal.com",
+  "logo": {
+    "@type": "ImageObject",
+    "url": "https://kritikaal.com/KRITIKAAL%20Logo.png",
+    "width": 300,
+    "height": 60
+  },
+  "description": "KritiKaal is the United Kingdom's managed leather manufacturing partner in India — engineering the end-to-end supply chain for anchor-tier fashion brands from a qualified factory bench across Chennai, Kolkata, Kanpur, and Agra, with LWG, BSCI/SA8000, and EUDR compliance built in, AQL 2.5 quality control on every production run, and full export documentation handled by our UK-based account team.",
+  "foundingDate": "2026",
+  "founder": {
+    "@type": "Person",
+    "@id": "https://kritikaal.com/#founder",
+    "name": "Yossi Daniel"
+  },
+  "address": {
+    "@type": "PostalAddress",
+    "addressCountry": "GB",
+    "addressRegion": "United Kingdom"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "European Union"
+    }
+  ],
+  "knowsAbout": [
+    "Managed leather manufacturing",
+    "India leather manufacturing",
+    "LWG certification",
+    "EUDR compliance for leather brands",
+    "China Plus One manufacturing strategy",
+    "AQL 2.5 quality control",
+    "B2B leather goods manufacturing",
+    "SA8000 social compliance",
+    "BSCI factory audits",
+    "EUDR due diligence statements",
+    "Full-grain leather goods",
+    "UK fashion brand supply chain management"
+  ],
+  "hasCredential": [
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "LWG — Leather Working Group Member",
+      "credentialCategory": "Environmental and Material Traceability Certification",
+      "recognizedBy": {
+        "@type": "Organization",
+        "name": "Leather Working Group",
+        "url": "https://www.leatherworkinggroup.com"
+      }
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SA8000 Social Accountability",
+      "credentialCategory": "Social Compliance Certification"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "SEDEX SMETA 4-Pillar",
+      "credentialCategory": "Ethical Trade Audit"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "EUDR Compliant Supply Chain",
+      "credentialCategory": "EU Deforestation Regulation Compliance"
+    },
+    {
+      "@type": "EducationalOccupationalCredential",
+      "name": "REACH Compliant",
+      "credentialCategory": "European Chemical Safety Compliance"
+    }
+  ],
+  "contactPoint": {
+    "@type": "ContactPoint",
+    "contactType": "Sales and Procurement Enquiries",
+    "url": "https://kritikaal.com/bookacall",
+    "availableLanguage": "English"
+  },
+  "sameAs": [
+    "https://www.linkedin.com/in/yossi-daniel-5145676a/"
+  ]
+}
+</script>
+
+
+<!-- ============================================================
+     SCHEMA BLOCK 2 OF 3: Service
+     What this does: Formally describes KritiKaal's managed
+     manufacturing service as a structured, machine-readable entity.
+     AI models use this to answer: "How does KritiKaal work?" and
+     "What is managed leather manufacturing?"
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Service",
+  "@id": "https://kritikaal.com/#service",
+  "name": "Managed Leather Manufacturing",
+  "alternateName": "End-to-End Leather Production Management",
+  "serviceType": "Managed Manufacturing",
+  "description": "KritiKaal provides end-to-end managed leather manufacturing in India for UK and European anchor-tier fashion brands. The service covers specification locking, material confirmation against golden sample, in-process quality control, AQL 2.5 final inspection, EUDR due diligence documentation, and export-ready delivery — under single-point accountability.",
+  "provider": {
+    "@type": "Organization",
+    "@id": "https://kritikaal.com/#organization",
+    "name": "KritiKaal"
+  },
+  "areaServed": [
+    {
+      "@type": "Country",
+      "name": "United Kingdom"
+    },
+    {
+      "@type": "Country",
+      "name": "European Union"
+    }
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": "UK and European anchor-tier fashion brands sourcing premium leather goods"
+  },
+  "hasOfferCatalog": {
+    "@type": "OfferCatalog",
+    "name": "KritiKaal Manufacturing Services",
+    "itemListElement": [
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Leather Bags Production Management",
+          "description": "End-to-end managed manufacturing of full-grain leather bags including structured totes, satchels, shoulder bags, and backpacks. LWG-sourced leather. AQL 2.5 QC. EUDR-compliant documentation."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Small Leather Goods Production Management",
+          "description": "Managed manufacturing of wallets, card holders, belts, and leather accessories. Full-grain and aniline leathers. YKK hardware. SA8000 and REACH compliant."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "EUDR Compliance Documentation",
+          "description": "Assembly of full EUDR due diligence statement package including hide origin documentation, LWG tannery certification, factory audit certificates, and production-run traceability records."
+        }
+      },
+      {
+        "@type": "Offer",
+        "itemOffered": {
+          "@type": "Service",
+          "name": "Golden Sample Qualification",
+          "description": "AQL 2.5 evaluation of production samples across 8 criteria: leather thickness, stitching density, hardware security, edge finishing, lining attachment, base stud positioning, handle attachment, and overall silhouette."
+        }
+      }
+    ]
+  },
+  "termsOfService": "https://kritikaal.com/why-kritikal",
+  "url": "https://kritikaal.com/how-it-works"
+}
+</script>
+
+
+<!-- ============================================================
+     SCHEMA BLOCK 3 OF 3: Person (Founder — E-E-A-T Signal)
+     What this does: Establishes Yossi Daniel as a named, verifiable
+     expert in managed leather manufacturing. This is an E-E-A-T
+     (Experience, Expertise, Authority, Trust) signal that AI models
+     weight heavily when deciding whether to cite content.
+     AI models use this to answer: "Who is the founder of KritiKaal?"
+     and to attribute authored articles to a real expert.
+     ============================================================ -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "@id": "https://kritikaal.com/#founder",
+  "name": "Yossi Daniel",
+  "jobTitle": "Founder & CEO",
+  "worksFor": {
+    "@type": "Organization",
+    "@id": "https://kritikaal.com/#organization",
+    "name": "KritiKaal"
+  },
+  "description": "Yossi Daniel is the Founder and CEO of KritiKaal, the UK's managed leather manufacturing partner in India. He has hands-on experience in overseas leather production since 2012, including direct manufacturing management in China. His experience exposed the structural accountability gap in traditional sourcing — the absence of a single party owning quality outcomes — which KritiKaal was founded to solve.",
+  "knowsAbout": [
+    "Managed leather manufacturing",
+    "India leather manufacturing",
+    "Supply chain risk management",
+    "LWG certification",
+    "EUDR compliance",
+    "AQL 2.5 quality control",
+    "China Plus One strategy",
+    "B2B fashion brand manufacturing partnerships"
+  ],
+  "url": "https://kritikaal.com/about",
+  "sameAs": [
+    "https://www.linkedin.com/in/yossi-daniel-5145676a/"
+  ]
+}
+</script>

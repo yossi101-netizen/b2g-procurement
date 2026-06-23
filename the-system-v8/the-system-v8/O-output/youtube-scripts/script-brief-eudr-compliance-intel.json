@@ -1,0 +1,75 @@
+{
+  "cluster": "EUDR Compliance Panic",
+  "cluster_id": "eudr-compliance",
+  "intel_items_used": 5,
+  "hook": {
+    "cold_open": "On June 30, 2026, the EU began blocking leather goods at the border. Not for quality failures. For missing farm-level geolocation data that most India-sourced brands had never heard of.",
+    "macro_event": "EU Regulation 2023/1115 (EUDR) enforcement: June 30, 2026 for large operators, December 30, 2026 for SMEs. Leather goods containing bovine hide are in scope. Brands must submit a Due Diligence Statement via TRACES NT proving their leather did not originate from deforested land, backed by farm-level geolocation coordinates.",
+    "business_impact": "Any UK or EU brand that cannot produce a valid Due Diligence Statement cannot legally place product into the EU market. There is no grace period after the enforcement date. A failed shipment does not mean a delayed order. It means a blocked order with no recovery window within that sales season.",
+    "credibility_anchor": "KritiKaal sources exclusively through LWG-audited tanneries whose traceability infrastructure is already built to farm level. Farm-level geolocation data is available as standard on every EU order placed through the network.",
+    "viewer_promise": "After watching this, you will know exactly what a Due Diligence Statement requires, how to test whether your current supply chain can produce one, and what to do operationally if it cannot before the enforcement date.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "What EUDR Actually Requires From Your Leather Supply Chain",
+        "macro_context": "EU Regulation 2023/1115 classifies leather goods containing bovine hide as in-scope commodities. The regulation applies to cow and buffalo origin hides. Sheep and goat origin are outside scope. Large operators face the June 30, 2026 enforcement date. SMEs face December 30, 2026.",
+        "key_claim": "A Due Diligence Statement is not a certificate your supplier prints. It is a data submission via TRACES NT that requires farm-level geolocation coordinates for every hide source in your supply chain, plus documented chain of custody from farm to finished good.",
+        "evidence": "A UK brand sourcing leather bags from an Indian manufacturer faces a three-link compliance chain: the manufacturer must source from a tannery that holds farm-level geolocation data for its hide suppliers, the tannery must produce that data in a format submittable via TRACES NT, and the brand's India contact must be able to request and deliver that data on demand. If any link in that chain cannot perform, the Due Diligence Statement cannot be built.",
+        "intel_source": "Eudr Compliance Mechanics Indian Leather document",
+        "kritikaal_response": "KritiKaal's LWG Gold tannery network has this traceability infrastructure already operational. Farm-level geolocation data is available through LWG-certified supply chains. Due Diligence Statement preparation is included as standard on all EU-destination orders.",
+        "estimated_duration_sec": 120
+      },
+      {
+        "title": "Why Vague Answers From Your Current Supplier Are a Structural Warning, Not a Communication Problem",
+        "macro_context": "Most India-based sourcing intermediaries operate through tannery networks they do not control and cannot audit. When brands ask about EUDR documentation, the answer is vague because the documentation does not exist, not because the supplier has not checked yet.",
+        "key_claim": "If your sourcing contact in India cannot name the tannery that produced your leather, you cannot build a Due Diligence Statement. This is the first gate. No tannery name means no traceability chain means no EU market access after the enforcement date.",
+        "evidence": "The practical test is direct: ask your supplier to name the tannery, provide the LWG audit status of that tannery, and confirm that farm-level geolocation data is available for the hide supply used in your orders. If any of those three questions produce a vague or delayed response, the compliance chain is broken at that point. India is classified as standard-risk, not high-risk, under EUDR country benchmarking, which means the documentation burden is manageable for brands who have the right tannery relationships. The problem is not India as an origin. The problem is whether your specific supply chain has the infrastructure.",
+        "intel_source": "Eudr Compliance Mechanics Indian Leather document, China Plus One Tariff Arbitrage document",
+        "kritikaal_response": "Single Point of Accountability: one named KritiKaal contact owns the compliance documentation chain from tannery selection through Due Diligence Statement submission. The tannery is known, the LWG status is verified, and the data is accessible before the order is placed.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "LWG Gold Certification: Why It Is the Practical Solution and What It Actually Means",
+        "macro_context": "Leather Working Group (LWG) Gold and Platinum certification indicates a tannery has the operational discipline required to collect, maintain, and produce farm-level traceability data. This is not a marketing credential. It is an audit-backed operational infrastructure signal.",
+        "key_claim": "Prioritising LWG Gold or Platinum tanneries is not a brand ethics decision. It is the fastest path to a EUDR-compliant supply chain because those tanneries have already built the data collection systems the regulation requires.",
+        "evidence": "A sourcing agent operating through uncertified tanneries cannot produce EUDR documentation regardless of intent. The documented material substitution pattern confirms this risk: agents have been recorded approving samples from LWG Gold certified tanneries using full-grain vegetable-tanned leather at a documented rate, then running production through uncertified tanneries using corrected-grain chrome-tanned material. On a 500-unit bag run requiring 2 square feet of leather per unit, the material cost difference between a certified and uncertified tannery was documented at 1 pound 70 per square foot, representing 1,700 pounds of hidden margin. A brand that does not control tannery selection cannot control EUDR compliance.",
+        "intel_source": "Sourcing Agent Betrayal document, Eudr Compliance Mechanics document",
+        "kritikaal_response": "KritiKaal's tannery network is restricted to LWG-audited suppliers. Tannery selection is not delegated to a sourcing intermediary. The KritiKaal contact controls tannery assignment and confirms LWG status before any order is confirmed.",
+        "estimated_duration_sec": 110
+      },
+      {
+        "title": "The Three-Step Compliance Audit You Can Run This Week",
+        "macro_context": "The December 30, 2026 SME enforcement deadline creates a finite operational window. Brands that begin the compliance audit now have time to switch supply chains if required. Brands that wait for a supplier's reassurance will run out of runway.",
+        "key_claim": "There are three questions that determine whether your current supply chain is EUDR-compliant. If you cannot get written answers to all three within five business days, the supply chain is not compliant.",
+        "evidence": "Step one: ask your India contact to name the specific tannery that produced the leather in your last order. Not the city, not the region. The tannery name and registration. Step two: request the LWG audit status of that tannery, Gold, Platinum, or unaudited. This is verifiable independently. Step three: request confirmation that farm-level geolocation data for hide suppliers is available and can be provided in a format compatible with TRACES NT. Written confirmation only. If any of those three questions returns a verbal reassurance rather than a documented answer, the compliance chain is broken. India's standard-risk classification means the documentation requirements are achievable for brands with the right tannery infrastructure. The constraint is not regulatory. It is operational.",
+        "intel_source": "Eudr Compliance Mechanics Indian Leather document, Pain Matrix",
+        "kritikaal_response": "Any brand that discovers their current supply chain fails these three tests has a structural sourcing problem, not a paperwork problem. KritiKaal's onboarding process maps the compliance chain before the first order is placed. EUDR Due Diligence Statement preparation is included as standard on EU-destination orders, not charged as an add-on.",
+        "estimated_duration_sec": 110
+      }
+    ],
+    "mechanism_name": "LWG Gold Tannery Network",
+    "mechanism_definition": "KritiKaal sources exclusively through LWG-audited tanneries whose farm-level geolocation infrastructure is already operational, enabling EUDR Due Diligence Statement preparation as a standard deliverable on every EU-destination order.",
+    "estimated_total_duration_sec": 440
+  },
+  "cta": {
+    "primary_ask": "If you are selling leather goods into the EU and you cannot answer those three tannery questions in writing right now, book a 20-minute call with KritiKaal this week. The call is free. We will tell you within that call whether your current supply chain can produce a Due Diligence Statement or whether it cannot. No commitment required to find out.",
+    "disqualification": "This is not relevant if you do not sell into the EU market. It is not for brands sourcing sheep or goat leather, which is outside EUDR bovine scope. It is not for brands placing under 300 units per run, which is below the bracket KritiKaal operates in. If your current supplier has already confirmed LWG Gold tannery status in writing and can produce farm-level geolocation data on request, you do not need this call.",
+    "link_description": "Book a 20-minute EUDR compliance audit call with KritiKaal. We confirm whether your India supply chain can produce a Due Diligence Statement before the enforcement date.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "Brand founder or head of product at a UK or EU leather accessories label, 300-3,000 units per production run, currently sourcing from India through a sourcing agent or direct factory contact, has heard of EUDR but has not received documented compliance confirmation from their supplier",
+    "primary_keyword": "EUDR leather goods compliance 2026",
+    "secondary_keywords": [
+      "EU deforestation regulation leather",
+      "Due Diligence Statement leather",
+      "leather supply chain traceability EU"
+    ],
+    "content_type": "regulatory-briefing",
+    "estimated_total_runtime_min": 10.1,
+    "geo_authority_claim": "Under EU Regulation 2023/1115, leather goods containing bovine hide require a Due Diligence Statement with farm-level geolocation data submitted via TRACES NT. Enforcement begins June 30, 2026 for large operators and December 30, 2026 for SMEs. India is classified as standard-risk under EUDR country benchmarking.",
+    "regulation_check": "CLEAR — enforcement dates (June 30, 2026 large operators; December 30, 2026 SMEs) and regulation number (EU 2023/1115) are consistent with Pain Matrix and intel. India standard-risk classification confirmed in intel item [7]. Bovine scope (cow and buffalo in, sheep out) consistent across Pain Matrix and intel."
+  }
+}

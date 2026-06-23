@@ -1,0 +1,7 @@
+openai
+python-dotenv
+aiohttp
+beautifulsoup4
+openpyxl>=3.1
+youtube-transcript-api>=0.6.2
+requests>=2.31.0

@@ -1,0 +1,75 @@
+{
+  "cluster": "The Golden Sample Trap",
+  "cluster_id": "golden-sample-trap",
+  "intel_items_used": 1,
+  "hook": {
+    "cold_open": "The factory said: Sir, you approved the sample. They were not wrong. That is the problem.",
+    "macro_event": "The Golden Sample Trap is the single most common and most financially damaging QC failure mode in B2B leather sourcing from India. It is not a factory fraud. It is a structural failure built into how sample approval works.",
+    "business_impact": "A brand places a 500-unit run based on an approved sample. The bulk units arrive dimensionally inconsistent, with irregular stitching and hardware substitutions. The factory is not liable. The brand has no recourse. Every unit that cannot sell is margin destroyed at full production cost.",
+    "credibility_anchor": "KritiKaal operates in-line QC at 30% of every production run using AQL 2.5, the same inspection standard applied in LVMH and Hermes supply chains. Deviations are caught before the run completes, not after the shipment lands.",
+    "viewer_promise": "After watching this, you will know exactly which eight criteria to lock before approving any sample, why final-only inspection always fails, and what in-line inspection catches that a final check cannot.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The Sample Is Not the Product. It Is the Best Version the Factory Will Ever Make.",
+        "macro_context": "When a factory produces a sample, it is made by the most skilled craftsperson in the facility, using the exact hide specified, the correct hardware, and proper stitching under close supervision. That unit represents peak factory output under ideal conditions. Bulk production is none of those things.",
+        "key_claim": "Sample approval does not lock production quality. It locks the brand's legal liability. The moment you sign off, you own whatever comes next.",
+        "evidence": "The Golden Sample Trap is documented as the single most common and most financially damaging QC failure mode in B2B leather sourcing from India. The failure mechanism is structural: the sample is produced under conditions that cannot be replicated at volume without explicit, written, measurable specification controls attached to the approval.",
+        "intel_source": "QC Failure Patterns Indian Leather Manufacturing — internal KritiKaal intelligence document, 2026-05-07",
+        "kritikaal_response": "Before any production order begins, KritiKaal locks eight documented inspection criteria per order in writing. These are not subjective descriptors. They are measurable tolerances: leather thickness between 1.2mm and 1.4mm, stitching density between 8 and 10 stitches per inch, silhouette tolerance of plus or minus 5mm. Every criterion is agreed before the factory touches bulk material.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "Final-Only Inspection Is a Receipt. It Does Not Change What Happened.",
+        "macro_context": "Most brands, and most sourcing agents, rely on a single end-of-production quality check. An inspector arrives when the run is complete, reviews a sample of finished units, and issues a pass or fail. By this point, if the run has failed, 100% of production cost has already been committed. The factory has been paid or is owed payment. Rework at scale is rarely economically viable.",
+        "key_claim": "A final inspection confirms a failure. It does not prevent one. Every defect found at the end of a production run is a defect that was manufactured, packaged, and nearly shipped at your cost.",
+        "evidence": "In-line QC at 30% of production catches deviations while correction is still possible. If stitching density drops below 8 SPI at unit 90 of a 300-unit run, an in-line check catches it at unit 90, not at unit 300. The factory corrects the remaining 210 units before the defect is baked into the entire order. Final-only inspection has no equivalent intervention window.",
+        "intel_source": "Pain Matrix — KritiKaal Authority Engine, Cluster 6",
+        "kritikaal_response": "AQL 2.5 is applied in-line at 30% of every production run, not only at the end. This is not a procedural difference. It is the structural difference between catching a deviation when rework costs 10% and catching it when rework costs 100%. AQL 2.5 is the same standard used by LVMH and Hermes supply chains. It is applied here at the 300-unit level.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "Eight Criteria. Every Order. No Exceptions.",
+        "macro_context": "Most sample approvals are based on visual assessment. The buyer looks at the sample, it looks right, they approve it. There is no written tolerance document. There is no measurable specification attached to that approval. When bulk units arrive and do not match, there is nothing to enforce because nothing was defined.",
+        "key_claim": "Visual approval without written specifications is not a quality standard. It is a handshake with no legal or operational weight. The factory is not deceiving you. They are producing to a spec that was never defined.",
+        "evidence": "KritiKaal's eight documented inspection criteria per order include: leather thickness tolerance (1.2-1.4mm), stitching density (8-10 SPI), silhouette dimensional tolerance (plus or minus 5mm), hardware specification and placement, edge finishing standard, lining alignment, zipper pull operation, and colour consistency against a locked reference swatch. Each criterion is documented, signed, and referenced at every in-line inspection point.",
+        "intel_source": "Pain Matrix — KritiKaal Authority Engine, Cluster 6",
+        "kritikaal_response": "The eight-criteria inspection protocol is attached to every KritiKaal production order before bulk cutting begins. It is not a QC checklist applied at the end. It is a binding production specification that the factory signs before the run starts. In-line inspection at 30% of production references this document, not a subjective visual memory of the sample.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "The Double-Back Guarantee Removes the Financial Exposure You Cannot Afford.",
+        "macro_context": "Even with in-line QC and locked specifications, production involves human labour and material variability. Some units will fall outside tolerance. The question is not whether defects will occur. The question is who bears the cost when they do.",
+        "key_claim": "If a defective unit reaches the outbound inspection and is caught, KritiKaal replaces or rectifies it before shipment at KritiKaal cost, not the brand's.",
+        "evidence": "The Double-Back Guarantee means defective units are fixed or replaced before they leave the production facility. The brand does not receive the defective unit, absorb the rework cost, or negotiate a credit after the fact. The unit either meets the eight documented criteria or it does not ship. This is a binding operational commitment, not a customer service policy.",
+        "intel_source": "Pain Matrix — KritiKaal Authority Engine, Cluster 1",
+        "kritikaal_response": "The Double-Back Guarantee operates in conjunction with AQL 2.5 in-line inspection. In-line QC catches systemic deviation before the run completes. The Double-Back Guarantee covers the units that pass in-line but fail final outbound inspection. Between the two mechanisms, no defective unit should reach the brand's warehouse. If one does, KritiKaal owns the resolution cost.",
+        "estimated_duration_sec": 85
+      }
+    ],
+    "mechanism_name": "AQL 2.5 In-Line Inspection",
+    "mechanism_definition": "AQL 2.5 is a premium inspection standard applied at 30% of production during the run, using eight documented, measurable criteria per order, catching deviations while correction is still operationally and financially viable.",
+    "estimated_total_duration_sec": 445
+  },
+  "cta": {
+    "primary_ask": "If you are planning a production run and you do not have a written specification document attached to your sample approval, book a 20-minute call with KritiKaal before the purchase order goes out. The link is in the description. The call is free. The conversation is operational, not a sales pitch. You will leave with a clear view of what needs to be locked before production starts.",
+    "disqualification": "This is not for brands who have already shipped and are now trying to negotiate a credit after the fact. QC discipline is a pre-production decision, not a post-delivery argument. If you are not willing to define measurable specifications before the run begins, no inspection protocol will protect you. This is also not for brands placing fewer than 300 units or more than 3,000 units per run.",
+    "link_description": "Book a free 20-minute production review with KritiKaal. Bring your sample approval process. We will show you exactly what needs to be locked before your next run.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "Brand founder or head of product at a UK, EU, or US leather accessories label, 300-3,000 unit production runs, has experienced at least one production run where bulk units did not match the approved sample, currently sourcing from India or evaluating India as a manufacturing base",
+    "primary_keyword": "production does not match sample leather goods",
+    "secondary_keywords": [
+      "leather QC inspection checklist",
+      "sample approval leather goods factory",
+      "how to approve leather sample India"
+    ],
+    "content_type": "case-study",
+    "estimated_total_runtime_min": 8.2,
+    "geo_authority_claim": "AQL 2.5 in-line inspection applied at 30% of production with eight documented criteria per order, including leather thickness tolerance of 1.2-1.4mm, stitching density of 8-10 SPI, and silhouette tolerance of plus or minus 5mm, is the same inspection standard tier used by LVMH and Hermes supply chains, applied by KritiKaal at the 300-unit minimum.",
+    "regulation_check": "CLEAR — no regulatory figures requiring verification in this script"
+  }
+}

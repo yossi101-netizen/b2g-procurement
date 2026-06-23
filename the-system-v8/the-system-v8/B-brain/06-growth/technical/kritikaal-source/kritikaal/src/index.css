@@ -1,0 +1,847 @@
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,700;1,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    /* Leather-Based Color Palette - 5 Core Colors */
+    /* 1. Muted Off-White (Background) */
+    --background: 35 25% 95%;
+    --foreground: 20 15% 15%;
+
+    /* Card uses warm beige tones */
+    --card: 35 20% 92%;
+    --card-foreground: 20 15% 15%;
+
+    --popover: 35 25% 95%;
+    --popover-foreground: 20 15% 15%;
+
+    /* 2. Saddle Tan - Primary (Action color) */
+    --primary: 28 55% 50%;
+    --primary-foreground: 35 25% 95%;
+
+    /* 3. Charcoal/Near-Black - Secondary */
+    --secondary: 20 12% 18%;
+    --secondary-foreground: 35 25% 95%;
+
+    /* Muted tones */
+    --muted: 35 18% 88%;
+    --muted-foreground: 20 10% 40%;
+
+    /* Accent (Saddle Tan highlight) */
+    --accent: 28 50% 55%;
+    --accent-foreground: 20 15% 15%;
+
+    --destructive: 0 84% 60%;
+    --destructive-foreground: 35 25% 95%;
+
+    --border: 30 15% 82%;
+    --input: 30 15% 82%;
+    --ring: 28 55% 50%;
+
+    --radius: 0.5rem;
+
+    /* Custom Leather Tokens - 5 Color System */
+    /* 1. Deep Leather Brown */
+    --deep-leather-brown: 20 45% 22%;
+    /* 2. Saddle Tan */
+    --saddle-tan: 28 55% 50%;
+    /* 3. Warm Beige */
+    --warm-beige: 35 30% 90%;
+    /* 4. Charcoal (Near-Black) */
+    --charcoal: 20 15% 15%;
+    /* 5. Muted Off-White */
+    --off-white: 35 25% 95%;
+
+    /* Legacy tokens mapped to new system */
+    --cream: 35 25% 95%;
+    --cognac: 28 55% 50%;
+    --cognac-dark: 20 45% 22%;
+    --gold: 28 50% 55%;
+    --warm-gray: 25 12% 50%;
+
+    /* Sidebar */
+    --sidebar-background: 20 15% 15%;
+    --sidebar-foreground: 35 25% 95%;
+    --sidebar-primary: 28 55% 50%;
+    --sidebar-primary-foreground: 35 25% 95%;
+    --sidebar-accent: 20 40% 28%;
+    --sidebar-accent-foreground: 35 25% 95%;
+    --sidebar-border: 20 12% 18%;
+    --sidebar-ring: 28 55% 50%;
+  }
+
+  .dark {
+    --background: 20 15% 10%;
+    --foreground: 35 25% 95%;
+
+    --card: 20 12% 14%;
+    --card-foreground: 35 25% 95%;
+
+    --popover: 20 15% 10%;
+    --popover-foreground: 35 25% 95%;
+
+    --primary: 28 50% 55%;
+    --primary-foreground: 20 15% 10%;
+
+    --secondary: 25 12% 22%;
+    --secondary-foreground: 35 25% 95%;
+
+    --muted: 20 10% 20%;
+    --muted-foreground: 30 15% 60%;
+
+    --accent: 28 50% 55%;
+    --accent-foreground: 20 15% 10%;
+
+    --destructive: 0 62% 30%;
+    --destructive-foreground: 35 25% 95%;
+
+    --border: 20 10% 22%;
+    --input: 20 10% 22%;
+    --ring: 28 50% 55%;
+
+    --sidebar-background: 20 15% 8%;
+    --sidebar-foreground: 35 25% 95%;
+    --sidebar-primary: 28 50% 55%;
+    --sidebar-primary-foreground: 20 15% 8%;
+    --sidebar-accent: 20 10% 18%;
+    --sidebar-accent-foreground: 35 25% 95%;
+    --sidebar-border: 20 10% 18%;
+    --sidebar-ring: 28 50% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-serif antialiased;
+    font-family: 'Playfair Display', serif;
+  }
+
+  /* All text uses serif font */
+  p {
+    font-family: 'Playfair Display', serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Playfair Display', serif;
+    @apply font-semibold tracking-tight;
+  }
+}
+
+@layer utilities {
+  .font-serif {
+    font-family: 'Playfair Display', serif;
+  }
+
+  .font-sans {
+    font-family: 'Inter', sans-serif;
+  }
+
+  .text-gradient {
+    @apply bg-clip-text text-transparent;
+    background-image: linear-gradient(135deg, hsl(var(--primary)) 0%, hsl(var(--accent)) 100%);
+  }
+
+  .bg-gradient-hero {
+    background: linear-gradient(135deg, hsl(var(--charcoal)) 0%, hsl(var(--deep-leather-brown)) 100%);
+  }
+
+  .bg-gradient-section {
+    background: linear-gradient(180deg, hsl(var(--background)) 0%, hsl(var(--muted)) 100%);
+  }
+
+  .bg-gradient-cta {
+    background: linear-gradient(135deg, hsl(var(--saddle-tan)) 0%, hsl(var(--deep-leather-brown)) 100%);
+  }
+
+  .shadow-luxury {
+    box-shadow: 0 25px 50px -12px hsla(var(--charcoal), 0.25);
+  }
+
+  .shadow-card {
+    box-shadow: 0 10px 40px -10px hsla(var(--charcoal), 0.15);
+  }
+
+  .border-gold {
+    border-color: hsl(var(--gold));
+  }
+
+  /* Leather texture background */
+  .bg-leather {
+    background: 
+      linear-gradient(135deg, #5D4037 0%, #4E342E 50%, #3E2723 100%);
+    position: relative;
+  }
+
+  .bg-leather::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.08;
+    mix-blend-mode: overlay;
+  }
+
+  /* Leather stitched navbar */
+  .leather-navbar {
+    background-color: #5D4037;
+    position: relative;
+    border-bottom: 3px solid #3E2723;
+  }
+
+  .leather-navbar::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, rgba(109, 76, 65, 0.2) 0%, rgba(93, 64, 55, 0.2) 50%, rgba(78, 52, 46, 0.2) 100%);
+    pointer-events: none;
+    z-index: 1;
+  }
+
+  /* Top stitch line */
+  .leather-navbar::after {
+    content: '';
+    position: absolute;
+    top: 4px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #D4A574 0px,
+      #D4A574 8px,
+      transparent 8px,
+      transparent 12px
+    );
+    opacity: 0.7;
+  }
+
+  /* Leather stitch box - for CTA buttons */
+  .leather-stitch-box {
+    position: relative;
+    padding: 4px;
+    background: transparent;
+  }
+
+  .leather-stitch-box::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border: 2px dashed #D4A574;
+    border-radius: 12px;
+    opacity: 0.6;
+    pointer-events: none;
+  }
+
+  .leather-stitch-box::after {
+    content: '';
+    position: absolute;
+    inset: 3px;
+    border: 1px solid #8B5A2B;
+    border-radius: 10px;
+    opacity: 0.3;
+    pointer-events: none;
+  }
+
+  /* Bottom stitch effect */
+  .leather-stitch-bottom {
+    position: relative;
+  }
+
+  .leather-stitch-bottom::before {
+    content: '';
+    position: absolute;
+    bottom: 6px;
+    left: 20px;
+    right: 20px;
+    height: 2px;
+    background-image: repeating-linear-gradient(
+      90deg,
+      #D4A574 0px,
+      #D4A574 8px,
+      transparent 8px,
+      transparent 12px
+    );
+    opacity: 0.7;
+  }
+
+  /* Leather patch logo style */
+  .leather-logo-patch {
+    position: relative;
+    background: linear-gradient(145deg, #8B7355 0%, #6B5344 30%, #5D4037 70%, #4A3728 100%);
+    border-radius: 8px;
+    padding: 8px 16px;
+    box-shadow: 
+      inset 0 2px 4px rgba(255,255,255,0.1),
+      inset 0 -2px 4px rgba(0,0,0,0.2),
+      0 4px 8px rgba(0,0,0,0.3),
+      0 2px 4px rgba(0,0,0,0.2);
+    border: 1px solid #3E2723;
+  }
+
+  .leather-logo-patch::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: 8px;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='1.2' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.15;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+
+  /* Rivet/button decorations */
+  .leather-rivet {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: radial-gradient(circle at 30% 30%, #C9A96E, #8B7355 40%, #5D4037 100%);
+    box-shadow: 
+      inset 0 1px 2px rgba(255,255,255,0.4),
+      0 1px 2px rgba(0,0,0,0.4);
+  }
+
+  /* Section leather backgrounds */
+  .bg-leather-light {
+    background: linear-gradient(180deg, #D7CCC8 0%, #BCAAA4 100%);
+    position: relative;
+  }
+
+  .bg-leather-light::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.05;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+
+  .bg-leather-dark {
+    background: linear-gradient(180deg, #3E2723 0%, #2C1810 100%);
+    position: relative;
+  }
+
+  .bg-leather-dark::before {
+    content: '';
+    position: absolute;
+    inset: 0;
+    background-image: 
+      url("data:image/svg+xml,%3Csvg viewBox='0 0 400 400' xmlns='http://www.w3.org/2000/svg'%3E%3Cfilter id='noiseFilter'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='4' stitchTiles='stitch'/%3E%3C/filter%3E%3Crect width='100%25' height='100%25' filter='url(%23noiseFilter)'/%3E%3C/svg%3E");
+    opacity: 0.08;
+    mix-blend-mode: overlay;
+    pointer-events: none;
+  }
+
+  /* Stitched border effect */
+  .stitched-border {
+    position: relative;
+  }
+
+  .stitched-border::after {
+    content: '';
+    position: absolute;
+    inset: 8px;
+    border: 2px dashed rgba(212, 165, 116, 0.5);
+    border-radius: inherit;
+    pointer-events: none;
+  }
+}
+
+/* Smooth scroll */
+html {
+  scroll-behavior: smooth;
+}
+
+/* ===== ZIPPER SCROLLBAR ===== */
+
+/* Firefox fallback */
+html {
+  scrollbar-color: #C9A96E #2C1810;
+  scrollbar-width: thin;
+}
+
+::-webkit-scrollbar {
+  width: 22px;
+}
+
+/*
+  Track: each 22×16 px tile shows one left tooth (upper half) and one right tooth
+  (lower half, offset by 8 px) so the two sides interlock when tiled vertically.
+
+  Anatomy of the tile:
+    x 0–1    : left leather tape
+    x 2–9    : left tooth body  (row 1–7)
+    x 10–11  : centre spine
+    x 12–19  : right tooth body (row 9–15)
+    x 20–21  : right leather tape
+*/
+::-webkit-scrollbar-track {
+  background-color: #2C1810;
+  background-image: url("data:image/svg+xml,%3Csvg width='22' height='16' xmlns='http://www.w3.org/2000/svg'%3E%3Crect width='22' height='16' fill='%232C1810'/%3E%3Crect x='0' y='0' width='2' height='16' fill='%233D2015'/%3E%3Crect x='20' y='0' width='2' height='16' fill='%233D2015'/%3E%3Crect x='10' y='0' width='2' height='16' fill='%234A2E1A'/%3E%3Crect x='2' y='1' width='8' height='7' rx='2' fill='%23C9A96E' stroke='%23A07820' stroke-width='0.5'/%3E%3Crect x='3' y='2' width='3' height='2' rx='1' fill='%23F5E0A0' opacity='0.8'/%3E%3Crect x='2' y='8' width='8' height='1' rx='0' fill='%236B4010' opacity='0.5'/%3E%3Crect x='12' y='9' width='8' height='7' rx='2' fill='%23C9A96E' stroke='%23A07820' stroke-width='0.5'/%3E%3Crect x='13' y='10' width='3' height='2' rx='1' fill='%23F5E0A0' opacity='0.8'/%3E%3Crect x='12' y='15' width='8' height='1' rx='0' fill='%236B4010' opacity='0.5'/%3E%3C/svg%3E");
+  background-repeat: repeat-y;
+  background-size: 22px 16px;
+}
+
+/*
+  Thumb: a knurled brass slider box.
+  - Horizontal grip ridges (repeating-linear-gradient) mimic the knurl
+    texture pressed into real metal sliders.
+  - Left-to-right metallic gradient gives the convex brass surface look.
+  - Asymmetric borders: gold top edge (catching light) / dark bottom edge
+    (in shadow) complete the 3-D clamping-jaw illusion.
+*/
+::-webkit-scrollbar-thumb {
+  background:
+    /* Horizontal knurl / grip ridges */
+    repeating-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.14) 0px,
+      rgba(255, 255, 255, 0.14) 1px,
+      rgba(0,   0,   0,   0.06) 1px,
+      rgba(0,   0,   0,   0.06) 2px,
+      transparent                2px,
+      transparent                5px
+    ),
+    /* Polished brass surface */
+    linear-gradient(
+      90deg,
+      #5A3518  0%,
+      #C9A96E 18%,
+      #F5E0A0 42%,
+      #E8D080 50%,
+      #C9A96E 68%,
+      #5A3518 100%
+    );
+  border-top:    3px solid #B08828;   /* gold highlight — top jaw */
+  border-bottom: 3px solid #3E2010;   /* dark shadow  — bottom jaw */
+  border-left:   2px solid #3E2723;
+  border-right:  2px solid #3E2723;
+  border-radius: 2px;
+  min-height: 50px;
+  box-shadow:
+    inset 0  2px 4px rgba(255, 255, 255, 0.25),
+    inset 0 -2px 4px rgba(0,   0,   0,   0.40),
+    0 0 0 1px rgba(0, 0, 0, 0.25);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 0.20) 0px,
+      rgba(255, 255, 255, 0.20) 1px,
+      rgba(0,   0,   0,   0.04) 1px,
+      rgba(0,   0,   0,   0.04) 2px,
+      transparent                2px,
+      transparent                5px
+    ),
+    linear-gradient(
+      90deg,
+      #6A4528  0%,
+      #D9B97E 18%,
+      #FFEF9E 42%,
+      #F8E092 50%,
+      #D9B97E 68%,
+      #6A4528 100%
+    );
+}
+
+::-webkit-scrollbar-thumb:active {
+  background:
+    repeating-linear-gradient(
+      180deg,
+      rgba(0, 0, 0, 0.12) 0px,
+      rgba(0, 0, 0, 0.12) 1px,
+      transparent          1px,
+      transparent          5px
+    ),
+    linear-gradient(
+      90deg,
+      #4A2508  0%,
+      #A98050 18%,
+      #D5B060 42%,
+      #C8A050 50%,
+      #A98050 68%,
+      #4A2508 100%
+    );
+}
+
+::-webkit-scrollbar-corner {
+  background: #2C1810;
+}
+
+/* ========== MOBILE RESPONSIVENESS ========== */
+
+/* Base mobile improvements */
+@media (max-width: 640px) {
+  /* Typography scaling for mobile */
+  h1 {
+    font-size: 1.875rem !important;
+    line-height: 1.2 !important;
+  }
+  
+  h2 {
+    font-size: 1.5rem !important;
+    line-height: 1.25 !important;
+  }
+  
+  h3 {
+    font-size: 1.25rem !important;
+  }
+
+  /* Container padding */
+  .container {
+    padding-left: 1rem !important;
+    padding-right: 1rem !important;
+  }
+
+
+
+  /* Card spacing */
+  .grid {
+    gap: 1rem !important;
+  }
+
+  /* Button sizing for touch */
+  button, .btn, [role="button"] {
+    min-height: 44px;
+    min-width: 44px;
+  }
+
+  /* Better tap targets */
+  a {
+    min-height: 44px;
+    display: inline-flex;
+    align-items: center;
+  }
+
+  /* Footer grid mobile */
+  footer .grid {
+    grid-template-columns: 1fr !important;
+    gap: 2rem !important;
+  }
+
+  /* Mobile navigation improvements */
+  nav .container {
+    padding-left: 0.75rem !important;
+    padding-right: 0.75rem !important;
+  }
+
+  /* Better spacing for stacked elements */
+  .space-y-8 {
+    --tw-space-y-reverse: 0;
+    margin-top: calc(1.5rem * calc(1 - var(--tw-space-y-reverse)));
+    margin-bottom: calc(1.5rem * var(--tw-space-y-reverse));
+  }
+}
+
+/* Tablet responsiveness */
+@media (min-width: 641px) and (max-width: 1024px) {
+  h1 {
+    font-size: 2.5rem !important;
+  }
+  
+  h2 {
+    font-size: 2rem !important;
+  }
+
+  .container {
+    padding-left: 1.5rem !important;
+    padding-right: 1.5rem !important;
+  }
+
+  section {
+    padding-top: -1rem !important;
+    padding-bottom: -1rem !important;
+  }
+}
+
+/* Mobile image responsiveness */
+@media (max-width: 768px) {
+  img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  /* Video containers */
+  .aspect-video {
+    aspect-ratio: 16/9;
+  }
+
+  /* Grid to single column on small screens */
+  .lg\:grid-cols-2 {
+    grid-template-columns: 1fr !important;
+  }
+
+  /* Text alignment for mobile */
+  .lg\:text-left {
+    text-align: center !important;
+  }
+
+  /* Better blockquote on mobile */
+  blockquote {
+    padding-left: 1rem !important;
+    font-size: 0.875rem !important;
+  }
+
+  /* Navbar stitch design adjustment for mobile */
+  nav > div[style*="repeating-linear-gradient"] {
+    left: 8px !important;
+    right: 8px !important;
+  }
+}
+
+/* Touch-friendly improvements */
+@media (hover: none) and (pointer: coarse) {
+  /* Remove hover effects that don't work well on touch */
+  .group:hover {
+    transform: none;
+  }
+
+  /* Ensure tap targets are large enough */
+  .leather-stitch-box {
+    padding: 6px;
+  }
+
+  /* Better touch feedback */
+  button:active {
+    transform: scale(0.98);
+  }
+}
+
+/* Orientation-specific styles */
+@media (max-width: 640px) and (orientation: landscape) {
+  section {
+    padding-top: 2rem !important;
+    padding-bottom: 2rem !important;
+  }
+
+  .min-h-screen {
+    min-height: auto !important;
+  }
+}
+
+/* High DPI screen adjustments */
+@media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
+  .leather-stitch-box::before {
+    border-width: 1px;
+  }
+}
+
+/* Safe area insets for notched devices */
+@supports (padding: max(0px)) {
+  body {
+    padding-left: max(0px, env(safe-area-inset-left));
+    padding-right: max(0px, env(safe-area-inset-right));
+  }
+
+  nav {
+    padding-left: max(1rem, env(safe-area-inset-left));
+    padding-right: max(1rem, env(safe-area-inset-right));
+  }
+
+  footer {
+    padding-bottom: max(2rem, env(safe-area-inset-bottom));
+  }
+}
+
+/* Prevent horizontal scroll */
+html, body {
+  overflow-x: hidden;
+  max-width: 100vw;
+}
+
+/* Better focus states for accessibility */
+*:focus-visible {
+  outline: 2px solid hsl(var(--saddle-tan));
+  outline-offset: 2px;
+}
+
+/* Custom Zigzag Scrollbar - Luxury Leather Theme */
+/* Webkit browsers (Chrome, Edge, Safari) */
+::-webkit-scrollbar {
+  width: 12px;
+  height: 12px;
+}
+
+::-webkit-scrollbar-track {
+  background: linear-gradient(180deg, #2C1810 0%, #1A0F0A 100%);
+  border-left: 1px solid #3E2723;
+}
+
+::-webkit-scrollbar-thumb {
+  background: linear-gradient(180deg, #D4A574 0%, #B8845B 50%, #A16D45 100%);
+  border-radius: 2px;
+  border: 2px solid #2C1810;
+  position: relative;
+  /* Zigzag pattern using a decorative background */
+  background-image: 
+    linear-gradient(135deg, transparent 25%, #C49464 25%, #C49464 50%, transparent 50%, transparent 75%, #C49464 75%, #C49464),
+    linear-gradient(180deg, #D4A574 0%, #B8845B 50%, #A16D45 100%);
+  background-size: 4px 4px, 100% 100%;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 
+    inset 0 1px 2px rgba(255, 255, 255, 0.2),
+    0 0 8px rgba(212, 165, 116, 0.3);
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: linear-gradient(180deg, #E5B685 0%, #C9956C 50%, #B07E56 100%);
+  background-image: 
+    linear-gradient(135deg, transparent 25%, #D4A574 25%, #D4A574 50%, transparent 50%, transparent 75%, #D4A574 75%, #D4A574),
+    linear-gradient(180deg, #E5B685 0%, #C9956C 50%, #B07E56 100%);
+  background-size: 4px 4px, 100% 100%;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 
+    inset 0 1px 3px rgba(255, 255, 255, 0.3),
+    0 0 12px rgba(212, 165, 116, 0.5),
+    0 0 20px rgba(212, 165, 116, 0.3);
+  transform: scale(1.05);
+  transition: all 0.3s ease;
+}
+
+::-webkit-scrollbar-thumb:active {
+  background: linear-gradient(180deg, #B8845B 0%, #A16D45 50%, #8A5A3A 100%);
+  background-image: 
+    linear-gradient(135deg, transparent 25%, #A16D45 25%, #A16D45 50%, transparent 50%, transparent 75%, #A16D45 75%, #A16D45),
+    linear-gradient(180deg, #B8845B 0%, #A16D45 50%, #8A5A3A 100%);
+  background-size: 4px 4px, 100% 100%;
+  background-repeat: repeat, no-repeat;
+  box-shadow: 
+    inset 0 2px 4px rgba(0, 0, 0, 0.3),
+    0 0 8px rgba(212, 165, 116, 0.4);
+}
+
+/* Scrollbar corner */
+::-webkit-scrollbar-corner {
+  background: #2C1810;
+}
+
+/* Firefox scrollbar */
+* {
+  scrollbar-width: thin;
+  scrollbar-color: #D4A574 #2C1810;
+}
+
+/* Enhanced scrollbar with leather stitching effect */
+@supports (scrollbar-width: thin) {
+  html {
+    scrollbar-width: thin;
+    scrollbar-color: #D4A574 #2C1810;
+  }
+}
+
+/* Smooth animations for reduced motion preference */
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    animation-iteration-count: 1 !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+
+/* Interactive Globe Animations */
+@keyframes float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes rotate-slow {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 20px rgba(34, 197, 94, 0.3));
+  }
+  50% {
+    filter: drop-shadow(0 0 40px rgba(34, 197, 94, 0.6));
+  }
+}
+
+.globe-interactive {
+  animation: float 6s ease-in-out infinite;
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+  cursor: pointer;
+  position: relative;
+}
+
+.globe-interactive:hover {
+  transform: scale(1.03) translateY(-5px);
+  filter: drop-shadow(0 0 20px rgba(34, 197, 94, 0.3));
+}
+
+.globe-interactive::before {
+  content: '';
+  position: absolute;
+  inset: -20px;
+  border-radius: 50%;
+  background: radial-gradient(circle, rgba(34, 197, 94, 0.1) 0%, transparent 70%);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  pointer-events: none;
+}
+
+.globe-interactive:hover::before {
+  opacity: 1;
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+.globe-rotate {
+  animation: rotate-slow 30s linear infinite;
+}
+
+.globe-china {
+  animation: float 6s ease-in-out infinite;
+  filter: drop-shadow(0 0 25px rgba(239, 68, 68, 0.2));
+}
+
+.globe-china:hover {
+  filter: drop-shadow(0 0 35px rgba(239, 68, 68, 0.3));
+}
+
+.globe-india {
+  animation: float 6s ease-in-out infinite 0.5s;
+  animation-fill-mode: both;
+  filter: drop-shadow(0 0 25px rgba(34, 197, 94, 0.2));
+}
+
+.globe-india:hover {
+  filter: drop-shadow(0 0 35px rgba(34, 197, 94, 0.3));
+}
+/* Mobile menu open - reduce brown padding */
+body.mobile-menu-open main {
+  padding-top: 3rem !important;
+}
+
+@media (min-width: 640px) {
+  body.mobile-menu-open main {
+    padding-top: 4rem !important;
+  }
+}
+
+@media (min-width: 768px) {
+  body.mobile-menu-open main {
+    padding-top: 9rem !important;
+  }
+}

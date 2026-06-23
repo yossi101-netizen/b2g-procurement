@@ -1,0 +1,235 @@
+# KK-CG-RH26 — Rosh Hashana 2026 | Honey × Leather Premium Holiday Kit
+# Product specification file for KritiKaal Quote Engine
+# SEASONAL WINDOW IS OPEN NOW — 26 May 2026.
+# Hard sales close: 31 July 2026. Factory order cutoff: 10 July 2026.
+# Honey procurement: lock in with Meshek Milman / Ayelet Honey by 30 June 2026.
+# Late orders (post-July) face 15-25% honey surcharge + stock exhaustion risk.
+# Source: 2026 Israeli Tech Gifting Market Intelligence Report
+
+reference: "KK-CG-RH26"
+name: "Rosh Hashana 2026 — Honey × Leather Premium Holiday Kit"
+category: "Corporate Gift Kit — Seasonal Holiday"
+market_segment: "CORPORATE_GIFTS"
+kit: true
+seasonal: true
+
+seasonal_window:
+  holiday:           "Rosh Hashana 5787"
+  holiday_dates:     "11–13 September 2026"
+  sales_open:        "2026-05-26"     # TODAY — window is live
+  sales_close:       "2026-07-31"     # Hard deadline — no new orders after this date
+  production_cutoff: "2026-07-10"     # Last day to place factory order for August delivery
+  honey_lock_deadline: "2026-06-30"   # Lock artisan honey BEFORE July seasonal spike
+  india_ship_by:     "2026-08-01"     # Leather goods must leave Bangalore by this date
+  client_delivery_by: "2026-09-05"   # 6 days before holiday start — allow unpacking
+  urgency_note: >
+    CRITICAL SUPPLY CONSTRAINT: Boutique apiaries (Meshek Milman, Ayelet Honey)
+    fill annual allocations by August. Orders placed after July face:
+    - 15–25% surcharge (confirmed market pattern)
+    - Forced downgrade to commercial honey (brand damage)
+    Contact honey suppliers THIS WEEK. Lock allocation before 30 June 2026.
+
+description: >
+  Limited-edition Rosh Hashana 2026 holiday kit. Custom deep-debossed full-grain
+  leather A5 notebook cover (company logo + optional Hebrew 'shana tova'
+  inscription) + 200g premium artisan honey jar with custom gold-foil branded
+  label + apple-shaped wax seal Hebrew greeting card. Packed in premium rigid
+  magnetic gift box with gold tissue paper and branded satin ribbon.
+  Positioning: "Premium, useful, personalized, and unboxing-worthy."
+
+target_buyer: "Head of People & Culture | HR Director | Office Manager"
+target_company: "Israeli tech — any Series, 50–500 employees"
+use_cases:
+  - "Employee Rosh Hashana holiday gift"
+  - "Client appreciation gift — premium tier"
+  - "Executive partner/investor holiday send-out"
+
+# ─────────────────────────────────────────────────────────────────
+# COMPONENTS — Two tracks: India-manufactured + Israel-local
+# ─────────────────────────────────────────────────────────────────
+components:
+  # TRACK A: India-manufactured — include in factory_fob_usd
+  manufactured:
+    notebook_cover:
+      ref: "KK-CG-003"
+      spec_file: "KK-CG-003.yaml"
+      customization: >
+        Deep deboss: client logo, front cover centre (0.5–0.8mm depth).
+        Optional: Hebrew inscription 'שנה טובה ומתוקה' blind debossed
+        inside front cover — adds $0.80/unit at 50-unit run.
+    gift_box:
+      description: "Premium rigid magnetic-closure gift box — Rosh Hashana holiday edition"
+      dimensions_cm: "26.0 × 20.0 × 8.0"
+      construction: "1200gsm grey board"
+      colourway: "Dark navy or forest green — 2026 premium holiday standard (not black)"
+      finish: "Gold foil-stamp: client logo on lid + 'שנה טובה' in Hebrew below logo"
+      insert: "2-zone custom cardboard insert: Zone 1 notebook, Zone 2 honey jar"
+      flat_packed: true    # Ships flat from factory — assembled in Israel
+    tissue_paper:
+      description: "17gsm acid-free tissue — gold or antique cream, logo-printed"
+    satin_ribbon:
+      description: "15mm gold or ivory satin ribbon — hand-tied at factory or Israel assembly"
+
+  # TRACK B: Israel-local — DO NOT include in factory_fob_usd
+  local_sourced:
+    artisan_honey:
+      description: "Premium artisan honey — 200g glass jar, boutique quality"
+      size: "200g minimum — 250g preferred for premium perception"
+      quality_spec: "Single-source floral variety — wildflower, avocado, or eucalyptus"
+      packaging: "Heavy glass jar, boutique paper-wrapped lid, custom gold-foil B2B label"
+      wooden_stick: "Custom wooden honey dipper — included by Tier 1 suppliers"
+      recommended_suppliers:
+        tier_1:
+          meshek_milman:
+            name: "Meshek Milman (משק מילמן)"
+            url: "meshek-milman.co.il"
+            note: "Premier boutique apiary. Premium aesthetic packaging. Book IMMEDIATELY."
+          ayelet_honey:
+            name: "Ayelet Honey (מכוורת איילת)"
+            url: "ayelethoney.co.il"
+            note: "Unique floral varietals: avocado honey, eucalyptus. Luxury perception."
+        tier_2:
+          shoney:
+            name: "Shoney (שוני)"
+            url: "shoney.co.il"
+            note: "Gourmet gifting sets, minimalist design. Use if Tier 1 is fully allocated."
+          lins_farm:
+            name: "Lin's Farm (חוות לין)"
+            note: "High-end natural food combinations, pre-customised corporate collections."
+        avoid:
+          - "Yad Mordechai / Ein Harod — commercial tier, undermines premium positioning"
+          - "Any supermarket brand — immediate brand damage"
+      wholesale_benchmark_ils:
+        "50_units":  22    # ₪18–25 range per market data. Use ₪22 as planning midpoint.
+        "200_units": 16    # ₪14–18 range.
+      seasonal_note: >
+        July–August: boutique apiary prices spike 15–25% and stock exhausts.
+        Lock allocation by 30 June 2026 at ₪22/unit for 50-unit planning.
+      not_in_india_fob: true
+
+    greeting_card:
+      description: "Apple-shaped die-cut or A6 Hebrew Rosh Hashana greeting card"
+      material: "350gsm linen cardstock"
+      content: "Printed Hebrew: שנה טובה ומתוקה | Blank inside for client personalisation"
+      wax_seal: "Red wax pomegranate or apple wax seal stamp — applied at assembly"
+      cost_ils_per_unit: 12
+      supplier: "Local Israeli print shop or online print-on-demand service"
+      not_in_india_fob: true
+
+# ─────────────────────────────────────────────────────────────────
+# ASSEMBLY (Israel)
+# Leather notebook + gift box ship from India.
+# Honey + greeting card assembled in Israel by Yossi.
+# ─────────────────────────────────────────────────────────────────
+assembly:
+  location: "Israel — Yossi's operations hub"
+  local_work_required: true
+  steps:
+    1: "Receive India shipment: flat gift boxes + leather notebooks"
+    2: "Receive honey jars from Israeli supplier (custom-labeled, with wooden sticks)"
+    3: "Erect gift box, insert 2-zone cardboard dividers"
+    4: "Line with gold tissue paper"
+    5: "Place leather notebook in Zone 1 (left)"
+    6: "Place honey jar + wooden stick in Zone 2 (right)"
+    7: "Apply wax seal to greeting card; insert under ribbon or on top of tissue"
+    8: "Tie gold satin ribbon"
+    9: "Seal magnetic lid"
+  estimated_assembly_cost_ils_per_unit: 20
+  unboxing_reveal_note: >
+    Notebook visible first when lid opens. Honey visible second.
+    Wow moment: premium leather + artisan honey in gold packaging.
+
+# ─────────────────────────────────────────────────────────────────
+# PACKED DIMENSIONS — India-shipped items only (no honey jar)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+# Honey jar is locally sourced — excluded from India CBM calculation
+# ─────────────────────────────────────────────────────────────────
+packed:
+  description: "India-shipped: leather notebook cover + flat gift box"
+  length_cm:    27.0
+  width_cm:     21.0
+  height_cm:     3.0      # Notebook cover flat + box flat-packed together
+  cbm_per_unit: 0.001701    # 0.270 × 0.210 × 0.030
+  # At 50 units: 0.085 CBM → auto-select: LCL
+  # Sea transit Israel: 28–42 days + Red Sea 35% surcharge
+  # Air freight at 50 units: 0.085 × 167 × 8.5 = $120.6 → viable for rush
+  freight_recommendation: >
+    SEA LCL for standard orders. If order placed after 20 June 2026,
+    switch to AIR to guarantee pre-holiday delivery.
+
+# Leather specification
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "1.0–1.2"
+  finish: "Vegetable-tanned preferred — patina story adds emotional value for holiday gift"
+  surface: "Smooth"
+  prohibited: "PU leatherette, bonded leather — NOT acceptable"
+  net_area_sqft: 0.91    # Notebook cover only
+  waste_factor_override: null
+
+# AQL 2.5 — Kit level
+aql_criteria:
+  - "Notebook cover: all KK-CG-003 AQL criteria pass"
+  - "Hebrew inscription: correct text, consistent depth, centred ±1mm"
+  - "Gift box exterior: no dents, scratches; gold foil stamp sharp and aligned"
+  - "Magnetic closure: holds shut when inverted for 30 seconds"
+  - "Tissue coverage: complete wrap, no items visible before opening"
+  - "Ribbon: symmetrical hand-tie, no fraying"
+  - "Assembly (Israel): honey jar sits level in Zone 2 without tipping"
+  - "Overall unbox: notebook visible first, honey second — correct reveal order"
+
+# ─────────────────────────────────────────────────────────────────
+# PRICING GUIDANCE FOR QUOTE ENGINE
+# ─────────────────────────────────────────────────────────────────
+pricing_guidance:
+  # STEP 1: Run India-manufactured items only through calculator
+  # Notebook ($19) at 50 units + box/tissue/ribbon ($2) = $21
+  calculator_fob_reference_usd:
+    "50-99_units":   21.00
+    "100-199_units": 17.00
+    "200-499_units": 13.50
+  recommended_packaging_type: "branded"
+
+  # STEP 2: Add local-sourced costs manually
+  local_sourced_ils_per_unit:
+    honey_jar_at_50:   22    # Meshek Milman / Ayelet Honey, locked pre-July
+    wooden_stick:       0    # Included by Tier 1 suppliers
+    greeting_card:     12
+    wax_seal_stamp:     3    # Amortised over batch
+    assembly_labor:    20
+    total_at_50_units: 57
+
+  # STEP 3: Target retail
+  recommended_currency: "ILS"
+  target_retail_ils_per_unit: 350
+  total_cost_note: >
+    Calculator result (in ILS) + ₪57 local = total delivered cost.
+    Set target retail at ₪350 to maintain strong GP after all costs.
+
+  competitor_benchmarks:
+    gimmick_pomegranate_vine:   "₪199–299 (knife set + honey + candle — no leather)"
+    ofek_lavan_culinary:        "₪155–470 (cookware + honey — no leather)"
+    delicatessen_table_edit:    "₪496 (ceramic + food only — no leather)"
+    gogift_welcome_hydration:   "₪555 (Yeti + soft-touch notebook — no artisan honey, no real leather)"
+    tnx_mass_tier:              "₪40 (honey + candle — mass-market baseline)"
+  positioning_note: >
+    At ₪350, KritiKaal sits between mass-tier (₪40–199) and luxury-food-only (₪496).
+    Unique in the 2026 market: genuine leather + artisan honey + premium box at ₪350.
+    No competitor provides all three at this price point.
+  brand_story: >
+    "The honey is sweet for a day. The notebook stays on your desk for years."
+    This is the line that separates us from every food-only Rosh Hashana box.
+
+  day45_revenue_target: >
+    This product is the Day 45 milestone driver.
+    Target: 3 accepted quotes × 50 units × ₪350 = ₪52,500 cleared by Day 45.
+    5 quotes issued = ₪87,500+ pipeline. Campaign must go live by July 2026.
+
+# Product-level lead time overrides
+lead_times_override:
+  production_min_weeks:   3
+  production_max_weeks:   4
+  sample_turnaround_days: 12
+  hard_ship_deadline:     "2026-08-01"    # Must leave Bangalore by this date
+  local_procurement_note: "Honey: 3–5 days after order. Greeting card: 3 days print."
+  assembly_note:          "50-unit Israel assembly: 1–2 days"

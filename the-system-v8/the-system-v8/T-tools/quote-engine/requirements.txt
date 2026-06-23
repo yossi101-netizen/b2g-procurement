@@ -1,0 +1,29 @@
+# KritiKaal Quote Engine — Locked Dependencies
+# Generated: 2026-05-24
+#
+# Install:   pip install -r requirements.txt
+# Upgrade:   pip install -r requirements.txt --upgrade
+#            After upgrading, re-run python test.py to confirm nothing broke.
+#
+# Python:    3.10+ required (list[...] type hints used in db.py)
+
+# ── Core UI ───────────────────────────────────────────────────────
+streamlit==1.56.0
+
+# ── Document generation ───────────────────────────────────────────
+python-docx==1.2.0
+lxml==5.1.0                 # python-docx XML dependency — pin to avoid silent breakage
+
+# ── Configuration parsing ─────────────────────────────────────────
+PyYAML==6.0.3
+
+# ── Data display (quote history table) ───────────────────────────
+pandas>=2.0.0               # st.dataframe() requires pandas; minor version drift acceptable
+
+# ── Standard library modules (no install needed) ──────────────────
+# sqlite3    — quote persistence (db.py)
+# pathlib    — path handling throughout
+# hashlib    — config version MD5 fingerprint
+# dataclasses — QuoteResult / QuoteInputs models
+# json       — DB serialisation
+# datetime   — timestamps

@@ -1,0 +1,33 @@
+{
+  "version": "0.0.1",
+  "configurations": [
+    {
+      "name": "Live Run — Full Discovery Pipeline",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["T-tools/live_run.py"],
+      "port": null,
+      "description": "Runs all 3 discovery agents (Core Leather, Lateral Industries, Shopify Footprint), NLP classification, and Excel export. Takes ~15-20 min. Requires OPENAI_API_KEY + SERPER_API_KEY in .env."
+    },
+    {
+      "name": "Exporter — Regenerate Excel",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["T-tools/exporter.py"],
+      "port": null,
+      "description": "Re-exports leads.db to kritikaal_leads_export.xlsx without any scraping or API calls. Safe to run at any time."
+    },
+    {
+      "name": "Test Pipeline — Dry Run",
+      "runtimeExecutable": "python",
+      "runtimeArgs": ["T-tools/test_pipeline.py"],
+      "port": null,
+      "description": "Validates the pipeline imports and logic without making any API calls or writing to the DB. Use this after code changes."
+    },
+    {
+      "name": "Dashboard — Streamlit UI",
+      "runtimeExecutable": "streamlit",
+      "runtimeArgs": ["run", "T-tools/dashboard.py"],
+      "port": 8501,
+      "description": "Phase 2E: Visual lead management dashboard. NOT YET IMPLEMENTED — dashboard.py does not exist yet. Install streamlit first: pip install streamlit"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+# KK-TB-001 — Structured Tote Bag — Medium
+# Product specification file for KritiKaal Quote Engine
+
+reference: "KK-TB-001"
+name: "Structured Tote Bag — Medium"
+category: "Leather Handbag"
+
+# Physical dimensions (cm)
+dimensions:
+  body_width_cm: 38
+  body_height_cm: 30
+  body_depth_cm: 12       # Gusset depth
+  handle_length_cm: 42    # Including seam allowance
+  handle_width_cm: 3      # Rolled, pre-roll flat width
+  tolerance_mm: 5
+
+# Packed dimensions for logistics (CBM calculation)
+packed:
+  length_cm: 42
+  width_cm: 34
+  height_cm: 14
+  cbm_per_unit: 0.020     # 0.42 × 0.34 × 0.14
+
+# Leather specification
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "1.2–1.4"
+  finish: "Drum-dyed / aniline"
+  surface: "Smooth — no embossing, no patent finish"
+  prohibited: "Split leather — NOT acceptable"
+  net_area_sqft: 4.80
+  # Area breakdown:
+  #   Body panels (front + back): 38×30×2 = 2,280 cm²
+  #   Gusset long sides: 12×30×2  = 720 cm²
+  #   Gusset short sides: 12×38×2 = 912 cm²
+  #   Rolled handles: 42×3×2      = 252 cm²
+  #   D-ring tabs + base reinf.   = 300 cm²
+  #   Total net: 4,464 cm² = 4.80 sqft
+  waste_factor_override: null   # null = use global lw_waste_factor from rates_config.yaml
+
+# Hardware catalog (USD per unit at 100-unit MOQ)
+hardware:
+  ykk_zipper:
+    spec: "YKK #5, 38cm, antique gold pull"
+    cost_100: 1.50
+    cost_500: 1.25
+  d_rings:
+    spec: "2× 25mm antique gold"
+    cost_100: 0.90
+    cost_500: 0.75
+  magnetic_snap:
+    spec: "18mm antique gold"
+    cost_100: 0.60
+    cost_500: 0.50
+  base_studs:
+    spec: "4× dome, antique gold, flush-mounted"
+    cost_100: 0.60
+    cost_500: 0.50
+  prohibited: "Nickel-plated chrome finish — NOT acceptable"
+  total_hardware_100: 3.60
+  total_hardware_500: 3.00
+
+# Lining specification
+lining:
+  material: "Cotton canvas"
+  colour: "Pantone Cool Gray 8C or equivalent"
+  area_sqm_per_unit: 0.85
+  construction: "French seamed — no exposed raw edges"
+  pocket: "1× interior slip pocket, 20×15 cm"
+
+# Stitching
+stitching:
+  method: "Saddle stitch (lockstitch acceptable for production)"
+  density: "8–10 SPI"
+  thread: "Waxed polyester — contrasting to leather colour"
+  edge_finishing: "Hand-burnished or painted — NO raw/unfinished edges"
+
+# AQL 2.5 evaluation criteria (8 criteria — Golden Sample standard)
+aql_criteria:
+  - "Leather thickness (1.2–1.4mm) — physically measured"
+  - "Stitching density (8–10 SPI) — counted"
+  - "Hardware security — pull test D-rings, zip, magnetic snap"
+  - "Edge finishing — burnished or painted, no raw edges"
+  - "Lining attachment — no puckering, no glue bleed"
+  - "Base stud positioning — 4 studs, symmetric, flush"
+  - "Handle attachment — stress test, 5kg load"
+  - "Overall silhouette — vs. technical spec, ±5mm tolerance"

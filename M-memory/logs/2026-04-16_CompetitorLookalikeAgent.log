@@ -1,0 +1,6 @@
+2026-04-16T22:40:11Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_MINE_START", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}
+2026-04-16T22:40:39Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_NO_PAGE", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}
+2026-04-16T23:03:07Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_MINE_START", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}
+2026-04-16T23:03:46Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_NO_PAGE", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}
+2026-04-17T00:00:39Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_MINE_START", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}
+2026-04-17T00:01:06Z | CompetitorLookalikeAgent | INFO | {"event": "COMPETITOR_NO_PAGE", "agent": "CompetitorLookalikeAgent", "domain": "shugon.co.il"}

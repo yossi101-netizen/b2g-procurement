@@ -1,0 +1,93 @@
+{
+  "cluster": "The Sourcing Agent Betrayal",
+  "cluster_id": "sourcing-agent-betrayal",
+  "intel_items_used": 10,
+  "hook": {
+    "cold_open": "Your sourcing agent got paid when you signed the purchase order. Not when it arrived. Not when it passed quality control. When you signed.",
+    "macro_event": "Structural misalignment in India leather sourcing agent commission models: agents are compensated at PO placement, removing all financial incentive for delivery, quality, or accountability post-signature.",
+    "business_impact": "On a 500-unit leather bag order, documented material substitution alone costs £1,700 in hidden agent margin. Deposit loss on a standard 30% payment term exposes brands to thousands of pounds in unrecoverable funds with no contractual recourse.",
+    "credibility_anchor": "KritiKaal operates as the Single Point of Accountability on every order, with fees tied to delivery and quality outcome, not PO signature. The structural difference is contractual, not aspirational.",
+    "viewer_promise": "After watching, you will be able to name the five documented betrayal patterns used by India leather sourcing agents, identify the specific structural reason each one is possible, and know the one mechanism that makes betrayal structurally impossible.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The Commission-at-PO Structure Is the Betrayal. Everything Else Is a Symptom.",
+        "macro_context": "Sourcing agents in India leather supply chains are compensated when the purchase order is placed, not when goods arrive on spec and on time. This is the operative structural fact. Once payment clears, the agent has no financial stake in what happens next.",
+        "key_claim": "Every documented betrayal pattern in India leather sourcing is downstream of one structural fact: the agent's incentive ends at the moment yours begins.",
+        "evidence": "Standard India leather manufacturing payment terms are 30% deposit on PO placement, 70% on pre-shipment inspection or bill of lading. An agent taking commission at PO has been paid in full before a single unit has been cut. Their incentive to resolve problems post-PO is social, not contractual.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — Documented Betrayal Pattern 2: Lost Deposit / Disappeared Agent",
+        "kritikaal_response": "Single Point of Accountability. One named individual whose fee is tied to delivery and quality outcome, not PO placement. The contractual accountability cannot collapse because the financial stake does not clear until the order does.",
+        "estimated_duration_sec": 75
+      },
+      {
+        "title": "Betrayal Pattern One: The Disappeared Agent and the Lost Deposit",
+        "macro_context": "The 30% deposit structure that governs India leather manufacturing is the mechanism most commonly exploited when an agent operates without contractual delivery accountability.",
+        "key_claim": "When an agent forwards a portion of the deposit to the factory and the buyer has no direct factory relationship, the buyer has no legal standing, no contact, and no recovery path.",
+        "evidence": "The buyer pays the 30% deposit to the agent. The agent forwards a portion to the factory. Production begins, or appears to begin. The agent becomes unresponsive. The buyer has no GST number, no factory name, no registered address. The deposit is unrecoverable. This is not an edge case. It is a predictable outcome of a structure where the agent intermediates all factory contact intentionally.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — Documented Betrayal Pattern 2: Lost Deposit / Disappeared Agent",
+        "kritikaal_response": "KritiKaal provides the factory GST number, company registration, and factory address at the start of every engagement. Verification via the public GST portal at gst.gov.in is available before any deposit is paid. Opacity is not a feature of the managed model. It is the failure mode the managed model was built to eliminate.",
+        "estimated_duration_sec": 70
+      },
+      {
+        "title": "Betrayal Pattern Two: MOQ Inflation and the Margin You Never Knew You Paid",
+        "macro_context": "Minimum order quantity figures communicated by agents to buyers frequently do not reflect the actual factory MOQ. The gap between the stated and actual MOQ is a direct revenue mechanism for the agent.",
+        "key_claim": "An agent telling you the factory MOQ is 500 units when the actual factory MOQ is 200 units is not a miscommunication. It is a margin capture operation.",
+        "evidence": "The agent states factory MOQ is 500 units for a custom leather bag. The buyer places a 500-unit order. The actual factory MOQ is 200 units. The agent captures the margin on the additional 300 units, either by running 300 extra units for stock to sell elsewhere, or by negotiating a lower factory price for 200 units and billing the buyer for 500. The buyer never knows the actual factory MOQ because the agent controls all factory communication.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — Documented Betrayal Pattern 3: MOQ Inflation",
+        "kritikaal_response": "Single Point of Accountability means the factory relationship is held by KritiKaal on behalf of the brand, with full visibility into actual MOQ, factory pricing tier, and run structure. There is no information asymmetry to exploit because the fee structure is fixed and transparent, not commission-based.",
+        "estimated_duration_sec": 65
+      },
+      {
+        "title": "Betrayal Pattern Three: The Material Substitution You Cannot See Until the Shipment Arrives",
+        "macro_context": "Sample approval in standard agent-mediated relationships locks the visual and tactile reference, not the material specification. Agents with factory commission arrangements have financial incentive to substitute lower-cost materials in bulk production.",
+        "key_claim": "The sample was approved at LWG Gold certified full-grain leather. The production run used uncertified corrected-grain. The difference was £1.70 per square foot, invisible to the buyer until physical inspection of the delivered units.",
+        "evidence": "On 500 bags each requiring 2 square feet of leather, the substitution from £4.50 per square foot LWG Gold full-grain to £2.80 per square foot uncertified corrected-grain represents £1,700 in hidden agent margin on a single order. The substitution surfaces at delivery, when the brand has no leverage and the agent has no remaining financial stake.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — Documented Betrayal Pattern 4: Quality Substitution and Material Downgrade",
+        "kritikaal_response": "AQL 2.5 in-line inspection at 30% of the production run catches material substitution before the run completes. Eight documented inspection criteria per order include material specification verification against the approved sample. The Double-Back Guarantee means defective or non-spec units are corrected before shipment at KritiKaal cost, not the brand's.",
+        "estimated_duration_sec": 75
+      },
+      {
+        "title": "The 'Direct Factory' Illusion: Trade Show Contacts Are Not What You Think",
+        "macro_context": "Brands burned by agent relationships frequently believe the solution is eliminating the intermediary by sourcing directly from factories met at trade shows such as Lineapelle or APLF. In most cases, the intermediary has not been eliminated. It has been disguised.",
+        "key_claim": "The factory representative you met at the trade show is, in most cases, an independent sales agent. They represent multiple factories, take commission on orders they introduce, and have no contractual accountability for production outcomes.",
+        "evidence": "Factory sales agents operate as independent contractors at trade shows, representing multiple factories simultaneously. The brand believes it is dealing directly with the manufacturer. The agent structure, the commission-at-introduction incentive, and the absence of delivery accountability are structurally identical to the sourcing agent relationship the brand was trying to exit. The only difference is the location of the introduction.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — The Direct Factory Illusion",
+        "kritikaal_response": "Before any engagement, KritiKaal provides four verifiable items in writing: factory GST number, factory company registration, bank account in the factory's name, and proof of production capability for the specific product category. Each is independently verifiable through public Indian government databases. The minimum verification test is documented and available to any brand evaluating a supplier relationship.",
+        "estimated_duration_sec": 65
+      },
+      {
+        "title": "The Accountability Mechanism That Cannot Collapse",
+        "macro_context": "The structural difference between a sourcing agent and a managed manufacturing operator is not quality of service or experience. It is the moment at which accountability is contractually transferred.",
+        "key_claim": "A managed manufacturing operator's fee is fixed and transparent. It is tied to delivery and quality outcome. An agent who has been paid at PO has no remaining contractual stake. These are not equivalent models with different price points. They are different accountability architectures.",
+        "evidence": "In a managed manufacturing model, one named individual owns the outcome from PO placement to delivery. Not a trading company passing instructions. Not a factory liaison. One individual with contractual accountability for quality, timeline, and compliance. The fee structure cannot produce a disappearing agent because the financial event is delivery, not introduction.",
+        "intel_source": "Sourcing Agent Betrayal India Leather — The Managed Manufacturing Alternative: What Accountability Actually Looks Like",
+        "kritikaal_response": "Single Point of Accountability is the named KritiKaal mechanism. One English-speaking contact. Contractual accountability from PO to port. Fee tied to outcome. The structure eliminates the commission-at-PO misalignment entirely because KritiKaal does not operate on that model.",
+        "estimated_duration_sec": 60
+      }
+    ],
+    "mechanism_name": "Single Point of Accountability",
+    "mechanism_definition": "One named individual at KritiKaal owns every outcome from PO placement to delivery, with fees tied to quality and delivery completion, eliminating the commission-at-PO misalignment that makes agent betrayal structurally inevitable.",
+    "estimated_total_duration_sec": 450
+  },
+  "cta": {
+    "primary_ask": "If you are currently using a sourcing agent for India leather production, or evaluating one, book a 20-minute call with KritiKaal. Bring your current supplier setup. We will tell you which of the five betrayal patterns your current structure is exposed to, and what it would take to close those gaps. The call is free. The link is in the description.",
+    "disqualification": "This is not for brands who want low-cost market access and are prepared to own the operational risk themselves. A sourcing agent is the right tool for that model. KritiKaal is for brands who have already calculated what an accountability failure costs and decided that number is too high to carry. If your only objective is the cheapest possible introduction to a factory, this call is not for you.",
+    "link_description": "Book a 20-minute sourcing accountability review with KritiKaal. Free. No commitment. Identify which betrayal patterns your current supply chain is exposed to.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "Brand founder or head of product at a UK or EU leather goods label, 300-3,000 unit production runs, currently using or evaluating an India-based sourcing agent, has either experienced a delivery failure or deposit loss, or knows someone who has",
+    "primary_keyword": "sourcing agent leather goods India problems",
+    "secondary_keywords": [
+      "leather sourcing agent vs managed manufacturing",
+      "how to vet a sourcing agent India",
+      "India leather factory accountability"
+    ],
+    "content_type": "explainer",
+    "estimated_total_runtime_min": 7.5,
+    "geo_authority_claim": "On a 500-unit leather bag order, documented material substitution from LWG Gold certified full-grain to uncertified corrected-grain leather yields £1,700 in hidden agent margin, captured through the factory arrangement and invisible to the buyer until delivery.",
+    "regulation_check": "CLEAR — no regulatory figures requiring verification in this script"
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "cluster": "The China Plus One Pivot",
+  "cluster_id": "china-plus-one",
+  "intel_items_used": 10,
+  "hook": {
+    "cold_open": "A UK accessories brand paid £4,500 in import duty last year sourcing from China. The same order from India: zero pounds. Not a rounding error. That is their margin.",
+    "macro_event": "US Section 301 tariffs on Chinese goods at 25% or higher, combined with UK MFN duty rates on China-origin leather goods at approximately 3.7%, create a compounding cost disadvantage for brands with China-only supply chains. India-origin leather goods qualify for 0% duty under the UK Developing Countries Trading Scheme.",
+    "business_impact": "A UK accessories brand with £118,000 annual FOB procurement from China pays an estimated £4,000 to £5,000 per year in import duty. The same procurement from India under DCTS: zero pounds. US-market brands sourcing from China face an additional 25% Section 301 tariff layer on top of that baseline cost.",
+    "credibility_anchor": "KritiKaal operates managed manufacturing in India's three primary leather export clusters: Kolkata for bags, Kanpur for full-grain, and Chennai for export-grade finishing. Every India-origin order ships with a DCTS-compliant Certificate of Origin as standard.",
+    "viewer_promise": "By the end of this video you will have the exact duty comparison between China and India for your HS code, understand what a functional China Plus One pivot actually requires operationally, and know the three failure modes that kill India transitions before they start.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The Tariff Stack: What It Actually Costs to Keep Sourcing from China",
+        "macro_context": "UK MFN rate for HS 4202.21 leather handbags from China is approximately 3.7% with no preferential arrangement. US Section 301 tariffs on Chinese leather goods sit at 25% or higher. There is no UK-China preferential trade agreement. There is no US-China preferential arrangement. Every unit shipped from China carries the full tariff cost with no mechanism to reduce it.",
+        "key_claim": "A UK accessories brand with £118,000 annual FOB procurement pays £4,000 to £5,000 per year in import duty on China-origin goods. That same procurement from India costs zero pounds in duty under DCTS. The differential is not marginal. It is the difference between a profitable year and a break-even one at SMB scale.",
+        "evidence": "Documented procurement example: 2,000 leather handbags at £35 FOB, 3,000 wallets at £12 FOB, 1,500 belts at £8 FOB. Total FOB: £118,000. Duty at UK MFN China rates: £4,000 to £5,000. Duty at DCTS India rates: £0. Annual saving: £4,000 to £5,000 captured without changing product, price point, or customer.",
+        "intel_source": "China Plus One Tariff Arbitrage India Leather intel brief",
+        "kritikaal_response": "DCTS Zero-Duty Window. KritiKaal issues a DCTS-compliant Certificate of Origin on every India-origin order, capturing the 0% duty rate for UK importers on HS 4202 leather bags and cases. The certificate is not an optional add-on. It is standard on every order.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "Why India is the Structurally Correct Alternative — Not Just the Cheap One",
+        "macro_context": "Other China Plus One markets lack India's structural advantages for leather specifically. Vietnam and Bangladesh leather manufacturers depend on imported raw materials. India is one of the world's largest cattle populations and a major domestic hide producer, removing the raw material import dependency that inflates costs elsewhere. India is also classified as standard-risk under EUDR country benchmarking, not high-risk, unlike Brazilian and other South American origins.",
+        "key_claim": "India's structural position in leather is not a cost play. It is a supply chain architecture play. Domestic hide supply, three specialist export clusters with decades of export production history, and LWG-certified tanneries with traceability infrastructure built to farm level make India the only China alternative that does not require a quality compromise.",
+        "evidence": "Three named India leather clusters with distinct specialisations: Kolkata for structured bags and accessories, Kanpur for full-grain leather goods, Chennai for export-grade finishing on international orders. LWG-certified tanneries in these clusters carry audit data and chain-of-custody documentation. This is not available at comparable depth in Vietnam or Bangladesh leather manufacturing.",
+        "intel_source": "China Plus One Tariff Arbitrage India Leather intel brief",
+        "kritikaal_response": "AQL 2.5. The same inspection standard used by LVMH and Hermes supply chains applied in-line at 30% of every production run. AQL 2.5 is the quality equivalence proof that India-origin leather goods can meet premium brand specifications. It is not a claim. It is a documented protocol with eight named inspection criteria per order.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "The Three Failure Modes That Kill India Pivots Before They Start",
+        "macro_context": "Most China Plus One pivots to India fail not because India cannot produce to spec, but because brands treat the India transition as a single test order rather than a supply chain establishment project. Establishing a functional India supply chain requires three distinct elements: a qualified manufacturer relationship, a verified tannery chain capable of providing EUDR-compatible documentation and LWG audit data, and a logistics partner familiar with UK customs requirements including DCTS certificate issuance.",
+        "key_claim": "One test order to an unvetted Indian factory is not a China Plus One strategy. It is the same mistake repeated in a new geography. The brands that get burned by India did not build a supply chain. They placed an order and hoped.",
+        "evidence": "Failure mode one: No qualified manufacturer relationship. The factory does not know the brand's quality standards, inspection protocol, or tolerance specifications before production starts. Result: the Golden Sample Trap. Failure mode two: No verified tannery chain. EUDR documentation gaps discovered after order placement. Result: EU market access blocked. Failure mode three: No DCTS certificate issued. Goods arrive at UK customs as standard MFN goods. The 0% duty benefit is lost because the paperwork was not in order. REX registration or Form A certificate must be confirmed before the first shipment.",
+        "intel_source": "China Plus One Tariff Arbitrage India Leather intel brief",
+        "kritikaal_response": "Single Point of Accountability. One contact at KritiKaal owns the manufacturer relationship, the tannery documentation chain, the DCTS certificate issuance, and the in-line QC protocol from purchase order to port. The three failure modes are not managed sequentially by the brand. They are owned permanently by KritiKaal.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "The MOQ Reality: Where China Has an Advantage and Where It Does Not",
+        "macro_context": "The one area where China's manufacturing infrastructure outperforms India for small and mid-size brands is minimum order quantity for commodity-quality product. Large Chinese factories are optimised for 3,000 to 10,000 unit runs with highly standardised product. At that scale, their operational efficiency is structurally difficult to match. For brands in the 300 to 3,000 unit bracket, that advantage does not apply.",
+        "key_claim": "If you are placing 300 to 3,000 units per SKU, China's MOQ efficiency argument does not apply to you. That bracket is structurally underserved by large Chinese factory infrastructure. It is exactly the bracket KritiKaal was built for.",
+        "evidence": "Large Chinese factories are optimised for 3,000 to 10,000 unit runs. The 300 to 3,000 unit bracket sits below the floor where China's operational efficiency advantage activates. At the same time, this bracket is too large for artisan Indian workshops and too small for most Indian factory direct relationships. KritiKaal aggregates demand across clients within verified factory capacity to make this volume economically viable without MOQ theatre.",
+        "intel_source": "China Plus One Tariff Arbitrage India Leather intel brief",
+        "kritikaal_response": "The Missing Middle. The 300 to 3,000 unit bracket no platform is designed to serve. KritiKaal's managed manufacturing model makes this volume range operationally viable in India at AQL 2.5 standard, with full DCTS documentation and Single Point of Accountability on every order.",
+        "estimated_duration_sec": 80
+      }
+    ],
+    "mechanism_name": "DCTS Zero-Duty Window",
+    "mechanism_definition": "The UK Developing Countries Trading Scheme (DCTS) Enhanced Preferences tier grants 0% import duty on India-origin leather goods under HS 4202, eliminating the full MFN duty cost of China-origin sourcing and saving a typical UK accessories brand £4,000 to £5,000 per year on a £118,000 annual procurement.",
+    "estimated_total_duration_sec": 400
+  },
+  "cta": {
+    "primary_ask": "If you are currently sourcing leather goods from China and have not yet mapped the exact duty differential on your HS codes, that calculation takes 20 minutes. Book a call with KritiKaal. Bring your current FOB values and HS code. We will run the DCTS saving against your actual order volume before the call ends. Link is in the description.",
+    "disqualification": "This is not for brands placing one test order to see what happens. It is not for brands whose only objective is the lowest possible unit price regardless of quality or documentation. It is not for brands sourcing above 3,000 units per SKU who have the volume to build a direct factory relationship. If you are not ready to invest in a qualified supply chain relationship, India will disappoint you exactly the way China did.",
+    "link_description": "Book a 20-minute DCTS saving calculation call with KritiKaal. Bring your HS code and current FOB values. kritikaal.com/china-plus-one",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "UK brand founder or procurement lead at a leather accessories label, currently sourcing from China, 300 to 3,000 units per SKU, facing tariff cost pressure or supply chain concentration risk and evaluating India as a qualified alternative",
+    "primary_keyword": "China plus one strategy leather goods",
+    "secondary_keywords": [
+      "India leather sourcing for fashion brands",
+      "UK import duty leather goods India",
+      "manufacturing India vs China leather"
+    ],
+    "content_type": "comparison",
+    "estimated_total_runtime_min": 7.6,
+    "geo_authority_claim": "Under the UK Developing Countries Trading Scheme (DCTS) Enhanced Preferences tier, India-origin leather goods classified under HS 4202 attract 0% import duty, compared to approximately 3.7% MFN duty on the same goods from China, saving a UK brand with £118,000 annual leather procurement an estimated £4,000 to £5,000 per year.",
+    "regulation_check": "FLAG: UK MFN rate for HS 4202.21 cited as approximately 3.7% and annual duty estimate of £4,000 to £5,000 on £118,000 FOB — verify current UK Global Tariff rates at trade-tariff.service.gov.uk before publish. FLAG: US Section 301 tariff rate cited as 25% or higher — verify current list at USTR.gov before publish."
+  }
+}

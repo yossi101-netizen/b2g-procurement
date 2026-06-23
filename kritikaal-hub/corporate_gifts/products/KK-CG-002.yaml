@@ -1,0 +1,110 @@
+# KK-CG-002 — Leather Cable Roll / Tech Organiser — Corporate Gifts
+# Product specification file for KritiKaal Quote Engine
+# Single-item base component. Used as companion item in KK-CG-ONB kit.
+# CATEGORY FIRST in Israel: no competitor manufactures this in real leather.
+# SwagUp equivalent is canvas/neoprene. We own the premium tier here.
+
+reference: "KK-CG-002"
+name: "Leather Cable Roll — Tech Organiser"
+category: "Leather Accessory — Corporate Gifts"
+market_segment: "CORPORATE_GIFTS"
+
+description: >
+  Full-grain leather roll-up organiser for cables, earphones, and small
+  tech accessories. 4 elastic cable loops + 1 inner zip mesh pocket.
+  Secures with a leather tie cord. Flat-packs for onboarding kit assembly.
+  Most-photographed item in WFH/hybrid desk and travel shots. No Israeli
+  competitor currently manufactures this in genuine leather.
+
+# Physical dimensions (cm)
+dimensions:
+  flat_width_cm:    30.0
+  flat_height_cm:   15.0
+  rolled_diameter_cm: 5.0
+  rolled_length_cm: 15.0
+  tolerance_mm:      5
+
+# Packed dimensions for logistics (CBM calculation)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+packed:
+  length_cm:    16.0
+  width_cm:     14.0
+  height_cm:     4.0
+  cbm_per_unit: 0.000896    # 0.160 × 0.140 × 0.040
+  # At 50 units: 0.0448 CBM → auto-select: LCL
+  # Air freight at 50 units: 0.0448 × 167 × 8.5 = $63.6 — viable for rush
+
+# Leather specification
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "1.0–1.2"
+  finish: "Drum-dyed / aniline"
+  surface: "Smooth"
+  prohibited: "PU leatherette, bonded leather — NOT acceptable"
+  net_area_sqft: 0.50
+  # Area breakdown:
+  #   Outer panel flat: 30×15  = 450 cm²
+  #   Inner organiser:  28×13  = 364 cm²
+  #   Tie cord strip:   35×0.3 =  11 cm²
+  #   Reinforcement:           =  40 cm²
+  #   Total net: ~865 cm² = 0.93 sqft
+  #   Roll geometry creates significant cutting waste — use elevated waste factor
+  waste_factor_override: 0.22    # 22% — elevated for roll-geometry cutting pattern
+
+# Hardware
+hardware:
+  elastic_loops:
+    spec: "4× 12mm black polyester elastic — sewn-in cable channels"
+    cost_100: 0.40
+  inner_zip:
+    spec: "1× 10cm YKK or equivalent nylon zip for mesh inner pocket"
+    cost_100: 0.60
+  tie_cord:
+    spec: "1× leather strip tie, 3mm × 35cm — cut from same leather batch"
+    cost_100: 0.10
+  total_hardware_100: 1.10
+  prohibited: "Cheap generic zippers that snag on first cycle — NOT acceptable"
+
+# Customisation
+customization:
+  method_logo: "Blind deboss — client logo, outer face centre"
+  logo_area_max_cm: "5.0 × 2.0"
+  deboss_depth_mm: "0.3–0.5"
+  foil_option: "Optional gold foil fill (+$0.80/unit)"
+
+# Stitching
+stitching:
+  method: "Lockstitch saddle-pattern"
+  density: "8–10 SPI on all visible seams"
+  thread: "Waxed polyester — black or colour matched"
+  edge_finishing: "Painted edge finish — NO raw edges permitted"
+
+# AQL 2.5 evaluation criteria
+aql_criteria:
+  - "Leather thickness (1.0–1.2mm) — physically measured with caliper"
+  - "Stitching density (8–10 SPI)"
+  - "Elastic loop tension — USB-C cable (6mm) fits and holds without slipping"
+  - "Zip function — opens and closes without snag on 5 cycles"
+  - "Tie cord attachment — stitched, not glued; pull-test 500g"
+  - "Deboss quality — logo centred ±1mm, consistent depth"
+  - "Edge finishing — painted, no raw edges"
+  - "Roll profile — rolls cleanly to 5cm diameter, no bulging at tie point"
+
+# Pricing guidance for Quote Engine
+pricing_guidance:
+  calculator_fob_reference_usd:
+    "50-99_units":   14.00
+    "100-199_units": 11.00
+    "200-499_units":  9.00
+  target_standalone_retail_ils: 320
+  market_positioning: >
+    SwagUp canvas/neoprene equivalent retails ~$22 USD (~₪81).
+    No Israeli competitor sells a real leather version.
+    KritiKaal leather cable roll at ₪280–340 is a category-defining product.
+    Expect high LinkedIn virality — engineers photograph these.
+
+# Product-level lead time overrides
+lead_times_override:
+  production_min_weeks:   2
+  production_max_weeks:   3
+  sample_turnaround_days: 10

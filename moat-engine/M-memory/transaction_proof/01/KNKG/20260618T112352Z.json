@@ -1,0 +1,947 @@
+{
+  "domain": "knkg.com",
+  "snapped_at": "20260618T112352Z",
+  "variant_count": 94,
+  "variants": [
+    {
+      "product_id": 11045346705681,
+      "variant_id": 53511820935441,
+      "product_title": "SHIFT Backpack 27L",
+      "variant_title": "Traditional",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 11045346607377,
+      "variant_id": 53511820706065,
+      "product_title": "SHIFT Backpack 27L",
+      "variant_title": "Camo",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 11045346378001,
+      "variant_id": 53511820280081,
+      "product_title": "SHIFT Duffel 30L",
+      "variant_title": "Traditional",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 11045346181393,
+      "variant_id": 53511819886865,
+      "product_title": "SHIFT Duffel 30L",
+      "variant_title": "Camo",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940250325265,
+      "variant_id": 53103543517457,
+      "product_title": "CORE Backpack Waxed Canvas Medium 25L",
+      "variant_title": "Black",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940251734289,
+      "variant_id": 53103545811217,
+      "product_title": "CORE Backpack Waxed Canvas Medium 25L",
+      "variant_title": "Tan",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940252782865,
+      "variant_id": 53103550365969,
+      "product_title": "CORE Duffel Waxed Canvas Medium 35L",
+      "variant_title": "Tan",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940251799825,
+      "variant_id": 53103546171665,
+      "product_title": "CORE Duffel Waxed Canvas Medium 35L",
+      "variant_title": "Black",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501274140945,
+      "variant_id": 51782339887377,
+      "product_title": "CORE Duffel Mini 15L",
+      "variant_title": "Mini - 15L / Desert",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10992602317073,
+      "variant_id": 53339173028113,
+      "product_title": "SHIFT Duffel 30L",
+      "variant_title": "Tan",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10992601432337,
+      "variant_id": 53339171586321,
+      "product_title": "SHIFT Duffel 30L",
+      "variant_title": "Black",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10992599630097,
+      "variant_id": 53339169521937,
+      "product_title": "SHIFT Backpack 27L",
+      "variant_title": "Black",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10992598384913,
+      "variant_id": 53339167850769,
+      "product_title": "SHIFT Backpack 27L",
+      "variant_title": "Tan",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940194193681,
+      "variant_id": 53103246868753,
+      "product_title": "Duffel Divider Mini",
+      "variant_title": "Black",
+      "price_usd": 30.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10940194193681,
+      "variant_id": 53103246901521,
+      "product_title": "Duffel Divider Mini",
+      "variant_title": "Natty",
+      "price_usd": 30.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10548904263953,
+      "variant_id": 52093473456401,
+      "product_title": "KNKG HERITAGE Leather Wallet",
+      "variant_title": "Tan",
+      "price_usd": 60.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10548904263953,
+      "variant_id": 52093490790673,
+      "product_title": "KNKG HERITAGE Leather Wallet",
+      "variant_title": "Black",
+      "price_usd": 60.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10470521995537,
+      "variant_id": 51698451382545,
+      "product_title": "HERITAGE Leather Wallet",
+      "variant_title": "Tan",
+      "price_usd": 60.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10541131792657,
+      "variant_id": 52072080015633,
+      "product_title": "HERITAGE Leather Wallet",
+      "variant_title": "Black",
+      "price_usd": 60.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10470572392721,
+      "variant_id": 51698884837649,
+      "product_title": "CORE Duffel Waxed Canvas Medium 35L",
+      "variant_title": "Traditional",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10470573834513,
+      "variant_id": 51698901057809,
+      "product_title": "CORE Backpack Waxed Canvas Medium 25L",
+      "variant_title": "Traditional",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10505662529809,
+      "variant_id": 51800711463185,
+      "product_title": "CORE Duffel Waxed Canvas Medium 35L",
+      "variant_title": "Camo",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10505668296977,
+      "variant_id": 51800881824017,
+      "product_title": "CORE Backpack Waxed Canvas Medium 25L",
+      "variant_title": "Camo",
+      "price_usd": 270.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502267273489,
+      "variant_id": 51784716222737,
+      "product_title": "CORE Backpack Mini 13L",
+      "variant_title": "Mini - 13L / Natty",
+      "price_usd": 85.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502265471249,
+      "variant_id": 51784713240849,
+      "product_title": "CORE Backpack Mini 13L",
+      "variant_title": "Mini - 13L / Green",
+      "price_usd": 85.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502261604625,
+      "variant_id": 51784704033041,
+      "product_title": "CORE Backpack Mini 13L",
+      "variant_title": "Mini - 13L / Black",
+      "price_usd": 85.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502249021713,
+      "variant_id": 51784682078481,
+      "product_title": "CORE Backpack Mini 13L",
+      "variant_title": "Mini - 13L / Desert",
+      "price_usd": 85.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502243451153,
+      "variant_id": 51784669823249,
+      "product_title": "CORE Duffel Mini 15L",
+      "variant_title": "Mini - 15L / Natty",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502227329297,
+      "variant_id": 51784571453713,
+      "product_title": "CORE Duffel Mini 15L",
+      "variant_title": "Mini - 15L / Green",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10502217892113,
+      "variant_id": 51784535572753,
+      "product_title": "CORE Duffel Mini 15L",
+      "variant_title": "Mini - 15L / Black",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498791833873,
+      "variant_id": 51771431485713,
+      "product_title": "CORE Duffel Medium 35L",
+      "variant_title": "Medium - 35L / Desert",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498801008913,
+      "variant_id": 51771450556689,
+      "product_title": "CORE Duffel Medium 35L",
+      "variant_title": "Medium - 35L / Green",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498802483473,
+      "variant_id": 51771457110289,
+      "product_title": "CORE Duffel Medium 35L",
+      "variant_title": "Medium - 35L / Natty",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498803794193,
+      "variant_id": 51771460059409,
+      "product_title": "CORE Duffel Large 51L",
+      "variant_title": "Large - 51L / Desert",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498805924113,
+      "variant_id": 51771465957649,
+      "product_title": "CORE Duffel Large 51L",
+      "variant_title": "Large - 51L / Black",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498807496977,
+      "variant_id": 51771470774545,
+      "product_title": "CORE Duffel Large 51L",
+      "variant_title": "Large - 51L / Green",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498808938769,
+      "variant_id": 51771477426449,
+      "product_title": "CORE Duffel Large 51L",
+      "variant_title": "Large - 51L / Natty",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10493674979601,
+      "variant_id": 51752291369233,
+      "product_title": "CORE Backpack Medium 25L",
+      "variant_title": "Medium - 25L / Natty",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10501190287633,
+      "variant_id": 51782134104337,
+      "product_title": "PLUS Duffel Large 63L",
+      "variant_title": "Large (63L) / Black",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10501208146193,
+      "variant_id": 51782176506129,
+      "product_title": "PLUS Duffel Large 63L",
+      "variant_title": "Large (63L) / Redwood",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501202149649,
+      "variant_id": 51782160843025,
+      "product_title": "PLUS Duffel Large 63L",
+      "variant_title": "Large (63L) / Charcoal",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501178032401,
+      "variant_id": 51782107267345,
+      "product_title": "PLUS Duffel Medium 45L",
+      "variant_title": "Medium (45L) / Redwood",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501145067793,
+      "variant_id": 51782037340433,
+      "product_title": "PLUS Duffel Medium 45L",
+      "variant_title": "Medium (45L) / Black",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501142085905,
+      "variant_id": 51782030786833,
+      "product_title": "PLUS Duffel Small 33L",
+      "variant_title": "Small (33L) / Redwood",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501044011281,
+      "variant_id": 51781730664721,
+      "product_title": "PLUS Duffel Small 33L",
+      "variant_title": "Small (33L) / Charcoal",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10501139792145,
+      "variant_id": 51782024102161,
+      "product_title": "PLUS Duffel Small 33L",
+      "variant_title": "Small (33L) / Black",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499720053009,
+      "variant_id": 51774755340561,
+      "product_title": "PLUS Backpack 26L",
+      "variant_title": "Redwood",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499714973969,
+      "variant_id": 51774739448081,
+      "product_title": "PLUS Backpack 26L",
+      "variant_title": "Black",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499634069777,
+      "variant_id": 51774204969233,
+      "product_title": "CONQUER Backpack Small 19L",
+      "variant_title": "Small 19L / Black",
+      "price_usd": 230.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499635183889,
+      "variant_id": 51774207033617,
+      "product_title": "CONQUER Backpack Small 19L",
+      "variant_title": "Small 19L / Green",
+      "price_usd": 230.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499553591569,
+      "variant_id": 51773868671249,
+      "product_title": "CONQUER Backpack Small 19L",
+      "variant_title": "Small 19L / Desert",
+      "price_usd": 230.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499638460689,
+      "variant_id": 51774217126161,
+      "product_title": "CONQUER Backpack Large 38L",
+      "variant_title": "Large 38L / Desert",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10499641737489,
+      "variant_id": 51774223876369,
+      "product_title": "CONQUER Backpack Large 38L",
+      "variant_title": "Large 38L / Green",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498816704785,
+      "variant_id": 51771493089553,
+      "product_title": "CONQUER Duffel 40L",
+      "variant_title": "Desert",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498820243729,
+      "variant_id": 51771501642001,
+      "product_title": "CONQUER Duffel 40L",
+      "variant_title": "Green",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10498821292305,
+      "variant_id": 51771502919953,
+      "product_title": "CONQUER Duffel 40L",
+      "variant_title": "Natty",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10499743514897,
+      "variant_id": 51774811439377,
+      "product_title": "HERITAGE Leather Duffel Medium 46L",
+      "variant_title": "Black / Medium (46L)",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10499742368017,
+      "variant_id": 51774809833745,
+      "product_title": "HERITAGE Leather Duffel Small 25L",
+      "variant_title": "Tan / Small (25L)",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10499734274321,
+      "variant_id": 51774797316369,
+      "product_title": "HERITAGE Leather Duffel Small 25L",
+      "variant_title": "Black / Small (25L)",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10499726639377,
+      "variant_id": 51774778704145,
+      "product_title": "HERITAGE Leather Backpack 23L",
+      "variant_title": "Black",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 45128856502545,
+      "product_title": "Lifting Belt",
+      "variant_title": "Black / SML",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 45128856535313,
+      "product_title": "Lifting Belt",
+      "variant_title": "Black / MED",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 45128856568081,
+      "product_title": "Lifting Belt",
+      "variant_title": "Black / LRG",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 50000279601425,
+      "product_title": "Lifting Belt",
+      "variant_title": "Natty / SML",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 50000279634193,
+      "product_title": "Lifting Belt",
+      "variant_title": "Natty / MED",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8367315812625,
+      "variant_id": 50000279666961,
+      "product_title": "Lifting Belt",
+      "variant_title": "Natty / LRG",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10407693713681,
+      "variant_id": 51523105390865,
+      "product_title": "HERITAGE Leather Duffel Medium 46L",
+      "variant_title": "Tan / Medium (46L)",
+      "price_usd": 250.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 10407693844753,
+      "variant_id": 51523103490321,
+      "product_title": "HERITAGE Leather Backpack 23L",
+      "variant_title": "Tan",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 10028578504977,
+      "variant_id": 50189912768785,
+      "product_title": "CONQUER Duffel 40L",
+      "variant_title": "Black",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 9112285872401,
+      "variant_id": 47969418805521,
+      "product_title": "CONQUER Backpack Large 38L",
+      "variant_title": "Large 38L / Black",
+      "price_usd": 300.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8813500858641,
+      "variant_id": 47179185127697,
+      "product_title": "PLUS Duffel Medium 45L",
+      "variant_title": "Medium (45L) / Charcoal",
+      "price_usd": 180.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 45154550087953,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Black / SML",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 45154550120721,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Black / MED",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 45154550153489,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Black / LRG",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 52497108926737,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Natty / SML",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 52497108959505,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Natty / MED",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382781751569,
+      "variant_id": 52497108992273,
+      "product_title": "Matching Lifting Belt",
+      "variant_title": "Natty / LRG",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382970626321,
+      "variant_id": 46875369865489,
+      "product_title": "Duffel Divider",
+      "variant_title": "Black",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8382970626321,
+      "variant_id": 52761961857297,
+      "product_title": "Duffel Divider",
+      "variant_title": "Natty",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8382970626321,
+      "variant_id": 53123377037585,
+      "product_title": "Duffel Divider",
+      "variant_title": "Desert",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8210273927441,
+      "variant_id": 46875372749073,
+      "product_title": "Duffel Divider",
+      "variant_title": "Black",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8210273927441,
+      "variant_id": 52761954550033,
+      "product_title": "Duffel Divider",
+      "variant_title": "Natty",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8210273927441,
+      "variant_id": 53123380216081,
+      "product_title": "Duffel Divider",
+      "variant_title": "Desert",
+      "price_usd": 40.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4567930404975,
+      "variant_id": 32093668540527,
+      "product_title": "PLUS Zipper Pull (x 5)",
+      "variant_title": "Default Title",
+      "price_usd": 5.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 8083000033553,
+      "variant_id": 44249259802897,
+      "product_title": "CORE Duffel Medium 35L",
+      "variant_title": "Medium - 35L / Black",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 8171565777169,
+      "variant_id": 44482405761297,
+      "product_title": "CORE Backpack Medium 25L",
+      "variant_title": "Medium - 25L / Black",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 6557486612591,
+      "variant_id": 39285221490799,
+      "product_title": "KNKG Bottle",
+      "variant_title": "Black",
+      "price_usd": 30.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 4606189305967,
+      "variant_id": 32250716553327,
+      "product_title": "Free gift on purchase over $100",
+      "variant_title": "Default Title",
+      "price_usd": 0.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": false
+    },
+    {
+      "product_id": 4491283955823,
+      "variant_id": 31767177920623,
+      "product_title": "PLUS Backpack 26L",
+      "variant_title": "Charcoal",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1225817587755,
+      "variant_id": 11864825659435,
+      "product_title": "eGift Card",
+      "variant_title": "$20",
+      "price_usd": 20.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1225817587755,
+      "variant_id": 11864825724971,
+      "product_title": "eGift Card",
+      "variant_title": "$50",
+      "price_usd": 50.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1225817587755,
+      "variant_id": 11864825790507,
+      "product_title": "eGift Card",
+      "variant_title": "$100",
+      "price_usd": 100.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1225817587755,
+      "variant_id": 32251543945327,
+      "product_title": "eGift Card",
+      "variant_title": "$150",
+      "price_usd": 150.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    },
+    {
+      "product_id": 1225817587755,
+      "variant_id": 31166644682863,
+      "product_title": "eGift Card",
+      "variant_title": "$200",
+      "price_usd": 200.0,
+      "inventory_management": null,
+      "inventory_quantity": null,
+      "available": true
+    }
+  ]
+}

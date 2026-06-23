@@ -1,0 +1,146 @@
+# KK-CG-P50 — 50-Unit Pilot Kit — Leather Cardholder & Keychain
+# Product specification file for KritiKaal Quote Engine
+# Entry-point offer for Israeli tech HR buyers.
+# Below ₪50K procurement approval threshold — People Ops can sign off directly.
+# Kill-switch validator: if 80+ outreach yield 0 quote requests → fix template.
+# Source: 2026 Israeli Tech Gifting Market Intelligence Report
+
+reference: "KK-CG-P50"
+name: "50-Unit Pilot Kit — Leather Cardholder & Keychain"
+category: "Corporate Gift Kit"
+market_segment: "CORPORATE_GIFTS"
+kit: true
+
+description: >
+  Flagship entry-level corporate gift kit. Slim full-grain leather cardholder
+  (debossed company logo + optional laser-engraved recipient name) plus
+  matching leather teardrop keychain (engraved). Packed in a premium rigid
+  magnetic-closure gift box with custom tissue paper and Hebrew welcome card.
+  Designed to convert first-time buyers into repeat clients.
+  Entire kit manufactured in Bangalore. Ships pre-assembled and ready to distribute.
+
+# Target market
+target_buyer: "Head of People & Culture | HR Director | Office Manager"
+target_company: "Israeli tech, Series A/B+, 50–500 employees"
+use_cases:
+  - "Employee onboarding welcome kit"
+  - "Annual all-hands team gift"
+  - "Client appreciation gift"
+  - "Conference VIP gift"
+
+# ─────────────────────────────────────────────────────────────────
+# COMPONENTS
+# All manufactured in Bangalore — entire kit ships from India pre-assembled.
+# ─────────────────────────────────────────────────────────────────
+components:
+  cardholder:
+    ref: "KK-CG-001"
+    spec_file: "KK-CG-001.yaml"
+    description: "Slim bifold cardholder — full-grain leather, 3 card slots + ID window"
+    customization: "Debossed logo front; optional laser-engraved name back"
+  keychain:
+    description: "Teardrop leather keychain — full-grain, laser engraved"
+    dimensions_cm: "10.0 × 2.5"
+    leather: "Full-grain, 1.2–1.5mm — same hide batch as cardholder (colour match)"
+    hardware: "1× 25mm antique brass D-ring with split ring"
+    customization: "Laser engraved: company logo or recipient initials on face"
+  gift_box:
+    description: "Rigid magnetic-closure gift box"
+    dimensions_cm: "17.0 × 12.0 × 4.0"
+    construction: "1200gsm grey board, matte soft-touch lamination exterior"
+    finish: "Debossed or gold foil-stamp client logo on lid"
+    insert: "CNC-cut foam insert — two zones, holds cardholder and keychain flush"
+  tissue_paper:
+    description: "17gsm acid-free tissue paper, custom-printed client logo"
+    coverage: "Full item wrap — contents not visible before unwrapping"
+  greeting_card:
+    description: "A6 Hebrew welcome card — 350gsm linen cardstock"
+    text: "Blank inside (client supplies text) or KritiKaal standard Hebrew onboarding template"
+
+# Assembly
+assembly:
+  location: "Bangalore factory — pre-assembled at origin"
+  method: "Cardholder + keychain wrapped in tissue, placed in foam insert, box sealed"
+  local_work_required: false
+  local_sourced_components: none
+
+# ─────────────────────────────────────────────────────────────────
+# PACKED DIMENSIONS (per unit — for freight calculator)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+# ─────────────────────────────────────────────────────────────────
+packed:
+  length_cm:    17.0
+  width_cm:     12.0
+  height_cm:     4.0
+  cbm_per_unit: 0.000816    # 0.170 × 0.120 × 0.040
+  # At 50 units: 0.041 CBM → auto-select: LCL
+  # Air freight at 50 units: 0.041 × 167 × 8.5 = $58.2 — AIR RECOMMENDED
+  # Sea vs air delta at 50 units is ~$40 total. Air saves 3+ weeks.
+  freight_recommendation: "AIR — at 50 units the sea/air cost delta is under $50. Speed wins."
+
+# Leather specification (combined — cardholder + keychain same batch)
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "0.8–1.5 (cardholder 0.8–1.0mm; keychain 1.2–1.5mm)"
+  finish: "Drum-dyed / aniline"
+  surface: "Smooth"
+  prohibited: "PU leatherette, bonded leather — NOT acceptable"
+  combined_net_area_sqft: 0.55    # Cardholder (0.32) + keychain (~0.23)
+  waste_factor_override: null
+
+# AQL 2.5 — Kit level (in addition to individual item criteria)
+aql_criteria:
+  - "Cardholder: all KK-CG-001 AQL criteria pass (8 criteria)"
+  - "Keychain engraving: depth 0.3–0.5mm consistent, no charring, D-ring pull-test 2kg"
+  - "Hide match: cardholder and keychain same colour batch — visually consistent"
+  - "Gift box: magnetic closure holds shut when box inverted for 30 seconds"
+  - "Gift box: no dents, scratches, or lamination bubbles on exterior"
+  - "Foam insert: both items seat flush, no movement audible when box is shaken"
+  - "Tissue paper: complete coverage, items not visible before unwrapping"
+  - "Hebrew card: correctly printed, no smear, placement correct"
+
+# Pricing guidance for Quote Engine
+# HOW TO USE: Enter factory_fob_usd in the Bridge / Quote UI
+pricing_guidance:
+  # India-manufactured only — entire kit in factory_fob_usd
+  # Cardholder ($10) + keychain ($2.50) + box ($0.80) + inserts ($0.20) = $13.50 at 50 units
+  calculator_fob_reference_usd:
+    "50-99_units":   13.50
+    "100-199_units": 11.00
+    "200-499_units":  9.00
+  # No local-sourced items — entire kit ships from India
+  local_sourced_ils_per_unit: 0.00
+
+  recommended_currency:           "ILS"
+  recommended_freight_mode:       "air"
+  recommended_destination:        "Israel"
+  target_retail_ils_per_unit:     220
+
+  # VALIDATED PIPELINE OUTPUT (run 26 May 2026):
+  # Inputs: 50 units, Israel, ILS, air freight, standard QUP, first style, samples $300
+  # Result: ₪299.58/unit | ₪14,979 total | GP 43.2% | Lead time 3–5 weeks
+  # Config hash at validation: FA45BB95
+  # → Per unit lands BELOW MM Studio floor (₪300–400). Positioning confirmed.
+  # → GP 43.2% well above 22% target. Room to discount 10-15% on first deal if needed.
+  # → At 100 units (reorder): FOB drops to $11, MMF drops to $900 → expect ~₪230/unit.
+  # Use fx_rate_override: current live rate when running Bridge quote.
+
+  competitor_benchmarks:
+    mm_studio_2item_leather_kit:  "₪300–400 (reseller, European-sourced)"
+    prozie_cardholder_equiv:      "₪120–160 (PU leatherette)"
+  positioning_note: >
+    KritiKaal target ₪200–240 — factory-direct full-grain leather.
+    Undercut MM Studio by 35–45% while delivering genuinely superior product.
+    This is the door-opener: low-risk, low-MOQ, fast delivery, high perceived value.
+
+  day7_kill_switch: >
+    This product is the Day 7 kill-switch validator.
+    GREEN: ≥2 quote requests after 80+ outreach messages.
+    If 0 quote requests after 80+ messages → fix outreach template before scaling.
+
+# Product-level lead time overrides
+# Override global rates_config.yaml lead_times for this product.
+lead_times_override:
+  production_min_weeks:   3     # Cardholder + keychain + box + kit assembly at factory
+  production_max_weeks:   4
+  sample_turnaround_days: 10    # 2× component samples + box sample

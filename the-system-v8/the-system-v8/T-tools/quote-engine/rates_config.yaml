@@ -1,0 +1,198 @@
+# KritiKaal Quote Engine — Master Rates Configuration
+# Version: 1.0 | Date: 2026-05-24
+# EDIT THIS FILE when rates change. Never touch Python for rate changes.
+# Every quote stores a hash of this file for full audit traceability.
+
+meta:
+  version: "1.0"
+  last_updated: "2026-05-24"
+  updated_by: "Yossi Daniel"
+  review_trigger: "Every 90 days, or on ±15% movement in freight indices, duty rates, or FX"
+
+# ─────────────────────────────────────────────────────────────────
+# PRODUCTION CONSTANTS
+# ─────────────────────────────────────────────────────────────────
+lw_waste_factor: 0.18         # LWG cutting waste: 18% of net leather area
+insurance_rate: 0.005         # Marine cargo insurance: 0.5% of CIF value
+gp_target: 0.22               # Target gross profit margin (22%)
+gp_amber_threshold: 0.18      # Below this → amber warning
+gp_red_threshold: 0.14        # Below this → red alert (do not issue quote)
+
+# ─────────────────────────────────────────────────────────────────
+# CUSTOMS & DUTY
+# ─────────────────────────────────────────────────────────────────
+customs:
+  UK:
+    mfn_rate: 0.035           # HS 4202.21 UK MFN: 3.5% on CIF
+    rex_rate: 0.000           # With REX / UK DCTS Standard Preferences: 0%
+    broker_fee_usd: 250       # Midpoint — verify with forwarder quarterly
+    port_handling_per_unit_usd: 0.55
+    vat_rate: 0.20            # 20% — recoverable by VAT-registered client, NOT in quote
+    duty_note_rex: "0% — UK DCTS Standard Preferences (REX certified)"
+    duty_note_mfn: "3.5% MFN — HS 4202.21. Obtain REX certificate to eliminate."
+  Israel:
+    mfn_rate: 0.12            # HS 4202 Israel MFN ~12%. Verify at tariff.customs.gov.il annually
+    rex_rate: 0.12            # No India-Israel FTA — REX has no effect; always MFN
+    broker_fee_usd: 270       # Midpoint (range ILS 500–1,500)
+    port_handling_per_unit_usd: 1.00
+    vat_rate: 0.17            # Maam 17% — recoverable, NOT in quote
+    duty_note_mfn: "12% MFN — Israel HS 4202. No India-Israel FTA in force."
+    duty_note_rex: "12% MFN — No India-Israel FTA. REX has no effect for Israel."
+  EU:
+    mfn_rate: 0.030           # EU MFN leather bags: 3.0%
+    rex_rate: 0.000           # India qualifies under EU GSP / DCTS
+    broker_fee_usd: 220
+    port_handling_per_unit_usd: 0.50
+    vat_rate: 0.20            # Proxy — varies by member state
+    duty_note_rex: "0% — EU GSP, India qualifies (REX certified)"
+    duty_note_mfn: "3.0% MFN — EU HS 4202. Obtain REX to eliminate."
+
+# ─────────────────────────────────────────────────────────────────
+# FREIGHT RATES  (update quarterly from forwarder)
+# ─────────────────────────────────────────────────────────────────
+freight:
+  india_UK:
+    lcl_per_cbm_usd: 250
+    fcl_20ft_usd: 1200
+    consolidation_per_cbm_usd: 200
+    air_rate_usd_per_kg: 6.50   # Blended air rate India→UK (update quarterly from forwarder)
+    transit_days_min: 21
+    transit_days_max: 28
+    transit_days_air_min: 3
+    transit_days_air_max: 5
+    port: "Felixstowe / Southampton"
+    red_sea_active: false
+    red_sea_premium: 0.35
+  india_Israel:
+    lcl_per_cbm_usd: 290      # Base rate before Red Sea premium
+    fcl_20ft_usd: 1800
+    consolidation_per_cbm_usd: 240
+    air_rate_usd_per_kg: 8.50   # Blended air rate India→Israel (higher due to routing)
+    transit_days_min: 28
+    transit_days_max: 42
+    transit_days_air_min: 5
+    transit_days_air_max: 7
+    port: "Ashdod / Haifa"
+    red_sea_active: true      # Set false when routing normalises
+    red_sea_premium: 0.35     # 35% surcharge on LCL/consolidation
+  india_EU:
+    lcl_per_cbm_usd: 230
+    fcl_20ft_usd: 1100
+    consolidation_per_cbm_usd: 185
+    air_rate_usd_per_kg: 7.50   # Blended air rate India→EU
+    transit_days_min: 18
+    transit_days_max: 25
+    transit_days_air_min: 3
+    transit_days_air_max: 5
+    port: "Rotterdam / Hamburg"
+    red_sea_active: false
+    red_sea_premium: 0.35
+
+# Auto-select thresholds (CBM)
+freight_mode_thresholds:
+  lcl_max_cbm: 3.0            # Below → LCL
+  fcl_min_cbm: 15.0           # Above → FCL; between → consolidation
+
+# ─────────────────────────────────────────────────────────────────
+# MANAGED MANUFACTURING FEE (MMF) — USD midpoints
+# Deliverable-based, not % of order. Covers: tech pack review,
+# factory coordination, sample management, AQL admin, documentation.
+# ─────────────────────────────────────────────────────────────────
+mmf:
+  first_style_factory:
+    "50-99":   1400
+    "100-299": 1750
+    "300-499": 2100
+    "500-999": 2600
+    "1000+":   3750
+  reorder_same_style:
+    "50-99":   750
+    "100-299": 900
+    "300-499": 1150
+    "500-999": 1450
+    "1000+":   2000
+  new_style_existing_factory:
+    "50-99":   1050
+    "100-299": 1300
+    "300-499": 1600
+    "500-999": 1950
+    "1000+":   2600
+
+# ─────────────────────────────────────────────────────────────────
+# QUALITY UNDERWRITING PREMIUM (QUP)
+# Applied to total passthrough cost (manufacturing + logistics).
+# This contractually obligates KritiKaal to absorb AQL 2.5 failures
+# and delivery slippage >14 days from agreed date.
+# ─────────────────────────────────────────────────────────────────
+qup_tiers:
+  basic:
+    rate: 0.020
+    description: "AQL 2.5 inspection across 8 criteria. Full results documentation provided."
+    guarantee: "Inspection results and pass/fail documentation."
+  standard:
+    rate: 0.030
+    description: "AQL 2.5 inspection + production lead time guarantee within 14 days of agreed ship date."
+    guarantee: "AQL 2.5 pass + delivery within 14 days of agreed date. KritiKaal absorbs remediation cost on failure."
+  maximum:
+    rate: 0.040
+    description: "AQL 2.5 + lead time guarantee + material specification guarantee. Full remediation obligation."
+    guarantee: "AQL 2.5 pass + lead time + material substitution guarantee. Full KritiKaal liability on all three."
+
+# ─────────────────────────────────────────────────────────────────
+# PACKAGING (per unit, USD midpoints)
+# ─────────────────────────────────────────────────────────────────
+packaging:
+  standard:
+    dust_bag: 0.90
+    tissue: 0.12
+    hang_tag: 0.55
+    care_label: 0.20
+    barcode: 0.07
+    poly_bag: 0.15
+    master_carton_per_unit: 0.85
+    total_per_unit: 2.84
+  branded:
+    base_total_per_unit: 2.84   # Standard items
+    outer_box: 3.50
+    premium_tissue: 0.40
+    total_per_unit: 6.74        # Standard + branded additions
+
+# ─────────────────────────────────────────────────────────────────
+# COMPLIANCE DOCUMENTATION (per order, USD)
+# Bundled into Production Management & QA Services line on quote.
+# ─────────────────────────────────────────────────────────────────
+compliance:
+  reach_test_per_batch: 185
+  azo_dye_test_per_batch: 130
+  coo_per_shipment: 75
+  rex_setup_if_needed: 100    # One-time if factory lacks REX — add for UK non-REX orders
+
+# ─────────────────────────────────────────────────────────────────
+# FX BUFFERS (applied to full order value incl. fees)
+# ─────────────────────────────────────────────────────────────────
+fx_buffers:
+  USD: 0.000
+  GBP: 0.050    # 5% — quote GBP to UK clients
+  ILS: 0.080    # 8% — quote USD to Israeli clients; use this buffer if quoting ILS
+  EUR: 0.045
+
+# Fallback rates — used when no override provided. UPDATE before issuing quotes.
+fx_fallback_rates:
+  USD: 1.0000
+  GBP: 0.7900
+  ILS: 3.7000
+  EUR: 0.9200
+
+# ─────────────────────────────────────────────────────────────────
+# LEAD TIMES
+# ─────────────────────────────────────────────────────────────────
+lead_times:
+  production_min_weeks: 10
+  production_max_weeks: 14
+  sample_turnaround_days: 21
+
+# ─────────────────────────────────────────────────────────────────
+# QUOTE VALIDITY
+# ─────────────────────────────────────────────────────────────────
+quote_validity_days: 14
+payment_terms: "30% deposit at order confirmation. 70% balance prior to shipment."

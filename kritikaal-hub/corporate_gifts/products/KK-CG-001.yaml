@@ -1,0 +1,115 @@
+# KK-CG-001 — Slim Leather Cardholder — Corporate Gifts
+# Product specification file for KritiKaal Quote Engine
+# Single-item base component. Used as hero item in KK-CG-P50 kit.
+# Highest cost-to-impression ratio in the corporate gifting catalog.
+# Source: 2026 Israeli Tech Gifting Market Intelligence Report
+
+reference: "KK-CG-001"
+name: "Slim Leather Cardholder — Corporate Gifts"
+category: "Leather Accessory — Corporate Gifts"
+market_segment: "CORPORATE_GIFTS"
+
+description: >
+  Full-grain leather slim bifold cardholder. Front face debossed with
+  client company logo. Optional laser engraving of recipient name on back
+  face. 3 card slots + 1 ID window. Flagship hero item for Israeli tech
+  onboarding kits. Daily-use guarantee — touched 5+ times/day for years.
+
+# Physical dimensions (cm)
+dimensions:
+  width_cm:     10.5
+  height_cm:     7.5
+  depth_mm:      6       # Approx. when loaded with 3 cards
+  tolerance_mm:  2
+
+# Packed dimensions for logistics (CBM calculation)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+packed:
+  length_cm:     15.0
+  width_cm:      10.0
+  height_cm:      3.0
+  cbm_per_unit:  0.00045    # 0.150 × 0.100 × 0.030
+  # At 50 units: 0.0225 CBM → auto-select: LCL
+  # Air freight at 50 units: 0.0225 × 167 × 8.5 = $31.9 — air is competitive here
+
+# Leather specification
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "0.8–1.0"
+  finish: "Drum-dyed / aniline or vegetable-tanned"
+  surface: "Smooth — no embossing on base hide"
+  prohibited: "PU leatherette, bonded leather, split leather — NOT acceptable"
+  net_area_sqft: 0.32
+  # Area breakdown:
+  #   Front panel:         10.5×7.5 = 78.75 cm²
+  #   Back panel:          10.5×7.5 = 78.75 cm²
+  #   Card slots (3×):             = 120.00 cm²
+  #   ID window backing:           = 20.00  cm²
+  #   Edge reinforcement:          = 20.00  cm²
+  #   Total net: ~318 cm² = 0.32 sqft (after nesting efficiency)
+  waste_factor_override: null     # Use global lw_waste_factor (18%)
+
+# Hardware
+hardware:
+  edge_rivets:
+    spec: "2× 8mm copper or antique brass rivets at stress corners"
+    cost_100: 0.20
+  edge_finish:
+    spec: "Hand-burnished or painted edge — water-based finish"
+    cost_100: 0.15
+  total_hardware_100: 0.35
+  prohibited: "Chrome-plated snap buttons, nickel rivets — NOT acceptable"
+
+# Debossing and engraving specification
+customization:
+  method_logo: "Hot-stamp blind deboss — client logo, front face"
+  logo_area_max_cm: "6.0 × 2.5"
+  deboss_depth_mm: "0.3–0.5"
+  method_name: "Laser engraving — recipient name, back face (optional add-on)"
+  name_area_max_cm: "7.0 × 1.5"
+  foil_fill: "Optional gold or silver foil fill on debossed logo (+$0.80/unit)"
+  die_note: "1× deboss die required per logo — amortised in sample_costs_usd"
+  name_personalisation_cost_usd: 1.50   # Per unit at 50-unit run, adds 1 production day per 50 units
+
+# Stitching
+stitching:
+  method: "Saddle stitch (lockstitch acceptable for production)"
+  density: "8–10 SPI"
+  thread: "Waxed polyester — colour matched or contrasting"
+  edge_finishing: "Hand-burnished or painted — NO raw edges"
+
+# AQL 2.5 evaluation criteria
+aql_criteria:
+  - "Leather thickness (0.8–1.0mm) — physically measured with caliper"
+  - "Stitching density (8–10 SPI) — counted at card slot edges"
+  - "Edge finishing — burnished or painted, no raw or fraying edges"
+  - "Deboss quality — logo centred ±1mm, depth 0.3–0.5mm consistent across batch"
+  - "Laser engraving — clean edges, no charring, uniform depth"
+  - "Card slot tension — 3 cards insert and remove without excessive force"
+  - "ID window — clear PVC undamaged, card visible without removal"
+  - "Overall dimensions — ±2mm vs spec"
+
+# Pricing guidance for Quote Engine
+# Enter factory_fob_usd in the Bridge / Quote UI
+pricing_guidance:
+  calculator_fob_reference_usd:
+    "50-99_units":   10.00    # New factory / first style
+    "100-199_units":  8.00
+    "200-499_units":  6.50
+  target_standalone_retail_ils: 280
+  market_positioning: >
+    MM Studio equivalent retails ₪350-450 (European-sourced reseller margin).
+    KritiKaal factory-direct target: ₪240-300 standalone.
+    In kit context perceived value exceeds standalone retail price.
+  competitor_intel: >
+    MM Studio hero category confirmed (May 2026): leather cardholders and
+    tech-lifestyle accessories remain primary brand anchor. No shift away
+    from leather observed. They have doubled down on leather + tech fusion.
+
+# Product-level lead time overrides
+# These override global lead_times in rates_config.yaml for this product.
+# calculator.py reads these if present (see lead_times_override check in Step 8).
+lead_times_override:
+  production_min_weeks:   2
+  production_max_weeks:   3
+  sample_turnaround_days: 7

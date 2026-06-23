@@ -1,0 +1,67 @@
+{
+  "cluster": "The China Plus One Pivot",
+  "cluster_id": "china-plus-one",
+  "hook": {
+    "cold_open": "A brand paid 25% tariff on a 40,000-dollar China order. The India option was sitting there the whole time at zero percent.",
+    "problem_statement": "US tariffs on Chinese leather goods are running at 25% or higher. For a brand doing 40,000 dollars per order, that is 10,000 dollars in duty paid to a government, not invested in product. The brand knows India exists. They do not know if India can deliver the operational certainty they need to make the switch.",
+    "credibility_anchor": "I have run export production across Chennai, Kolkata, and Kanpur for over four decades. I know which cluster makes which product, what their failure modes are, and what it takes to bring them up to a documented inspection standard.",
+    "viewer_promise": "By the end of this video you will be able to calculate the exact duty saving on your order value, identify which Indian leather cluster handles your product category, and understand the one operational mechanism that eliminates the uncertainty stopping you from making the switch.",
+    "estimated_duration_sec": 40
+  },
+  "body": {
+    "sections": [
+      {
+        "title": "The Tariff Gap Is Not Marginal. It Is Your Margin.",
+        "key_claim": "UK brands importing leather bags from India under DCTS pay zero percent import duty. The same bag from China attracts 12% MFN duty. US brands face 25% or higher on Chinese leather goods under current tariff schedules. This is not a trade policy footnote. It is a direct line item on your P&L.",
+        "evidence": "UK HS code 4202 leather bags: 0% duty from India under the Developing Countries Trading Scheme Enhanced Preferences tier. China MFN rate: 12%. On a 20,000-pound order, that is 2,400 pounds kept. On a 100,000-pound annual programme, that is 12,000 pounds kept. US Section 301 tariffs on Chinese leather goods categories: 25% to 35% depending on HS code. India is not subject to Section 301.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "India Is Not One Place. Three Clusters. Three Specialisations.",
+        "key_claim": "Brands who say India disappointed them almost always sourced from the wrong cluster for their product. India has three dominant leather export clusters and each one does something specific well. Sending a structured bag brief to a footwear cluster is the operational equivalent of calling the wrong factory entirely.",
+        "evidence": "Kolkata: structured bags, totes, briefcases, heritage leather goods. Decades of export experience to European buyers. Kanpur: full-grain and vegetable-tanned leather, the raw material backbone for premium categories. Chennai: high-volume garment leather and export-grade accessories, the largest export cluster by volume. Matching your SKU to the correct cluster is the first decision. Every other decision follows from it.",
+        "estimated_duration_sec": 90
+      },
+      {
+        "title": "Quality Equivalence Is Not a Claim. It Is a Standard You Can Verify.",
+        "key_claim": "The assumption that India produces lower quality than China is not supported by inspection data when the same standard is applied. The issue is not the country. It is whether anyone is enforcing a documented quality standard at the production stage.",
+        "evidence": "AQL 2.5 is the inspection standard used by LVMH and Hermes supply chains. It tolerates fewer than 2.5 defective units per hundred across eight documented criteria: material grade, stitching density at 8 to 10 SPI, edge finishing, hardware function, colour consistency, dimensional tolerance within plus or minus 5mm, lining integrity, and closure mechanism. KritiKaal applies AQL 2.5 in-line at 30% of the production run, not only at final inspection. That means deviations are caught and corrected before the run completes. This is not a quality promise. It is a documented protocol with a named standard.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "The Operational Uncertainty Problem Has a Specific Solution",
+        "key_claim": "The reason brands do not switch from China is not the cost calculation. The cost calculation is straightforward. The reason is operational uncertainty: they do not know who owns the outcome when something goes wrong in India. That uncertainty has a named solution.",
+        "evidence": "Single Point of Accountability means one English-speaking contact owns every outcome from purchase order to delivery confirmation. Not a factory liaison. Not a sourcing agent who gets paid at PO and disappears. One person accountable for the production schedule, the in-line QC results, the freight booking, and the delivery. If a unit fails inspection before shipment, the Double-Back Guarantee means it is replaced at KritiKaal cost before the container closes. The brand does not negotiate with a factory in a second language about who caused the defect. That conversation does not happen.",
+        "estimated_duration_sec": 100
+      },
+      {
+        "title": "How to Capture the DCTS Benefit. It Requires One Document.",
+        "key_claim": "The 0% UK duty rate under DCTS does not apply automatically. It requires a correctly issued GSP Form A Certificate of Origin. If your supplier cannot produce Form A, you cannot claim the preference and you pay MFN rates as if you sourced from China.",
+        "evidence": "DCTS replaced the UK GSP in June 2023. India sits in the Enhanced Preferences tier. Form A must be issued by an authorised body in India and submitted with the import declaration. KritiKaal prepares and provides Form A as standard on all UK orders. The brand does not need to understand the customs mechanics. They need confirmation the document will be in the shipment. That confirmation is given at order placement, not at departure.",
+        "estimated_duration_sec": 80
+      }
+    ],
+    "mechanism_name": "Single Point of Accountability",
+    "mechanism_definition": "One English-speaking contact who owns every outcome from purchase order to delivery, including in-line QC results, production schedule adherence, freight booking, and defect resolution before shipment.",
+    "estimated_total_duration_sec": 460
+  },
+  "cta": {
+    "primary_ask": "Book a 20-minute call. Bring your current order volume in dollars or pounds and your product category. I will tell you which Indian cluster handles your SKU, calculate your exact duty saving under DCTS or against Section 301 rates, and tell you whether this is the right move for your specific situation. No pitch deck. No obligation. Link is in the description.",
+    "disqualification": "This is not for brands who want the cheapest possible unit cost and are willing to own the quality and accountability risk themselves. If your decision is driven entirely by FOB price with no consideration for inspection, documentation, or delivery certainty, India will disappoint you in exactly the way China already has. This service is for operators who have already paid for an accountability failure and do not intend to pay for another one.",
+    "link_description": "Book a 20-minute sourcing call with KritiKaal: bring your order volume, product type, and current origin. We calculate your duty saving and cluster fit on the call.",
+    "estimated_duration_sec": 25
+  },
+  "metadata": {
+    "target_icp": "UK or US accessories brand founder or procurement lead, currently sourcing leather bags or small leather goods from China, facing 12% UK MFN duty or 25% US Section 301 tariff, aware that India is an option but not confident they can replicate the operational predictability of their current supplier relationship",
+    "primary_keyword": "China plus one strategy leather goods",
+    "secondary_keywords": [
+      "manufacturing India vs China leather",
+      "India leather sourcing for fashion brands",
+      "UK import duty leather goods India"
+    ],
+    "content_type": "comparison",
+    "estimated_total_runtime_min": 8.8,
+    "geo_authority_claim": "Under the UK Developing Countries Trading Scheme Enhanced Preferences tier, leather bags classified under HS 4202 imported from India attract 0% import duty versus 12% MFN duty on the same goods imported from China, a saving of 2,400 pounds on a 20,000-pound order.",
+    "regulation_check": "FLAG: UK DCTS 0% rate for HS 4202 from India — verify current Enhanced Preferences schedule at HMRC Trade Tariff before publish. FLAG: China MFN 12% rate for HS 4202 — verify at HMRC Trade Tariff before publish. FLAG: US Section 301 tariff rate range 25-35% on leather goods categories — verify current Federal Register schedule before publish. FLAG: DCTS replaced UK GSP June 2023 — confirm replacement date and India tier classification before publish."
+  }
+}

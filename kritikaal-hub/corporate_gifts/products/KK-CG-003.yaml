@@ -1,0 +1,124 @@
+# KK-CG-003 — Leather Notebook Cover — A5 Refillable — Corporate Gifts
+# Product specification file for KritiKaal Quote Engine
+# Single-item base component. Hero item in KK-CG-ONB and KK-CG-RH26.
+# Most-Instagrammed corporate gift item globally 2021–2026.
+# MM Studio charges ₪250-350 for European-sourced equivalent.
+# We manufacture direct — same quality, 40% lower cost to client.
+
+reference: "KK-CG-003"
+name: "Leather Notebook Cover — A5 Refillable"
+category: "Leather Accessory — Corporate Gifts"
+market_segment: "CORPORATE_GIFTS"
+
+description: >
+  Full-grain leather A5 notebook cover with refillable ruled paper insert.
+  Custom deep-debossed client logo on front face. Integrated pen loop and
+  elastic closure band. Hidden card slot inside back cover. Standard A5
+  ruled insert included (120 pages, 80gsm, cream). Meeting-table presence,
+  5+ year use-cycle. Optional Hebrew 'shana tova' inscription for Rosh
+  Hashana variant.
+
+# Physical dimensions (cm)
+dimensions:
+  cover_width_cm:   22.5    # A5 = 14.8cm × 2 covers + 2cm spine + bleed
+  cover_height_cm:  16.5
+  depth_mm:         "12–15" # Loaded with paper insert
+  tolerance_mm:      3
+
+# Packed dimensions for logistics (CBM calculation)
+# CRITICAL: calculator.py reads packed.cbm_per_unit directly
+packed:
+  length_cm:    23.0
+  width_cm:     17.0
+  height_cm:     2.0
+  cbm_per_unit: 0.000782    # 0.230 × 0.170 × 0.020
+  # At 50 units: 0.039 CBM → auto-select: LCL
+  # Air freight at 50 units: 0.039 × 167 × 8.5 = $55.4 — viable option
+
+# Leather specification
+leather:
+  hide: "Full-grain cow leather"
+  thickness_mm: "1.0–1.2"
+  finish: "Vegetable-tanned preferred (develops patina — story-able for clients) or drum-dyed aniline"
+  surface: "Smooth — no embossing on base hide"
+  prohibited: "PU leatherette, bonded leather, split leather — NOT acceptable"
+  net_area_sqft: 0.91
+  # Area breakdown:
+  #   Front cover:   22.5×16.5 = 371.25 cm²
+  #   Back cover:    22.5×16.5 = 371.25 cm²
+  #   Spine:         22.5×2.0  =  45.00 cm²
+  #   Card pocket:   10.0×8.0  =  80.00 cm²
+  #   Pen loop:       2.5×6.0  =  15.00 cm²
+  #   Elastic anchors:           =  20.00 cm²
+  #   Total net: ~902 cm² = 0.97 sqft → 0.91 sqft with nesting efficiency
+  waste_factor_override: null     # Use global lw_waste_factor (18%)
+
+# Hardware
+hardware:
+  elastic_closure:
+    spec: "1× 8mm round elastic band, sewn-through back cover"
+    cost_100: 0.25
+  pen_loop:
+    spec: "1× hand-stitched pen loop 3×6cm — cut from same leather batch"
+    cost_100: 0.10
+  insert_paper:
+    spec: "1× A5 ruled notebook insert, 80gsm cream, 120 pages, stitched binding"
+    cost_100: 1.20
+  total_hardware_100: 1.55
+  prohibited: "Cheap elastic that creases within 30 days — NOT acceptable"
+
+# Customisation
+customization:
+  method_logo: "Deep blind deboss — client logo, front cover centre"
+  logo_area_max_cm: "8.0 × 3.0"
+  deboss_depth_mm: "0.5–0.8"    # Deeper than cardholder — premium visual impact
+  foil_fill: "Optional gold or silver foil fill on debossed area (+$1.20/unit)"
+  name_personalisation: >
+    Optional per-unit name deboss inside front cover.
+    Cost: +$1.50/unit at 50-unit run.
+    Production impact: +1 day per 50-unit batch.
+  rosh_hashana_inscription: >
+    Optional Hebrew inscription 'שנה טובה ומתוקה' blind debossed
+    inside front cover. Used in KK-CG-RH26.
+    Cost: +$0.80/unit (same deboss die as name personalisation run).
+
+# Stitching
+stitching:
+  method: "Saddle stitch (lockstitch for production runs)"
+  density: "8–10 SPI on all visible seams"
+  thread: "Waxed polyester — colour matched or contrasting per brief"
+  edge_finishing: "Hand-burnished or painted — NO raw edges"
+
+# AQL 2.5 evaluation criteria
+aql_criteria:
+  - "Leather thickness (1.0–1.2mm) — physically measured with caliper"
+  - "Stitching density (8–10 SPI)"
+  - "Edge finishing — burnished or painted, no raw edges"
+  - "Deboss quality — logo centred ±1mm, depth 0.5–0.8mm consistent across batch"
+  - "Elastic closure tension — holds closed without deforming spine after 50 open/close cycles"
+  - "Pen loop — pen up to 12mm diameter fits and holds securely"
+  - "Card slot — standard credit card inserts smoothly, holds without falling"
+  - "Insert fit — A5 paper inserts flush, no gaps, no force required"
+
+# Pricing guidance for Quote Engine
+pricing_guidance:
+  calculator_fob_reference_usd:
+    "50-99_units":   19.00
+    "100-199_units": 15.50
+    "200-499_units": 12.50
+  target_standalone_retail_ils: 420
+  market_positioning: >
+    MM Studio leather notebooks: ₪250–350 (European-sourced, reseller markup).
+    KritiKaal direct-manufactured vegetable-tan notebook at ₪380–450:
+    deeper deboss quality, patina story, factory-direct traceability.
+    GoGift/Gifted.co sells Yeti + soft-touch notebook at ₪555 total — our
+    leather notebook alone beats their notebook quality at lower price.
+  rosh_hashana_note: >
+    In KK-CG-RH26 context: position as the lasting item in the kit.
+    "The honey is sweet for a day. The notebook stays on your desk for years."
+
+# Product-level lead time overrides
+lead_times_override:
+  production_min_weeks:   3
+  production_max_weeks:   4
+  sample_turnaround_days: 10
