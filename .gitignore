@@ -15,3 +15,8 @@ Thumbs.db
 .vscode/
 .idea/
 *.swp
+
+# Large binaries (GitHub 100MB limit)
+*.zip
+*.tar.gz
+*.rar
