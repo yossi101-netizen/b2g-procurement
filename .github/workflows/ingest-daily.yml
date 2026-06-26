@@ -38,6 +38,9 @@ jobs:
       
       - name: Check for new MATCH tenders and send Telegram alert
         if: always()
+        env:
+          TELEGRAM_TOKEN: ${{ secrets.TELEGRAM_TOKEN }}
+          TELEGRAM_CHAT_ID: ${{ secrets.TELEGRAM_CHAT_ID }}
         run: |
           python3 << 'EOF'
           import sqlite3
@@ -45,18 +48,17 @@ jobs:
           import urllib.request
           import json
           from datetime import datetime
-          
+
           DB_PATH = "tenders.db"
-          
+
           if not os.path.exists(DB_PATH):
-              print("❌ No database found")
+              print("No database found")
               exit(0)
-          
+
           try:
               conn = sqlite3.connect(DB_PATH)
               cursor = conn.cursor()
-              
-              # Get today's new MATCH tenders
+
               today = datetime.utcnow().strftime("%Y-%m-%d")
               cursor.execute("""
                   SELECT tender_id, title, category, deadline, url
@@ -66,54 +68,48 @@ jobs:
                   ORDER BY deadline ASC
                   LIMIT 10
               """, (today,))
-              
+
               new_tenders = cursor.fetchall()
               conn.close()
-              
+
               if not new_tenders:
-                  print("✓ No new MATCH tenders today")
+                  print("No new MATCH tenders today")
                   exit(0)
-              
-              # Build Telegram message
-              token = "${{ secrets.TELEGRAM_TOKEN }}"
-              chat_id = "${{ secrets.TELEGRAM_CHAT_ID }}"
-              
+
+              token = os.environ.get("TELEGRAM_TOKEN", "")
+              chat_id = os.environ.get("TELEGRAM_CHAT_ID", "")
+
               if not token or not chat_id:
-                  print("⚠ Telegram secrets not configured")
+                  print(f"Telegram secrets not configured (token={'set' if token else 'missing'}, chat_id={'set' if chat_id else 'missing'})")
                   exit(1)
-              
-              message = f"🎯 *B2G Tender Alert - {len(new_tenders)} NEW MATCH Tenders*\n\n"
-              
+
+              message = f"B2G Tender Alert - {len(new_tenders)} NEW MATCH Tenders\n\n"
+
               for tid, title, cat, deadline, url in new_tenders:
                   deadline_str = deadline if deadline else "No deadline"
-                  # Escape Markdown special chars
-                  title_safe = title.replace("_", "\\_").replace("*", "\\*")
-                  message += f"• `{tid}` {title_safe}\n"
-                  message += f"  📂 {cat} | 📅 {deadline_str}\n"
-                  message += f"  🔗 {url}\n\n"
-              
-              message += f"📊 Dashboard: Review all tenders in the database\n"
-              message += f"⏰ Checked: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}"
-              
-              # Send to Telegram
-              url = f"https://api.telegram.org/bot{token}/sendMessage"
+                  message += f"[{tid}] {title}\n"
+                  message += f"  Category: {cat} | Deadline: {deadline_str}\n"
+                  message += f"  {url}\n\n"
+
+              message += f"Checked: {datetime.utcnow().strftime('%Y-%m-%d %H:%M UTC')}"
+
+              api_url = f"https://api.telegram.org/bot{token}/sendMessage"
               data = json.dumps({
                   "chat_id": chat_id,
-                  "text": message,
-                  "parse_mode": "Markdown"
-              }).encode('utf-8')
-              
-              req = urllib.request.Request(url, data=data, headers={"Content-Type": "application/json"})
+                  "text": message
+              }).encode("utf-8")
+
+              req = urllib.request.Request(api_url, data=data, headers={"Content-Type": "application/json"})
               response = urllib.request.urlopen(req)
               result = json.loads(response.read().decode())
-              
+
               if result.get("ok"):
-                  print(f"✅ Telegram alert sent: {len(new_tenders)} new tenders")
+                  print(f"Telegram alert sent: {len(new_tenders)} new tenders")
               else:
-                  print(f"⚠ Telegram API error: {result.get('description')}")
-          
+                  print(f"Telegram API error: {result.get('description')}")
+
           except Exception as e:
-              print(f"❌ Error: {e}")
+              print(f"Error: {e}")
               exit(1)
           EOF
       
