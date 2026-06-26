@@ -2,27 +2,27 @@
 
 on:
   schedule:
-    - cron: '0 6 * * *'  # 6 AM UTC daily
-  workflow_dispatch:      # Allow manual trigger from GitHub UI
+    - cron: '0 6 * * *'
+  workflow_dispatch:
 
 jobs:
   ingest:
     runs-on: ubuntu-latest
-    
+
     steps:
       - uses: actions/checkout@v4
         with:
           fetch-depth: 0
-      
+
       - name: Set up Python
         uses: actions/setup-python@v4
         with:
           python-version: '3.11'
-      
+
       - name: Install dependencies
         run: |
           pip install requests selectolax
-      
+
       - name: Download latest tenders.db (if exists in repo)
         run: |
           if [ -f tenders.db ]; then
@@ -30,12 +30,12 @@ jobs:
           else
             echo "Starting with fresh database"
           fi
-      
+
       - name: Run tender ingest
         run: |
           cd T-tools
           python procurement_ingest.py ingest
-      
+
       - name: Check for new MATCH tenders and send Telegram alert
         if: always()
         env:
@@ -112,7 +112,7 @@ jobs:
               print(f"Error: {e}")
               exit(1)
           EOF
-      
+
       - name: Commit and push updated database
         run: |
           git config --local user.email "action@github.com"
